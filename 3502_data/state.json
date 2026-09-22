@@ -14042,6 +14042,21 @@
             "http_status": 206
         },
         {
+            "name": "&xplor HD (1080p)",
+            "group": "Movies",
+            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=209743&extension=ts&play_token=mR7FwO88sY",
+            "category": "Movie",
+            "source_label": "IPTV-ORG Index",
+            "hd": true,
+            "status": "Working",
+            "http_status": 200
+        },
+        {
             "name": "Aadinath TV",
             "group": "Religious",
             "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AADINATH_TV/images/LOGO_HD/image.png",
@@ -14143,6 +14158,21 @@
             "category": "Devotional",
             "source_label": "IPTV-ORG Index",
             "hd": true,
+            "status": "Working",
+            "http_status": 200
+        },
+        {
+            "name": "Aastha Prime 1",
+            "group": "Religious",
+            "logo": "https://i.imgur.com/LyWSMJS.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8",
+            "category": "Devotional",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
             "status": "Working",
             "http_status": 200
         },
@@ -14324,7 +14354,7 @@
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Working",
-            "http_status": 206
+            "http_status": 200
         },
         {
             "name": "Al Jazeera Mubasher 24",
@@ -16877,21 +16907,6 @@
             "http_status": 206
         },
         {
-            "name": "ETV Cinema",
-            "group": "Movies",
-            "logo": "https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
-            "category": "Movie",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
-        },
-        {
             "name": "ETV Comedy",
             "group": "Comedy",
             "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ETV_Comedy.png",
@@ -18752,21 +18767,6 @@
             "http_status": 206
         },
         {
-            "name": "Mercy TV (India)",
-            "group": "Religious",
-            "logo": "https://i.imgur.com/klNH4tV.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8",
-            "category": "Devotional",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
             "name": "Metro TV (India)",
             "group": "General",
             "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Metro_TV.png",
@@ -19727,21 +19727,6 @@
             "http_status": 206
         },
         {
-            "name": "Nick Jr. (Russia)",
-            "group": "Kids",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",
-            "country": "RU",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://stream.mcquack.net/220/index.m3u8",
-            "category": "Cartoon",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
-        },
-        {
             "name": "Nick Jr. (United States)",
             "group": "Kids",
             "logo": "https://i.imgur.com/KT4tdQs.png",
@@ -19845,6 +19830,21 @@
             "hd": false,
             "status": "Working",
             "http_status": 206
+        },
+        {
+            "name": "Nickelodeon (Russia)",
+            "group": "Kids",
+            "logo": "https://i.imgur.com/w8iE8dV.png",
+            "country": "RU",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://stream.mcquack.net/443/index.m3u8",
+            "category": "Cartoon",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
         },
         {
             "name": "Nickelodeon (United States)",
@@ -21422,6 +21422,21 @@
             "http_status": 206
         },
         {
+            "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Sports\",Setanta Sports 1 Eurasia",
+            "group": "Sports",
+            "logo": "https://i.imgur.com/zlJK7ca.png",
+            "country": "IE",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://stream.mcquack.net/234/index.m3u8",
+            "category": "Sports",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
+        },
+        {
             "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Sports\",Setanta Sports 2 Eurasia",
             "group": "Sports",
             "logo": "https://i.imgur.com/ouHunnK.png",
@@ -22352,21 +22367,6 @@
             "http_status": 206
         },
         {
-            "name": "SVBC 2",
-            "group": "Religious",
-            "logo": "https://dtil.tmsimg.com/assets/s143890_ld_h9_aa.png?lock=720x540",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8",
-            "category": "Devotional",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
             "name": "SVBC 3",
             "group": "Religious",
             "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/SVBC3.png",
@@ -22755,21 +22755,6 @@
             "hd": false,
             "status": "Working",
             "http_status": 206
-        },
-        {
-            "name": "Thendral TV",
-            "group": "Undefined",
-            "logo": "https://i.imgur.com/kQK80gB.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://hls.thendraltv.in/thendraltv_1210b43d/index.m3u8",
-            "category": "Entertainment",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
         },
         {
             "name": "Times Now Navbharat",
@@ -24782,21 +24767,6 @@
             "http_status": 200
         },
         {
-            "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Music\",InRating TV",
-            "group": "Music",
-            "logo": "https://i.imgur.com/l753AgQ.png",
-            "country": "UA",
-            "language": "",
-            "lang": "",
-            "source": "music",
-            "url": "http://stream.mcquack.net/147/index.m3u8",
-            "category": "Music",
-            "source_label": "Garden Music",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
-        },
-        {
             "name": "JooMusic",
             "group": "Music",
             "logo": "https://i.imgur.com/KHuKQQL.png",
@@ -24850,21 +24820,6 @@
             "lang": "",
             "source": "music",
             "url": "http://stream.mcquack.net/218/index.m3u8",
-            "category": "Music",
-            "source_label": "Garden Music",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
-        },
-        {
-            "name": "MasMusica FM",
-            "group": "Music",
-            "logo": "https://i.imgur.com/tCg7owd.png",
-            "country": "CO",
-            "language": "",
-            "lang": "",
-            "source": "music",
-            "url": "https://movil.ejeserver.com/live/masmusica.m3u8",
             "category": "Music",
             "source_label": "Garden Music",
             "hd": false,
@@ -25442,6 +25397,21 @@
             "http_status": 206
         },
         {
+            "name": "Vintage Music",
+            "group": "Music",
+            "logo": "https://i.imgur.com/KImqYnN.jpeg",
+            "country": "CR",
+            "language": "",
+            "lang": "",
+            "source": "music",
+            "url": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
+            "category": "Music",
+            "source_label": "Garden Music",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
             "name": "Zwei Music Television",
             "group": "Music",
             "logo": "https://i.imgur.com/RbdpCNf.png",
@@ -25894,21 +25864,6 @@
             "http_status": 200
         },
         {
-            "name": "&xplor HD (1080p)",
-            "group": "Movies",
-            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=209743&extension=ts&play_token=mR7FwO88sY",
-            "category": "Movie",
-            "source_label": "IPTV-ORG Index",
-            "hd": true,
-            "status": "Non-working",
-            "http_status": 458
-        },
-        {
             "name": "Aaj Tak",
             "group": "News",
             "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png",
@@ -25952,21 +25907,6 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 0
-        },
-        {
-            "name": "Aastha Prime 1",
-            "group": "Religious",
-            "logo": "https://i.imgur.com/LyWSMJS.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8",
-            "category": "Devotional",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 206
         },
         {
             "name": "AKD Calcutta News",
@@ -27769,6 +27709,21 @@
             "http_status": 0
         },
         {
+            "name": "ETV Cinema",
+            "group": "Movies",
+            "logo": "https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+            "category": "Movie",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 200
+        },
+        {
             "name": "ETV Cinema HD",
             "group": "Movies",
             "logo": "https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540",
@@ -28039,6 +27994,21 @@
             "http_status": 0
         },
         {
+            "name": "Mercy TV (India)",
+            "group": "Religious",
+            "logo": "https://i.imgur.com/klNH4tV.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8",
+            "category": "Devotional",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 0
+        },
+        {
             "name": "like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Entertainment\",MTV (India) HD",
             "group": "Entertainment",
             "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MTV/images/LOGO_HD/image.png",
@@ -28112,6 +28082,21 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 0
+        },
+        {
+            "name": "Nick Jr. (Russia)",
+            "group": "Kids",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",
+            "country": "RU",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://stream.mcquack.net/220/index.m3u8",
+            "category": "Cartoon",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 200
         },
         {
             "name": "Nick Jr. Asia",
@@ -28242,21 +28227,6 @@
             "lang": "",
             "source": "complete",
             "url": "https://onyx1.mofta1.cfd/nike/usergenm24qrnd.m3u8",
-            "category": "Cartoon",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 200
-        },
-        {
-            "name": "Nickelodeon (Russia)",
-            "group": "Kids",
-            "logo": "https://i.imgur.com/w8iE8dV.png",
-            "country": "RU",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://stream.mcquack.net/443/index.m3u8",
             "category": "Cartoon",
             "source_label": "IPTV-ORG Index",
             "hd": false,
@@ -28579,21 +28549,6 @@
             "http_status": 0
         },
         {
-            "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Sports\",Setanta Sports 1 Eurasia",
-            "group": "Sports",
-            "logo": "https://i.imgur.com/zlJK7ca.png",
-            "country": "IE",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://stream.mcquack.net/234/index.m3u8",
-            "category": "Sports",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 200
-        },
-        {
             "name": "like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Sports\",Setanta Sports 2",
             "group": "Sports",
             "logo": "https://i.imgur.com/NOBACb6.png",
@@ -28696,7 +28651,7 @@
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Non-working",
-            "http_status": 509
+            "http_status": 458
         },
         {
             "name": "Starnet",
@@ -28725,6 +28680,21 @@
             "category": "Entertainment",
             "source_label": "IPTV-ORG Index",
             "hd": true,
+            "status": "Non-working",
+            "http_status": 404
+        },
+        {
+            "name": "SVBC 2",
+            "group": "Religious",
+            "logo": "https://dtil.tmsimg.com/assets/s143890_ld_h9_aa.png?lock=720x540",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8",
+            "category": "Devotional",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
             "status": "Non-working",
             "http_status": 404
         },
@@ -28772,6 +28742,21 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 0
+        },
+        {
+            "name": "Thendral TV",
+            "group": "Undefined",
+            "logo": "https://i.imgur.com/kQK80gB.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://hls.thendraltv.in/thendraltv_1210b43d/index.m3u8",
+            "category": "Entertainment",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 404
         },
         {
             "name": "Times Now (720p)",
@@ -29164,6 +29149,21 @@
             "http_status": 404
         },
         {
+            "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Music\",InRating TV",
+            "group": "Music",
+            "logo": "https://i.imgur.com/l753AgQ.png",
+            "country": "UA",
+            "language": "",
+            "lang": "",
+            "source": "music",
+            "url": "http://stream.mcquack.net/147/index.m3u8",
+            "category": "Music",
+            "source_label": "Garden Music",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 200
+        },
+        {
             "name": "like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Music\",M2 (Ukraine)",
             "group": "Music",
             "logo": "https://i.imgur.com/AfcBWCg.png",
@@ -29192,6 +29192,21 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 403
+        },
+        {
+            "name": "MasMusica FM",
+            "group": "Music",
+            "logo": "https://i.imgur.com/tCg7owd.png",
+            "country": "CO",
+            "language": "",
+            "lang": "",
+            "source": "music",
+            "url": "https://movil.ejeserver.com/live/masmusica.m3u8",
+            "category": "Music",
+            "source_label": "Garden Music",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 0
         },
         {
             "name": "MTV Biggest Pop",
@@ -29442,21 +29457,6 @@
             "lang": "",
             "source": "music",
             "url": "https://rotana.hibridcdn.net/rotananet/music_net-7Y83PP5adWixDF93/playlist.m3u8",
-            "category": "Music",
-            "source_label": "Garden Music",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 403
-        },
-        {
-            "name": "Vintage Music",
-            "group": "Music",
-            "logo": "https://i.imgur.com/KImqYnN.jpeg",
-            "country": "CR",
-            "language": "",
-            "lang": "",
-            "source": "music",
-            "url": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
             "category": "Music",
             "source_label": "Garden Music",
             "hd": false,
@@ -30949,6 +30949,6 @@
             "error": false
         }
     ],
-    "started_at": "2026-09-22T17:55:08+00:00",
-    "updated_at": "2026-09-22T17:55:11+00:00"
+    "started_at": "2026-09-22T18:52:32+00:00",
+    "updated_at": "2026-09-22T18:52:35+00:00"
 }

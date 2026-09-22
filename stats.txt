@@ -1,16 +1,8 @@
 IPTV STATS
 ==================================================
 
-Total Sources           : 15
-Total Channels (built)  : 0
-Working                 : 800
-Non-Working             : 260
-Unique Working          : 800
-Unique Non-Working      : 260
-Combined (Unique)       : 1060
-
-Same Stream (Duplicate) : 0
-Different Stream        : 1060
-Duplicate URL Groups    : 0
-
-Updated                 : 2026-09-22 17:56:11 UTC
+Total candidates    : 1060
+Working (final)     : 798
+Non-working (final) : 262
+Combined (final)    : 1060
+Updated             : 2026-09-22 18:53:35 UTC

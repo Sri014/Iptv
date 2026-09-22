@@ -34,124 +34,24 @@ jobs:
             RES=$(curl -s "http://127.0.0.1:8080/3502.php?action=build")
             echo "$RES" | head -c 150
             echo ""
-            if echo "$RES" | grep -q '"done":true'; then
-              echo "BUILD COMPLETE"
-              break
-            fi
+            if echo "$RES" | grep -q '"done":true'; then break; fi
           done
 
-      - name: Fast parallel check
+      - name: Fast check + playlists
         run: php fast_check.php
-
-      - name: Stats + duplicates
-        run: |
-          php -r '
-          function parse($file) {
-              if (!is_file($file)) return [];
-              $lines = preg_split("/\r\n|\r|\n/", file_get_contents($file));
-              $out = []; $i = 0;
-              while ($i < count($lines)) {
-                  $line = trim($lines[$i]);
-                  if (stripos($line, "#EXTINF:") === 0 && isset($lines[$i+1])) {
-                      $url = trim($lines[$i+1]);
-                      if ($url !== "" && strpos($url, "#") !== 0) {
-                          $out[] = ["extinf" => $line, "url" => $url];
-                      }
-                      $i += 2;
-                  } else { $i++; }
-              }
-              return $out;
-          }
-          function write($file, $items) {
-              $out = "#EXTM3U\n";
-              foreach ($items as $it) $out .= $it["extinf"] . "\n" . $it["url"] . "\n";
-              file_put_contents($file, $out);
-          }
-
-          $working = parse("working.m3u");
-          $nonworking = parse("nonworking.m3u");
-
-          $uniqueWorking = []; $uniqueNonworking = []; $seenW = []; $seenN = [];
-          foreach ($working as $it) {
-              $key = strtolower($it["url"]);
-              if (isset($seenW[$key])) continue;
-              $seenW[$key] = true; $uniqueWorking[] = $it;
-          }
-          foreach ($nonworking as $it) {
-              $key = strtolower($it["url"]);
-              if (isset($seenN[$key])) continue;
-              $seenN[$key] = true; $uniqueNonworking[] = $it;
-          }
-
-          $urlNames = [];
-          foreach (array_merge($working, $nonworking) as $it) {
-              $key = strtolower($it["url"]);
-              $name = "";
-              if (preg_match("/,(.+)$/", $it["extinf"], $m)) $name = trim($m[1]);
-              $urlNames[$key][] = $name;
-          }
-          $dupGroups = [];
-          foreach ($urlNames as $url => $names) {
-              if (count($names) > 1) $dupGroups[$url] = array_unique($names);
-          }
-          $dupTotal = 0;
-          foreach ($dupGroups as $url => $names) $dupTotal += count($names);
-
-          $combined = []; $seenC = [];
-          foreach (array_merge($uniqueWorking, $uniqueNonworking) as $it) {
-              $key = strtolower($it["url"]);
-              if (isset($seenC[$key])) continue;
-              $seenC[$key] = true; $combined[] = $it;
-          }
-
-          write("working_unique.m3u", $uniqueWorking);
-          write("nonworking_unique.m3u", $uniqueNonworking);
-          write("combined.m3u", $combined);
-
-          $rep = "DUPLICATE URL REPORT\n" . str_repeat("=", 60) . "\n\n";
-          $rep .= "Duplicate URL groups: " . count($dupGroups) . "\n";
-          $rep .= "Total duplicate entries: $dupTotal\n\n";
-          foreach ($dupGroups as $url => $names) {
-              $rep .= "URL: $url\n";
-              foreach ($names as $n) $rep .= "  - $n\n";
-              $rep .= "\n";
-          }
-          file_put_contents("duplicates.txt", $rep);
-
-          $stats = "IPTV STATS\n" . str_repeat("=", 50) . "\n\n";
-          $stats .= "Total Sources           : 15\n";
-          $stats .= "Total Channels (built)  : " . ($total ?? 0) . "\n";
-          $stats .= "Working                 : " . count($working) . "\n";
-          $stats .= "Non-Working             : " . count($nonworking) . "\n";
-          $stats .= "Unique Working          : " . count($uniqueWorking) . "\n";
-          $stats .= "Unique Non-Working      : " . count($uniqueNonworking) . "\n";
-          $stats .= "Combined (Unique)       : " . count($combined) . "\n\n";
-          $stats .= "Same Stream (Duplicate) : $dupTotal\n";
-          $stats .= "Different Stream        : " . count($combined) . "\n";
-          $stats .= "Duplicate URL Groups    : " . count($dupGroups) . "\n\n";
-          $stats .= "Updated                 : " . date("Y-m-d H:i:s") . " UTC\n";
-          file_put_contents("stats.txt", $stats);
-
-          echo $stats;
-          '
 
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add *.m3u *.txt 3502_data/ 2>/dev/null || true
+          git add *.m3u *.txt playlists/ 3502_data/ 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Update $(date -u +%Y-%m-%d_%H-%M)"
           git push || true
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: m3u-and-reports
-          path: |
-            working.m3u
-            nonworking.m3u
-            working_unique.m3u
-            nonworking_unique.m3u
-            combined.m3u
-            duplicates.txt
-            stats.txt
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          exclude_assets: '.github,3502_data,3502.php,fast_check.php'

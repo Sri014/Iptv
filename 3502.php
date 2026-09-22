@@ -45,6 +45,11 @@ $SOURCES = [
     ['label' => 'Cartoon',         'url' => 'https://iptv-org.github.io/iptv/categories/animation.m3u', 'type' => 'cartoon'],
     ['label' => 'Documentary',     'url' => 'https://iptv-org.github.io/iptv/categories/documentary.m3u', 'type' => 'science'],
     ['label' => 'Sports',          'url' => 'https://iptv-org.github.io/iptv/categories/sports.m3u',    'type' => 'sports'],
+    ['label' => 'UK',              'url' => 'https://iptv-org.github.io/iptv/countries/uk.m3u',         'type' => 'diaspora'],
+    ['label' => 'USA',             'url' => 'https://iptv-org.github.io/iptv/countries/us.m3u',         'type' => 'diaspora'],
+    ['label' => 'NZ',              'url' => 'https://iptv-org.github.io/iptv/countries/nz.m3u',         'type' => 'diaspora'],
+    ['label' => 'ZA',              'url' => 'https://iptv-org.github.io/iptv/countries/za.m3u',         'type' => 'diaspora'],
+    ['label' => 'AU',              'url' => 'https://iptv-org.github.io/iptv/countries/au.m3u',         'type' => 'diaspora'],
 ];
 
 // Garden ke 9 alag channels

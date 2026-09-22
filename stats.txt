@@ -2,7 +2,7 @@ IPTV STATS
 ==================================================
 
 Total candidates    : 637
-Working (final)     : 556
-Non-working (final) : 81
+Working (final)     : 549
+Non-working (final) : 88
 Combined (final)    : 637
-Updated             : 2026-09-22 20:18:42 UTC
+Updated             : 2026-09-22 20:31:51 UTC

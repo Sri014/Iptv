@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 group-title="Music" tvg-language="Bhojpuri",Sangeet Bhojpuri
+https://mumt01.tangotv.in/O5aw8Zn3SANGEETBHOJPURI/index.m3u8
+#EXTINF:-1 group-title="Movie" tvg-language="Bhojpuri",Bhojpuri Cinema
+https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8

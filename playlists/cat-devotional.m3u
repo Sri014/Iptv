@@ -3,10 +3,10 @@
 https://mumt01.tangotv.in/O5aw8Zn3AADINATHTV/index.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/GlfrYs7.png",Aaseervatham TV
 https://mumt04.tangotv.in/m18aqlK4AASEERVATHAMTV/index.m3u8
+#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/IqgrV92.png",Aastha HD
+https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/LyWSMJS.png",Aastha Prime 1
 https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/VcZn60X.png",ABN TV India
-https://mediaserver.abnvideos.com/streams/abntvindia.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Adhyatam_TV.png",Adhyatm TV
 https://mumbai-edge.smartplaytv.in/AdhyatmTV/index.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Anand_TV.png",Anand TV (India)
@@ -71,8 +71,6 @@ https://mumt07.tangotv.in/zHjX9OFlMADHATV/index.m3u8
 https://mumbai-edge.smartplaytv.in/MahaBhakthi/index.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-logo="https://mahimaitv.com/images/mahimaitamil.png",Mahimai TV
 https://mahimai.iptelevision.live/mahimaitv/video.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/klNH4tV.png",Mercy TV (India)
-https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/Lrm8qTO.png",MH One Shraddha
 https://mumt01.tangotv.in/O5aw8Zn3MHONESHRADDHA/index.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAMBIKKAI_TV/images/LOGO_HD/image.png",Nambikkai TV
@@ -143,15 +141,3 @@ https://live.villagetv.net/villagetv/hd/index.m3u8
 https://zainabia.livebox.co.in/ZainabiaChannelhls/channel.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbbhakti.png",ZB Bhakti
 https://server.zillarbarta.com/zbbhakti/index.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/EO6cYUI.png",God Stands TV Hindi
-https://online.godstands.tv:5443/WebRTCApp/streams/HindiStreaming.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/2EKCtQm.png",GurSikh Sabha TV (720p)
-http://cdn12.henico.net:8080/live/gsctv/index.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/w6uXMrK.png",Kanshi TV (720p)
-https://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/WsOfy19.png",LLBN TV South Asia
-https://brightstar-southasia-pull-secure.akamaized.net/brightstarsouthasia/stream.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/aVts0sz.png",MTA2 Europe
-https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/3Nl8Tpu.png",MTA7 Asia
-https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8

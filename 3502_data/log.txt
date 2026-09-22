@@ -1,0 +1,1865 @@
+[2026-09-22 16:39:24] SAVE OK | src=0 | cand=0
+[2026-09-22 16:39:24] FETCH IPTV-ORG Index
+[2026-09-22 16:39:25] SAVE OK | src=1 | cand=886
+[2026-09-22 16:39:25] IPTV-ORG Index => +886 (from 10958) | total 886
+[2026-09-22 16:39:25] FETCH India
+[2026-09-22 16:39:25] SAVE OK | src=2 | cand=902
+[2026-09-22 16:39:25] India => +16 (from 741) | total 902
+[2026-09-22 16:39:25] FETCH UK
+[2026-09-22 16:39:25] SAVE OK | src=3 | cand=902
+[2026-09-22 16:39:25] UK => +0 (from 312) | total 902
+[2026-09-22 16:39:25] FETCH USA
+[2026-09-22 16:39:26] SAVE OK | src=4 | cand=902
+[2026-09-22 16:39:26] USA => +0 (from 1471) | total 902
+[2026-09-22 16:39:26] FETCH Australia
+[2026-09-22 16:39:26] SAVE OK | src=5 | cand=902
+[2026-09-22 16:39:26] Australia => +0 (from 74) | total 902
+[2026-09-22 16:39:26] FETCH Pakistan
+[2026-09-22 16:39:26] SAVE OK | src=6 | cand=902
+[2026-09-22 16:39:26] Pakistan => +0 (from 103) | total 902
+[2026-09-22 16:39:26] FETCH Bangladesh
+[2026-09-22 16:39:26] SAVE OK | src=7 | cand=902
+[2026-09-22 16:39:26] Bangladesh => +0 (from 41) | total 902
+[2026-09-22 16:39:26] FETCH Ireland
+[2026-09-22 16:39:26] SAVE OK | src=8 | cand=902
+[2026-09-22 16:39:26] Ireland => +0 (from 87) | total 902
+[2026-09-22 16:39:26] FETCH Hindi
+[2026-09-22 16:39:26] SAVE OK | src=9 | cand=914
+[2026-09-22 16:39:26] Hindi => +12 (from 323) | total 914
+[2026-09-22 16:39:26] FETCH Bhojpuri
+[2026-09-22 16:39:26] SAVE OK | src=10 | cand=914
+[2026-09-22 16:39:26] Bhojpuri => +0 (from 11) | total 914
+[2026-09-22 16:39:26] FETCH English India
+[2026-09-22 16:39:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:26] English India => +0 (from 2972) | total 914
+[2026-09-22 16:39:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:27] [1/914] 4 SiDES TV => Working
+[2026-09-22 16:39:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:27] [2/914] 4TV News => Working
+[2026-09-22 16:39:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:28] [3/914] 7S Music => Working
+[2026-09-22 16:39:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:28] [4/914] 9 Plus News => Working
+[2026-09-22 16:39:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:29] [5/914] 9X Jalwa => Working
+[2026-09-22 16:39:29] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:29] [6/914] 9X Jhakaas => Working
+[2026-09-22 16:39:29] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:29] [7/914] 9X Tashan => Working
+[2026-09-22 16:39:29] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:30] [8/914] 9XM => Working
+[2026-09-22 16:39:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:31] [9/914] 10 TV => Working
+[2026-09-22 16:39:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:32] [10/914] 22Scope News => Working
+[2026-09-22 16:39:32] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:33] [11/914] 24 News => Working
+[2026-09-22 16:39:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:33] [12/914] 99TV => Working
+[2026-09-22 16:39:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:34] [13/914] &TV HD => Non-working
+[2026-09-22 16:39:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:34] [14/914] &TV International => Non-working
+[2026-09-22 16:39:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:34] [15/914] &xplor HD (1080p) => Non-working
+[2026-09-22 16:39:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:35] [16/914] Aadinath TV => Working
+[2026-09-22 16:39:35] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:35] [17/914] Aaj Ki Khabar => Working
+[2026-09-22 16:39:35] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:39] [18/914] Aaj Tak => Non-working
+[2026-09-22 16:39:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:40] [19/914] Aaj Tak HD => Working
+[2026-09-22 16:39:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:40] [20/914] Aakaash Aath => Working
+[2026-09-22 16:39:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:41] [21/914] Aaryaa TV => Working
+[2026-09-22 16:39:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:41] [22/914] Aaseervatham TV => Working
+[2026-09-22 16:39:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:46] [23/914] like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Religious",Aastha => Non-working
+[2026-09-22 16:39:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:46] [24/914] Aastha HD => Working
+[2026-09-22 16:39:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:50] [25/914] like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Religious",Aastha Bhajan => Non-working
+[2026-09-22 16:39:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:50] [26/914] Aastha Prime 1 => Working
+[2026-09-22 16:39:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:50] [27/914] ABN TV India => Working
+[2026-09-22 16:39:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:51] [28/914] ABP Ananda => Working
+[2026-09-22 16:39:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:51] [29/914] ABP Asmita => Working
+[2026-09-22 16:39:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:52] [30/914] ABP Ganga => Working
+[2026-09-22 16:39:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:53] [31/914] ABP Majha => Working
+[2026-09-22 16:39:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:53] [32/914] ABP News => Working
+[2026-09-22 16:39:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:54] [33/914] Adhyatm TV => Working
+[2026-09-22 16:39:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:54] [34/914] AfroLandTV => Working
+[2026-09-22 16:39:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:55] [35/914] AKD Calcutta News => Working
+[2026-09-22 16:39:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:56] [36/914] Akhon Kolkata => Working
+[2026-09-22 16:39:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:56] [37/914] Al Jazeera 2 => Working
+[2026-09-22 16:39:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:56] [38/914] Al Jazeera => Working
+[2026-09-22 16:39:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:57] [39/914] Al Jazeera English => Working
+[2026-09-22 16:39:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:57] [40/914] Al Jazeera English HD => Non-working
+[2026-09-22 16:39:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:57] [41/914] Al Jazeera Documentary (1080p) => Non-working
+[2026-09-22 16:39:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:58] [42/914] Al Jazeera Mubasher 24 => Working
+[2026-09-22 16:39:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:58] [43/914] Al Jazeera Mubasher => Working
+[2026-09-22 16:39:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:59] [44/914] Al Jazeera Mubasher Broadcast 2 => Working
+[2026-09-22 16:39:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:39:59] [45/914] Alankar TV => Working
+[2026-09-22 16:39:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:00] [46/914] All Time Movies => Working
+[2026-09-22 16:40:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:02] [47/914] AmarUjala => Working
+[2026-09-22 16:40:02] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:02] [48/914] like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Movies",AMC Europe Czech Republic => Working
+[2026-09-22 16:40:02] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:02] [49/914] Amrita TV => Working
+[2026-09-22 16:40:02] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:03] [50/914] Anand TV (India) => Working
+[2026-09-22 16:40:03] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:04] [51/914] Anand Wari TV => Working
+[2026-09-22 16:40:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:05] [52/914] Ananda Barta => Working
+[2026-09-22 16:40:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:06] [53/914] ANB News => Working
+[2026-09-22 16:40:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:06] [54/914] Andy Haryana => Working
+[2026-09-22 16:40:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:07] [55/914] Angel TV => Working
+[2026-09-22 16:40:07] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:08] [56/914] Angel TV Africa => Working
+[2026-09-22 16:40:09] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:10] [57/914] Angel TV America => Working
+[2026-09-22 16:40:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:11] [58/914] Angel TV Arabia => Working
+[2026-09-22 16:40:11] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:14] [59/914] Angel TV Australia => Working
+[2026-09-22 16:40:14] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:15] [60/914] Angel TV Chinese => Working
+[2026-09-22 16:40:15] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:16] [61/914] Angel TV Europe => Working
+[2026-09-22 16:40:16] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:16] [62/914] Angel TV FarEast => Working
+[2026-09-22 16:40:16] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:17] [63/914] Angel TV Hebrew => Working
+[2026-09-22 16:40:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:18] [64/914] Angel TV Indo-China => Working
+[2026-09-22 16:40:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:18] [65/914] Angel TV Indonesia => Working
+[2026-09-22 16:40:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:19] [66/914] Angel TV Nepal => Working
+[2026-09-22 16:40:19] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:19] [67/914] Angel TV Portuguese => Working
+[2026-09-22 16:40:19] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:20] [68/914] Angel TV Russian => Working
+[2026-09-22 16:40:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:20] [69/914] Angel TV Spanish => Working
+[2026-09-22 16:40:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:21] [70/914] Animax Asia India (1080p) => Working
+[2026-09-22 16:40:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:22] [71/914] Anjan TV => Working
+[2026-09-22 16:40:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:22] [72/914] APN => Working
+[2026-09-22 16:40:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:23] [73/914] Aradana TV => Non-working
+[2026-09-22 16:40:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:24] [74/914] Argus News => Working
+[2026-09-22 16:40:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:25] [75/914] Arputhar Yesu TV => Working
+[2026-09-22 16:40:25] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:26] [76/914] Aryan TV National => Working
+[2026-09-22 16:40:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:26] [77/914] Asharq Discovery => Working
+[2026-09-22 16:40:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:26] [78/914] Asian News => Working
+[2026-09-22 16:40:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:27] [79/914] Asom Live 24 => Working
+[2026-09-22 16:40:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:28] [80/914] Assam Talks => Working
+[2026-09-22 16:40:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:29] [81/914] Awaaz India TV (720p) => Working
+[2026-09-22 16:40:29] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:30] [82/914] Awakening TV => Working
+[2026-09-22 16:40:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:30] [83/914] Awapa Sports TV (1080p) => Non-working
+[2026-09-22 16:40:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:30] [84/914] like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Movies",AXN Black Czech Republic => Working
+[2026-09-22 16:40:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:30] [85/914] like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Movies",AXN CEE Czech Republic => Working
+[2026-09-22 16:40:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:30] [86/914] like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Entertainment",AXN White CzechRepublic => Working
+[2026-09-22 16:40:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:31] [87/914] Ayush TV => Working
+[2026-09-22 16:40:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:31] [88/914] B4U Bhojpuri => Working
+[2026-09-22 16:40:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:32] [89/914] B4U Kadak => Working
+[2026-09-22 16:40:32] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:33] [90/914] B4U Movies => Working
+[2026-09-22 16:40:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:33] [91/914] B4U Music => Working
+[2026-09-22 16:40:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:43] [92/914] Bada Khabar => Non-working
+[2026-09-22 16:40:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:44] [93/914] Balle Balle => Working
+[2026-09-22 16:40:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:44] [94/914] Balle Balle HD => Working
+[2026-09-22 16:40:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:45] [95/914] Bansal News => Non-working
+[2026-09-22 16:40:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:45] [96/914] BBC Alba => Non-working
+[2026-09-22 16:40:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:45] [97/914] BBC America => Working
+[2026-09-22 16:40:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:45] [98/914] BBC Arabic => Working
+[2026-09-22 16:40:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:45] [99/914] BBC Drama => Working
+[2026-09-22 16:40:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:46] [100/914] BBC Earth Czechia => Working
+[2026-09-22 16:40:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:47] [101/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Documentary",BBC Earth Hungary => Working
+[2026-09-22 16:40:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:47] [102/914] like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Documentary",BBC Earth Romania => Non-working
+[2026-09-22 16:40:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:57] [103/914] BBC Earth Romania HD => Non-working
+[2026-09-22 16:40:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:58] [104/914] like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Documentary",BBC Earth Turkiye => Non-working
+[2026-09-22 16:40:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:58] [105/914] BBC Earth US => Working
+[2026-09-22 16:40:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:59] [106/914] like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Entertainment",BBC First Romania => Non-working
+[2026-09-22 16:40:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:59] [107/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Entertainment",BBC First Turkiye => Working
+[2026-09-22 16:40:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:59] [108/914] BBC Food => Working
+[2026-09-22 16:40:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:40:59] [109/914] BBC Four (720p) => Non-working
+[2026-09-22 16:40:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:00] [110/914] BBC Four/CBeebies => Non-working
+[2026-09-22 16:41:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:00] [111/914] BBC Home & Garden => Working
+[2026-09-22 16:41:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:00] [112/914] BBC Kids => Non-working
+[2026-09-22 16:41:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:04] [113/914] BBC Lifestyle Asia => Non-working
+[2026-09-22 16:41:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:04] [114/914] BBC News => Working
+[2026-09-22 16:41:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:05] [115/914] BBC News Africa => Working
+[2026-09-22 16:41:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:05] [116/914] BBC News Asia Pacific => Non-working
+[2026-09-22 16:41:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:05] [117/914] BBC News Europe => Working
+[2026-09-22 16:41:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:06] [118/914] BBC News Latin America => Working
+[2026-09-22 16:41:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:06] [119/914] BBC News North America => Working
+[2026-09-22 16:41:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:16] [120/914] BBC News South Asia => Non-working
+[2026-09-22 16:41:16] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:20] [121/914] BBC News UK HD => Non-working
+[2026-09-22 16:41:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:20] [122/914] BBC News Pashto => Working
+[2026-09-22 16:41:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:20] [123/914] BBC One (720p) => Non-working
+[2026-09-22 16:41:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:20] [124/914] BBC One Channel Islands (720p) => Non-working
+[2026-09-22 16:41:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:20] [125/914] BBC One East (720p) => Non-working
+[2026-09-22 16:41:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:20] [126/914] BBC One East Midlands (720p) => Non-working
+[2026-09-22 16:41:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:20] [127/914] BBC One East Midlands HD => Non-working
+[2026-09-22 16:41:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [128/914] BBC One London HD => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [129/914] BBC One North East & Cumbria (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [130/914] BBC One North East & Cumbria HD => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [131/914] BBC One North West (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [132/914] BBC One North West HD => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [133/914] BBC One Northern Ireland (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [134/914] BBC One Northern Ireland HD => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [135/914] BBC One Scotland (540p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [136/914] BBC One Scotland HD (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [137/914] BBC One South (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [138/914] BBC One South East (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [139/914] BBC One South West (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [140/914] BBC One Wales (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [141/914] BBC One West (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [142/914] BBC One West Midlands (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [143/914] BBC One Yorkshire (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [144/914] BBC One Yorkshire HD (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [145/914] BBC Parliament (720p) => Non-working
+[2026-09-22 16:41:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:21] [146/914] BBC Persian => Working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [147/914] BBC Red Button 1 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [148/914] BBC Red Button 2 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [149/914] BBC Red Button 3 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [150/914] BBC Red Button 4 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [151/914] BBC Red Button 5 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [152/914] BBC Red Button 6 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [153/914] BBC Red Button 7 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [154/914] BBC Red Button 8 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [155/914] BBC Red Button 9 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [156/914] BBC Red Button 10 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [157/914] BBC Red Button 11 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [158/914] BBC Red Button 12 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [159/914] BBC Red Button 13 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [160/914] BBC Red Button 14 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [161/914] BBC Red Button 15 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [162/914] BBC Red Button 16 (720p) => Non-working
+[2026-09-22 16:41:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:22] [163/914] BBC Red Button 17 (720p) => Non-working
+[2026-09-22 16:41:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:23] [164/914] BBC Red Button 18 (720p) => Non-working
+[2026-09-22 16:41:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:23] [165/914] BBC Red Button 19 (720p) => Non-working
+[2026-09-22 16:41:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:23] [166/914] BBC Red Button 20 (720p) => Non-working
+[2026-09-22 16:41:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:23] [167/914] BBC Red Button 21 (720p) => Non-working
+[2026-09-22 16:41:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:23] [168/914] BBC Red Button 22 (720p) => Non-working
+[2026-09-22 16:41:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:23] [169/914] BBC Red Button 23 (720p) => Non-working
+[2026-09-22 16:41:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:23] [170/914] BBC Red Button 24 (720p) => Non-working
+[2026-09-22 16:41:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:23] [171/914] BBC Scotland (720p) => Non-working
+[2026-09-22 16:41:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:23] [172/914] BBC Three (720p) => Non-working
+[2026-09-22 16:41:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:23] [173/914] BBC Three/CBBC => Non-working
+[2026-09-22 16:41:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:24] [174/914] BBC Travel => Non-working
+[2026-09-22 16:41:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:24] [175/914] BBC Two HD => Non-working
+[2026-09-22 16:41:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:24] [176/914] BBC Two Northern Ireland (540p) => Non-working
+[2026-09-22 16:41:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:24] [177/914] BBC Two Northern Ireland HD (720p) => Non-working
+[2026-09-22 16:41:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:24] [178/914] BBC Two Wales (720p) => Non-working
+[2026-09-22 16:41:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:27] [179/914] BBC UHD 1 => Non-working
+[2026-09-22 16:41:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:27] [180/914] BBC UHD 2 => Working
+[2026-09-22 16:41:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:27] [181/914] BBC UHD 3 => Non-working
+[2026-09-22 16:41:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:27] [182/914] BBC UHD 4 => Non-working
+[2026-09-22 16:41:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:28] [183/914] Bhagyam TV => Working
+[2026-09-22 16:41:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:38] [184/914] Bhakthi Siri => Non-working
+[2026-09-22 16:41:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:39] [185/914] Bhakthi TV => Working
+[2026-09-22 16:41:39] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:40] [186/914] Bhakti Sagar => Working
+[2026-09-22 16:41:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:41] [187/914] Bharat24 => Working
+[2026-09-22 16:41:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:42] [188/914] Bharat Express => Working
+[2026-09-22 16:41:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:43] [189/914] Bharat Samachar => Working
+[2026-09-22 16:41:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:43] [190/914] Bhojpuri Cinema => Working
+[2026-09-22 16:41:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:44] [191/914] Big TV 24x7 => Working
+[2026-09-22 16:41:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:45] [192/914] BIG TV => Working
+[2026-09-22 16:41:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:46] [193/914] Bloomberg HT => Non-working
+[2026-09-22 16:41:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:46] [194/914] Bloomberg Originals => Working
+[2026-09-22 16:41:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:46] [195/914] Bloomberg Originals SD => Working
+[2026-09-22 16:41:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:46] [196/914] Bloomberg TV => Working
+[2026-09-22 16:41:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:46] [197/914] Bloomberg TV + => Working
+[2026-09-22 16:41:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:46] [198/914] Bloomberg TV Asia => Working
+[2026-09-22 16:41:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:46] [199/914] Bloomberg TV Asia Live Event => Working
+[2026-09-22 16:41:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:47] [200/914] Bloomberg TV Australia => Working
+[2026-09-22 16:41:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:47] [201/914] Bloomberg TV EMEA Live Event => Working
+[2026-09-22 16:41:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:47] [202/914] Bloomberg TV Europe => Working
+[2026-09-22 16:41:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:47] [203/914] Bloomberg TV Live Event => Working
+[2026-09-22 16:41:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:47] [204/914] Bloomberg TV Politics Live Event => Working
+[2026-09-22 16:41:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:47] [205/914] like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Business",Bloomberg TV Bulgaria => Non-working
+[2026-09-22 16:41:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:49] [206/914] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Business",Bloomberg TV Mongolia => Working
+[2026-09-22 16:41:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:49] [207/914] BNN Bloomberg => Non-working
+[2026-09-22 16:41:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:50] [208/914] Bollygold => Working
+[2026-09-22 16:41:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:51] [209/914] Bollywood => Working
+[2026-09-22 16:41:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:51] [210/914] Bollywood HD => Working
+[2026-09-22 16:41:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:51] [211/914] like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Classic;Movies",Bollywood Classic Romania => Non-working
+[2026-09-22 16:41:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:52] [212/914] Bollywood Film => Working
+[2026-09-22 16:41:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:52] [213/914] Bollywood HD Russia => Working
+[2026-09-22 16:41:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:52] [214/914] Boogle Bollywood => Working
+[2026-09-22 16:41:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:53] [215/914] BRK News => Working
+[2026-09-22 16:41:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:53] [216/914] BT TV => Working
+[2026-09-22 16:41:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:41:54] [217/914] BVG => Working
+[2026-09-22 16:41:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:04] [218/914] Captain => Non-working
+[2026-09-22 16:42:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:04] [219/914] CBBC (720p) => Non-working
+[2026-09-22 16:42:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:04] [220/914] CBeebies Asia India => Non-working
+[2026-09-22 16:42:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:05] [221/914] CCV => Working
+[2026-09-22 16:42:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:05] [222/914] Channel Divya => Working
+[2026-09-22 16:42:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:06] [223/914] Channel WIN => Working
+[2026-09-22 16:42:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:06] [224/914] Chardikla Gurbaani TV => Working
+[2026-09-22 16:42:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:06] [225/914] Chardikla Time TV => Working
+[2026-09-22 16:42:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:07] [226/914] Chardikla Time TV North America => Working
+[2026-09-22 16:42:07] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:07] [227/914] Class CNBC (1080p) => Working
+[2026-09-22 16:42:07] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:07] [228/914] CNBC => Working
+[2026-09-22 16:42:07] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:07] [229/914] CNBC Arabiya => Working
+[2026-09-22 16:42:07] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:08] [230/914] CNBC Asia => Non-working
+[2026-09-22 16:42:08] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:08] [231/914] CNBC Awaaz => Working
+[2026-09-22 16:42:08] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:09] [232/914] CNBC Bajar => Working
+[2026-09-22 16:42:09] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:10] [233/914] like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Business;News",CNBC Mongolia => Working
+[2026-09-22 16:42:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:10] [234/914] CNBC TV18 => Working
+[2026-09-22 16:42:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:11] [235/914] CNBC TV18 Prime HD => Working
+[2026-09-22 16:42:11] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:11] [236/914] CNBC UK => Working
+[2026-09-22 16:42:11] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:12] [237/914] CNBC-e => Working
+[2026-09-22 16:42:12] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:16] [238/914] CND Film Discovery Channel => Non-working
+[2026-09-22 16:42:16] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:17] [239/914] Cnews Bharat => Working
+[2026-09-22 16:42:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:18] [240/914] Code Fashion TV => Working
+[2026-09-22 16:42:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:22] [241/914] Colors HD => Non-working
+[2026-09-22 16:42:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:22] [242/914] Colors Cineplex Bollywood => Working
+[2026-09-22 16:42:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:22] [243/914] Colors MENA HD => Working
+[2026-09-22 16:42:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:22] [244/914] Colors Rishtey Americas => Working
+[2026-09-22 16:42:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:23] [245/914] Colors Super => Working
+[2026-09-22 16:42:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:23] [246/914] Cricket Gold => Working
+[2026-09-22 16:42:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:24] [247/914] CTVN AKD Plus => Working
+[2026-09-22 16:42:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:24] [248/914] CVR English => Working
+[2026-09-22 16:42:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:25] [249/914] CVR Health => Working
+[2026-09-22 16:42:25] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:26] [250/914] CVR News => Working
+[2026-09-22 16:42:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:26] [251/914] CVR OM Spiritual => Working
+[2026-09-22 16:42:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:27] [252/914] Daily Post TV => Working
+[2026-09-22 16:42:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:27] [253/914] Dangal 2 => Working
+[2026-09-22 16:42:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:28] [254/914] Dangal TV => Working
+[2026-09-22 16:42:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:29] [255/914] Darshan 24 => Working
+[2026-09-22 16:42:29] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:30] [256/914] Darshana TV => Working
+[2026-09-22 16:42:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:30] [257/914] DD Arun Prabha => Working
+[2026-09-22 16:42:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:31] [258/914] DD Assam => Working
+[2026-09-22 16:42:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:31] [259/914] DD Bharati => Working
+[2026-09-22 16:42:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:32] [260/914] DD Bihar => Working
+[2026-09-22 16:42:32] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:33] [261/914] DD Chhattisgarh => Working
+[2026-09-22 16:42:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:33] [262/914] DD Girnar => Working
+[2026-09-22 16:42:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:33] [263/914] DD Goa => Working
+[2026-09-22 16:42:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:34] [264/914] DD Haryana => Working
+[2026-09-22 16:42:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:34] [265/914] DD Himachal Pradesh => Working
+[2026-09-22 16:42:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:35] [266/914] DD India => Working
+[2026-09-22 16:42:35] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:35] [267/914] DD Jharkhand => Working
+[2026-09-22 16:42:35] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:35] [268/914] DD Kashir => Working
+[2026-09-22 16:42:35] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:36] [269/914] DD Kisan => Working
+[2026-09-22 16:42:36] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:37] [270/914] DD Madhya Pradesh => Working
+[2026-09-22 16:42:37] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:37] [271/914] DD Manipur => Working
+[2026-09-22 16:42:37] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:37] [272/914] DD Meghalaya => Working
+[2026-09-22 16:42:37] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:38] [273/914] DD Mizoram => Working
+[2026-09-22 16:42:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:38] [274/914] DD Nagaland => Working
+[2026-09-22 16:42:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:38] [275/914] DD National => Working
+[2026-09-22 16:42:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:39] [276/914] DD National HD => Working
+[2026-09-22 16:42:39] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:40] [277/914] DD News => Working
+[2026-09-22 16:42:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:40] [278/914] DD News HD => Working
+[2026-09-22 16:42:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:41] [279/914] DD Rajasthan => Working
+[2026-09-22 16:42:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:41] [280/914] DD Saptagiri => Working
+[2026-09-22 16:42:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:42] [281/914] DD Sports => Working
+[2026-09-22 16:42:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:42] [282/914] DD Sports SD => Working
+[2026-09-22 16:42:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:42] [283/914] DD Tripura => Working
+[2026-09-22 16:42:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:43] [284/914] DD Uttar Pradesh => Working
+[2026-09-22 16:42:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:44] [285/914] DD Uttarakhand => Working
+[2026-09-22 16:42:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:44] [286/914] Deewana HD => Working
+[2026-09-22 16:42:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:45] [287/914] Desi Channel => Working
+[2026-09-22 16:42:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:45] [288/914] Designated Survivor (1080p) => Working
+[2026-09-22 16:42:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:45] [289/914] Dhamaal => Working
+[2026-09-22 16:42:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:45] [290/914] Dharsan TV => Non-working
+[2026-09-22 16:42:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:47] [291/914] Dheeran TV => Working
+[2026-09-22 16:42:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:47] [292/914] Dhool TV => Working
+[2026-09-22 16:42:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:48] [293/914] Dhoom Music => Working
+[2026-09-22 16:42:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:48] [294/914] Disha TV => Working
+[2026-09-22 16:42:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:49] [295/914] Disney Channel (Czech Republic) => Working
+[2026-09-22 16:42:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:49] [296/914] Disney Channel (India) => Working
+[2026-09-22 16:42:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:53] [297/914] Disney Channel (India) HD => Non-working
+[2026-09-22 16:42:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:53] [298/914] Disney International HD => Working
+[2026-09-22 16:42:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:54] [299/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Disney Junior (Czech Republic) => Working
+[2026-09-22 16:42:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:55] [300/914] Divyavani TV => Working
+[2026-09-22 16:42:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:56] [301/914] DocuBay TV => Working
+[2026-09-22 16:42:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:56] [302/914] DW English => Working
+[2026-09-22 16:42:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:57] [303/914] DY 365 => Non-working
+[2026-09-22 16:42:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:42:58] [304/914] E 24 => Working
+[2026-09-22 16:42:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:02] [305/914] E-Vidya 4 => Non-working
+[2026-09-22 16:43:02] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:06] [306/914] E-Vidya 5 => Non-working
+[2026-09-22 16:43:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:10] [307/914] E-Vidya 6 => Non-working
+[2026-09-22 16:43:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:14] [308/914] E-Vidya 7 => Non-working
+[2026-09-22 16:43:14] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:18] [309/914] E-Vidya 8 => Non-working
+[2026-09-22 16:43:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:22] [310/914] E-Vidya 9 => Non-working
+[2026-09-22 16:43:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:26] [311/914] E-Vidya 10 => Non-working
+[2026-09-22 16:43:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:30] [312/914] E-Vidya 11 => Non-working
+[2026-09-22 16:43:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:34] [313/914] E-Vidya 12 => Non-working
+[2026-09-22 16:43:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:35] [314/914] Epic Bharat => Working
+[2026-09-22 16:43:35] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:36] [315/914] Epic Bharat Digital => Working
+[2026-09-22 16:43:36] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:36] [316/914] Epic Bhojpuri => Working
+[2026-09-22 16:43:36] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:37] [317/914] Epic Bhojpuri Digital => Working
+[2026-09-22 16:43:37] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:38] [318/914] Epic Crimes => Working
+[2026-09-22 16:43:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:39] [319/914] Epic Kids Digital => Working
+[2026-09-22 16:43:39] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:40] [320/914] Epic Music => Working
+[2026-09-22 16:43:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:41] [321/914] Epic Music Digital => Working
+[2026-09-22 16:43:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:42] [322/914] Epic TV Digital => Working
+[2026-09-22 16:43:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:42] [323/914] ERT Sports 1 => Non-working
+[2026-09-22 16:43:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:43] [324/914] ERT Sports 2 => Non-working
+[2026-09-22 16:43:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:43] [325/914] ET Now (720p) => Non-working
+[2026-09-22 16:43:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:43] [326/914] ETV Andhra Pradesh => Non-working
+[2026-09-22 16:43:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:44] [327/914] ETV Bal Bharat => Working
+[2026-09-22 16:43:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:45] [328/914] ETV Beats => Working
+[2026-09-22 16:43:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:45] [329/914] ETV Cinema => Working
+[2026-09-22 16:43:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:45] [330/914] ETV Cinema HD => Non-working
+[2026-09-22 16:43:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:46] [331/914] ETV Comedy => Working
+[2026-09-22 16:43:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:47] [332/914] ETV Josh => Working
+[2026-09-22 16:43:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:48] [333/914] ETV Life => Non-working
+[2026-09-22 16:43:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:49] [334/914] ETV Music => Non-working
+[2026-09-22 16:43:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:50] [335/914] ETV News => Working
+[2026-09-22 16:43:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:50] [336/914] ETV Plus => Non-working
+[2026-09-22 16:43:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:50] [337/914] ETV Plus HD => Non-working
+[2026-09-22 16:43:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:50] [338/914] ETV Telangana => Non-working
+[2026-09-22 16:43:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:50] [339/914] Fashion TV => Working
+[2026-09-22 16:43:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:51] [340/914] Fast1 => Working
+[2026-09-22 16:43:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:52] [341/914] Fateh TV (1080p) => Working
+[2026-09-22 16:43:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:52] [342/914] like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Movies",Film+ (Czech Republic) => Working
+[2026-09-22 16:43:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:53] [343/914] First India News => Working
+[2026-09-22 16:43:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:54] [344/914] Food Food => Working
+[2026-09-22 16:43:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:54] [345/914] Fox Sports 1 => Working
+[2026-09-22 16:43:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:54] [346/914] France 24 => Working
+[2026-09-22 16:43:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:54] [347/914] France 24 Arabic => Working
+[2026-09-22 16:43:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:55] [348/914] France 24 English => Working
+[2026-09-22 16:43:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:55] [349/914] France 24 English HD => Non-working
+[2026-09-22 16:43:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:55] [350/914] France 24 Spanish => Working
+[2026-09-22 16:43:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:56] [351/914] Friends TV => Working
+[2026-09-22 16:43:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:56] [352/914] Gangaur TV => Working
+[2026-09-22 16:43:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:57] [353/914] GEM Bollywood => Non-working
+[2026-09-22 16:43:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:57] [354/914] Global Punjab => Working
+[2026-09-22 16:43:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:58] [355/914] Global TV (Dominican Republic) => Non-working
+[2026-09-22 16:43:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:58] [356/914] Goldmines 2 => Working
+[2026-09-22 16:43:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:43:59] [357/914] Goldmines => Working
+[2026-09-22 16:43:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:00] [358/914] Goldmines Action => Working
+[2026-09-22 16:44:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:01] [359/914] Goldmines Bollywood => Working
+[2026-09-22 16:44:01] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:05] [360/914] like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Goldmines Movies => Non-working
+[2026-09-22 16:44:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:06] [361/914] Good News Today => Working
+[2026-09-22 16:44:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:07] [362/914] Goodness TV => Working
+[2026-09-22 16:44:07] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:08] [363/914] GoodNews TV => Working
+[2026-09-22 16:44:08] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:08] [364/914] Gospel TV India => Working
+[2026-09-22 16:44:08] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:09] [365/914] GS TV => Working
+[2026-09-22 16:44:09] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:10] [366/914] GTC News => Working
+[2026-09-22 16:44:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:10] [367/914] Guarantee News => Working
+[2026-09-22 16:44:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:11] [368/914] Gujarat First => Working
+[2026-09-22 16:44:11] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:12] [369/914] Gyandarshan => Working
+[2026-09-22 16:44:12] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:13] [370/914] Gyandarshan HD => Working
+[2026-09-22 16:44:13] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:14] [371/914] Hare Krsna TV => Working
+[2026-09-22 16:44:14] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:24] [372/914] Harvest TV => Non-working
+[2026-09-22 16:44:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:25] [373/914] Harvest TV Keralam => Working
+[2026-09-22 16:44:25] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:26] [374/914] Harvest USA => Working
+[2026-09-22 16:44:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:27] [375/914] Headlines Tripura => Working
+[2026-09-22 16:44:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:28] [376/914] Hebron TV => Working
+[2026-09-22 16:44:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:28] [377/914] Hi Dost! => Working
+[2026-09-22 16:44:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:29] [378/914] High News => Working
+[2026-09-22 16:44:29] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:29] [379/914] Hindi Khabar => Working
+[2026-09-22 16:44:29] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:39] [380/914] Hindu Dharmam => Non-working
+[2026-09-22 16:44:39] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:40] [381/914] like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Documentary",History (Czech Republic) => Working
+[2026-09-22 16:44:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:40] [382/914] History TV18 HD (1080p) => Working
+[2026-09-22 16:44:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:40] [383/914] HMTV => Working
+[2026-09-22 16:44:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:41] [384/914] HNN 24x7 => Working
+[2026-09-22 16:44:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:42] [385/914] Hope Channel India => Working
+[2026-09-22 16:44:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:43] [386/914] Hornbill TV => Working
+[2026-09-22 16:44:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:44] [387/914] Hosanna TV => Working
+[2026-09-22 16:44:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:44] [388/914] Hosanna TV Global => Working
+[2026-09-22 16:44:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:45] [389/914] Hosanna TV Hindi => Non-working
+[2026-09-22 16:44:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:46] [390/914] HSTV => Working
+[2026-09-22 16:44:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:46] [391/914] Hungama TV => Working
+[2026-09-22 16:44:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:47] [392/914] IBC 24 => Working
+[2026-09-22 16:44:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:48] [393/914] India => Working
+[2026-09-22 16:44:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:49] [394/914] India Ahead => Working
+[2026-09-22 16:44:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:49] [395/914] India Daily Live => Working
+[2026-09-22 16:44:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:49] [396/914] India Today => Working
+[2026-09-22 16:44:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:49] [397/914] India TV => Working
+[2026-09-22 16:44:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:50] [398/914] India TV Aap Ki Adalat (1080p) => Working
+[2026-09-22 16:44:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:51] [399/914] India TV Speed News => Working
+[2026-09-22 16:44:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:51] [400/914] India Voice => Working
+[2026-09-22 16:44:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:52] [401/914] Indywood TV => Working
+[2026-09-22 16:44:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:53] [402/914] INews => Working
+[2026-09-22 16:44:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:53] [403/914] INH 24x7 => Working
+[2026-09-22 16:44:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:54] [404/914] Insync => Working
+[2026-09-22 16:44:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:54] [405/914] Isai Aruvi => Working
+[2026-09-22 16:44:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:55] [406/914] Ishwar Bhakti TV => Working
+[2026-09-22 16:44:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:55] [407/914] Jai Maharashtra => Working
+[2026-09-22 16:44:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:56] [408/914] Jaihind TV => Working
+[2026-09-22 16:44:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:56] [409/914] Jan TV => Working
+[2026-09-22 16:44:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:57] [410/914] Janam TV => Working
+[2026-09-22 16:44:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:57] [411/914] Janta TV => Working
+[2026-09-22 16:44:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:44:58] [412/914] Jantantra TV => Working
+[2026-09-22 16:44:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:08] [413/914] Jaya Plus => Non-working
+[2026-09-22 16:45:08] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:09] [414/914] Jeevan TV => Working
+[2026-09-22 16:45:09] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:10] [415/914] Jinvani Channel => Working
+[2026-09-22 16:45:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:10] [416/914] Jonack => Working
+[2026-09-22 16:45:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:11] [417/914] Joy TV => Working
+[2026-09-22 16:45:11] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:14] [418/914] JTBS Classic => Working
+[2026-09-22 16:45:14] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:14] [419/914] K News India => Non-working
+[2026-09-22 16:45:14] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:18] [420/914] Kabaddi 24x7 => Non-working
+[2026-09-22 16:45:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:19] [421/914] Kadak => Working
+[2026-09-22 16:45:19] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:20] [422/914] Kairali Arabia => Working
+[2026-09-22 16:45:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:21] [423/914] Kairali News => Working
+[2026-09-22 16:45:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:21] [424/914] Kairali TV => Working
+[2026-09-22 16:45:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:22] [425/914] Kairali We => Working
+[2026-09-22 16:45:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:22] [426/914] Kalaignar Murasu => Working
+[2026-09-22 16:45:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:23] [427/914] Kalaignar TV => Working
+[2026-09-22 16:45:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:23] [428/914] Kalika TV => Working
+[2026-09-22 16:45:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:24] [429/914] Kalinga TV => Working
+[2026-09-22 16:45:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:34] [430/914] Kanak News => Non-working
+[2026-09-22 16:45:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:35] [431/914] Kappa TV => Working
+[2026-09-22 16:45:35] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:36] [432/914] Kashish News => Working
+[2026-09-22 16:45:36] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:37] [433/914] Kaumudy TV => Working
+[2026-09-22 16:45:37] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:38] [434/914] KBC News => Working
+[2026-09-22 16:45:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:39] [435/914] KBP Times => Working
+[2026-09-22 16:45:39] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:40] [436/914] KCL TV => Working
+[2026-09-22 16:45:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:40] [437/914] KCM India (1080p) => Working
+[2026-09-22 16:45:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:41] [438/914] Kerala Vision => Working
+[2026-09-22 16:45:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:41] [439/914] Khabar Fast => Working
+[2026-09-22 16:45:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:42] [440/914] Khabrain Abhi Tak => Working
+[2026-09-22 16:45:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:43] [441/914] Kite Victers (720p) => Working
+[2026-09-22 16:45:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:43] [442/914] Knock Bhakti => Working
+[2026-09-22 16:45:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:43] [443/914] Kolkata TV => Working
+[2026-09-22 16:45:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:44] [444/914] Life TV (India) => Working
+[2026-09-22 16:45:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:46] [445/914] Live Times => Working
+[2026-09-22 16:45:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:47] [446/914] Living India News => Working
+[2026-09-22 16:45:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:48] [447/914] Lokale Omroep Zeewolde => Working
+[2026-09-22 16:45:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:48] [448/914] Lokshahi News => Working
+[2026-09-22 16:45:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:49] [449/914] Madha TV => Working
+[2026-09-22 16:45:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:50] [450/914] Madhimugam TV => Working
+[2026-09-22 16:45:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:51] [451/914] Maha Movie => Working
+[2026-09-22 16:45:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:52] [452/914] Mahaa Bhakti => Working
+[2026-09-22 16:45:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:52] [453/914] Mahaa Max => Working
+[2026-09-22 16:45:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:53] [454/914] Mahaa News => Working
+[2026-09-22 16:45:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:54] [455/914] Mahimai TV => Working
+[2026-09-22 16:45:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:55] [456/914] Makkal TV (576i) => Working
+[2026-09-22 16:45:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:56] [457/914] Malai Murasu TV => Working
+[2026-09-22 16:45:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:56] [458/914] Mango (India) => Working
+[2026-09-22 16:45:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:56] [459/914] Mango Mobile TV => Working
+[2026-09-22 16:45:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:57] [460/914] Manoranjan Grand => Working
+[2026-09-22 16:45:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:58] [461/914] Manoranjan Movies => Working
+[2026-09-22 16:45:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:59] [462/914] Manoranjan Prime => Working
+[2026-09-22 16:45:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:45:59] [463/914] Manoranjan TV => Working
+[2026-09-22 16:45:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:00] [464/914] Mantavya News => Working
+[2026-09-22 16:46:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:01] [465/914] Marutam TV => Working
+[2026-09-22 16:46:01] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:02] [466/914] Mastiii => Working
+[2026-09-22 16:46:02] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:02] [467/914] MBC Bollywood (1080p) => Working
+[2026-09-22 16:46:02] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:12] [468/914] MBC TV => Non-working
+[2026-09-22 16:46:12] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:13] [469/914] Media One => Working
+[2026-09-22 16:46:13] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:14] [470/914] MediBizTV => Working
+[2026-09-22 16:46:14] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:15] [471/914] Mei Alai TV => Working
+[2026-09-22 16:46:15] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:16] [472/914] Mercy TV (India) => Working
+[2026-09-22 16:46:16] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:17] [473/914] Metro TV (India) => Working
+[2026-09-22 16:46:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:17] [474/914] Mh 1 Music => Working
+[2026-09-22 16:46:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:18] [475/914] Mh 1 News => Working
+[2026-09-22 16:46:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:19] [476/914] Mh 1 Prime => Working
+[2026-09-22 16:46:19] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:19] [477/914] MH One Dil Se => Working
+[2026-09-22 16:46:19] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:20] [478/914] MH One Movies => Working
+[2026-09-22 16:46:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:21] [479/914] MH One Shraddha => Working
+[2026-09-22 16:46:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:21] [480/914] Mirror Now => Working
+[2026-09-22 16:46:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:22] [481/914] MK Six => Working
+[2026-09-22 16:46:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:22] [482/914] MNX => Working
+[2026-09-22 16:46:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:23] [483/914] Mojo TV => Working
+[2026-09-22 16:46:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:23] [484/914] Moon TV => Working
+[2026-09-22 16:46:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:24] [485/914] like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Entertainment",MTV (India) => Working
+[2026-09-22 16:46:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:24] [486/914] like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Entertainment",MTV (India) HD => Non-working
+[2026-09-22 16:46:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:25] [487/914] Munsif TV => Working
+[2026-09-22 16:46:25] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:25] [488/914] Music India => Working
+[2026-09-22 16:46:25] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:26] [489/914] Nagaland TV => Non-working
+[2026-09-22 16:46:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:27] [490/914] Nambikkai TV => Working
+[2026-09-22 16:46:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:28] [491/914] Namdhari TV (404p) => Working
+[2026-09-22 16:46:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:29] [492/914] Nandighosha TV => Working
+[2026-09-22 16:46:29] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:30] [493/914] Nation News => Working
+[2026-09-22 16:46:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:30] [494/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Documentary",National Geographic (Czech Republic) => Working
+[2026-09-22 16:46:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:31] [495/914] National Geographic (India) (576p) => Working
+[2026-09-22 16:46:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:31] [496/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Documentary",National Geographic Wild (Czech Republic) => Working
+[2026-09-22 16:46:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:31] [497/914] NDTV 24x7 => Working
+[2026-09-22 16:46:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:32] [498/914] NDTV Good Times => Working
+[2026-09-22 16:46:32] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:32] [499/914] NDTV India => Working
+[2026-09-22 16:46:32] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:32] [500/914] NDTV LANKA => Non-working
+[2026-09-22 16:46:32] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:33] [501/914] NDTV Madhya Pradesh Chhattisgarh => Working
+[2026-09-22 16:46:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:33] [502/914] NDTV Profit => Working
+[2026-09-22 16:46:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:34] [503/914] NDTV Rajasthan => Working
+[2026-09-22 16:46:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:34] [504/914] NE News => Working
+[2026-09-22 16:46:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:35] [505/914] Nepal 1 => Working
+[2026-09-22 16:46:35] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:36] [506/914] Network 10 => Working
+[2026-09-22 16:46:36] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:37] [507/914] News 1 India => Working
+[2026-09-22 16:46:37] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:37] [508/914] News 1st => Working
+[2026-09-22 16:46:37] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:37] [509/914] News9Live => Working
+[2026-09-22 16:46:37] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:38] [510/914] News 11 => Working
+[2026-09-22 16:46:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:39] [511/914] News18 Bihar Jharkhand => Working
+[2026-09-22 16:46:39] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:40] [512/914] News18 Delhi NCR JK => Working
+[2026-09-22 16:46:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:41] [513/914] News18 India => Working
+[2026-09-22 16:46:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:41] [514/914] News18 Madhya Pradesh/Chhattisgarh => Working
+[2026-09-22 16:46:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:41] [515/914] News18 Punjab/Haryana/Himachal => Working
+[2026-09-22 16:46:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:42] [516/914] News18 Rajasthan => Working
+[2026-09-22 16:46:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:43] [517/914] News18 Uttar Pradesh Uttarakhand => Working
+[2026-09-22 16:46:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:44] [518/914] News 24 (India) => Non-working
+[2026-09-22 16:46:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:44] [519/914] News 24 MP & Chhattisgarh => Working
+[2026-09-22 16:46:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:45] [520/914] News Capital Gujarat => Working
+[2026-09-22 16:46:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:46] [521/914] News Capital Market => Working
+[2026-09-22 16:46:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:46] [522/914] News Daily 24 => Working
+[2026-09-22 16:46:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:47] [523/914] News India 24x7 => Working
+[2026-09-22 16:46:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:48] [524/914] News J (720p) => Working
+[2026-09-22 16:46:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:49] [525/914] News Live => Working
+[2026-09-22 16:46:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:50] [526/914] News Nation 81 => Working
+[2026-09-22 16:46:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:50] [527/914] News Nation => Working
+[2026-09-22 16:46:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:52] [528/914] News State MP & CHG => Working
+[2026-09-22 16:46:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:54] [529/914] News State Punjab Haryana Himachal => Working
+[2026-09-22 16:46:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:46:55] [530/914] News State UP & UK => Working
+[2026-09-22 16:46:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:05] [531/914] NewsX => Non-working
+[2026-09-22 16:47:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:06] [532/914] NewsX World => Working
+[2026-09-22 16:47:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:08] [533/914] NH BollyFlix => Working
+[2026-09-22 16:47:08] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:08] [534/914] NH BollyGold => Working
+[2026-09-22 16:47:08] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:10] [535/914] NH BollyRaga => Working
+[2026-09-22 16:47:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:10] [536/914] Nick Jr. (Croatia) => Working
+[2026-09-22 16:47:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:10] [537/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nick Jr. (Czech Republic) => Working
+[2026-09-22 16:47:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:11] [538/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nick Jr. (Hungary) => Working
+[2026-09-22 16:47:11] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:11] [539/914] Nick Jr. (India) => Working
+[2026-09-22 16:47:11] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:12] [540/914] Nick Jr. (Israel) => Working
+[2026-09-22 16:47:12] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:12] [541/914] Nick Jr. (Italy) => Working
+[2026-09-22 16:47:12] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:12] [542/914] Nick Jr. (Russia) => Working
+[2026-09-22 16:47:12] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:13] [543/914] Nick Jr. (United States) => Working
+[2026-09-22 16:47:13] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:13] [544/914] Nick Jr. Asia => Non-working
+[2026-09-22 16:47:13] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:17] [545/914] Nick Jr. Asia HD => Non-working
+[2026-09-22 16:47:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:18] [546/914] Nick Jr. Club (Germany) => Non-working
+[2026-09-22 16:47:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:19] [547/914] Nick Jr. Club (United States) BR => Non-working
+[2026-09-22 16:47:19] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:19] [548/914] Nick Jr. Club (United States) LatAm => Non-working
+[2026-09-22 16:47:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:20] [549/914] Nick Jr. Pluto TV => Non-working
+[2026-09-22 16:47:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:21] [550/914] Nick Jr. Pluto TV CA => Non-working
+[2026-09-22 16:47:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:21] [551/914] Nickelodeon (Brazil) => Working
+[2026-09-22 16:47:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:31] [552/914] Nickelodeon (Bulgaria) => Non-working
+[2026-09-22 16:47:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:33] [553/914] Nickelodeon (Croatia) => Working
+[2026-09-22 16:47:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:33] [554/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (Czech Republic) => Working
+[2026-09-22 16:47:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:34] [555/914] Nickelodeon (Germany) => Working
+[2026-09-22 16:47:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:34] [556/914] like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (Hungary) => Working
+[2026-09-22 16:47:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:34] [557/914] Nickelodeon (India) => Working
+[2026-09-22 16:47:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:35] [558/914] like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Kids",Nickelodeon (Romania) => Non-working
+[2026-09-22 16:47:35] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:35] [559/914] Nickelodeon (Russia) => Working
+[2026-09-22 16:47:35] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:45] [560/914] Nickelodeon (United Kingdom) => Non-working
+[2026-09-22 16:47:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:45] [561/914] Nickelodeon (United States) => Working
+[2026-09-22 16:47:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:45] [562/914] Nickelodeon Asia => Non-working
+[2026-09-22 16:47:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:47] [563/914] Nickelodeon CIS => Working
+[2026-09-22 16:47:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:48] [564/914] Nickelodeon Clasico => Non-working
+[2026-09-22 16:47:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:48] [565/914] Nickelodeon Classico => Non-working
+[2026-09-22 16:47:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:49] [566/914] Nickelodeon Classics => Non-working
+[2026-09-22 16:47:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:49] [567/914] Nickelodeon en espanol => Non-working
+[2026-09-22 16:47:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:50] [568/914] Nickelodeon Junior => Working
+[2026-09-22 16:47:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:50] [569/914] Nickelodeon Latin America => Working
+[2026-09-22 16:47:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:50] [570/914] Nickelodeon Pluto TV => Non-working
+[2026-09-22 16:47:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:50] [571/914] Nickelodeon Teen (Germany) => Non-working
+[2026-09-22 16:47:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:51] [572/914] Nickelodeon Teen (United States) => Non-working
+[2026-09-22 16:47:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:51] [573/914] Nickelodeon Teen (United States) LatAm => Non-working
+[2026-09-22 16:47:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:52] [574/914] Nickelodeon Toons (Germany) => Non-working
+[2026-09-22 16:47:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:52] [575/914] Nickelodeon Toons (United States) => Non-working
+[2026-09-22 16:47:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:53] [576/914] Nickelodeon Toons (United States) LatAm => Non-working
+[2026-09-22 16:47:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:53] [577/914] NickOnline HD => Non-working
+[2026-09-22 16:47:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:54] [578/914] NickOnline Bob Esponja (720p) => Non-working
+[2026-09-22 16:47:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:54] [579/914] Nicktoons (Czech Republic) => Working
+[2026-09-22 16:47:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:54] [580/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nicktoons (Hungary) => Working
+[2026-09-22 16:47:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:55] [581/914] like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Kids",Nicktoons (Romania) => Non-working
+[2026-09-22 16:47:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:55] [582/914] Nicktoons (United States) => Working
+[2026-09-22 16:47:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:55] [583/914] Nicktoons (United States) CA => Non-working
+[2026-09-22 16:47:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:55] [584/914] like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Animation;Kids",NickToons Brasil => Working
+[2026-09-22 16:47:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:57] [585/914] Nicktoons CIS => Working
+[2026-09-22 16:47:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:57] [586/914] Nireekshana TV => Working
+[2026-09-22 16:47:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:47:59] [587/914] NK TV 24x7 => Working
+[2026-09-22 16:47:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:00] [588/914] like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" group-title="News",Northeast Live => Working
+[2026-09-22 16:48:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:00] [589/914] NSC9 News => Working
+[2026-09-22 16:48:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:02] [590/914] NTC TV => Working
+[2026-09-22 16:48:02] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:02] [591/914] Odisha TV => Working
+[2026-09-22 16:48:02] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:03] [592/914] Oli TV (India) => Working
+[2026-09-22 16:48:03] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:04] [593/914] OM TV => Working
+[2026-09-22 16:48:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:04] [594/914] Omroep Zeeland => Working
+[2026-09-22 16:48:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:04] [595/914] Onda TV (Dominican Republic) => Working
+[2026-09-22 16:48:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:05] [596/914] One Paschima => Working
+[2026-09-22 16:48:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:15] [597/914] Only Bharat => Non-working
+[2026-09-22 16:48:15] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:16] [598/914] Oscar Movies Bhojpuri => Working
+[2026-09-22 16:48:16] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:17] [599/914] Paras Gold => Working
+[2026-09-22 16:48:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:17] [600/914] Pardesi TV => Working
+[2026-09-22 16:48:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:17] [601/914] Pasand TV => Working
+[2026-09-22 16:48:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:17] [602/914] Peace of Mind TV => Working
+[2026-09-22 16:48:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:18] [603/914] Pear TV => Working
+[2026-09-22 16:48:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:19] [604/914] Peppers TV => Working
+[2026-09-22 16:48:19] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:19] [605/914] Pitaara => Working
+[2026-09-22 16:48:19] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:20] [606/914] Pocket Films => Working
+[2026-09-22 16:48:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:21] [607/914] Polar TV (Czech Republic) => Working
+[2026-09-22 16:48:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:22] [608/914] like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" group-title="News",Power TV (India) => Working
+[2026-09-22 16:48:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:23] [609/914] Powervision TV => Working
+[2026-09-22 16:48:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:23] [610/914] Prag News => Working
+[2026-09-22 16:48:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:24] [611/914] Prameya News7 => Working
+[2026-09-22 16:48:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:25] [612/914] Prarthana Bhawan TV => Working
+[2026-09-22 16:48:25] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:26] [613/914] Prarthana TV => Working
+[2026-09-22 16:48:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:26] [614/914] Pratham Khabar 24x7 => Working
+[2026-09-22 16:48:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:27] [615/914] Pratidin Time => Working
+[2026-09-22 16:48:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:28] [616/914] Pravasi Channel => Working
+[2026-09-22 16:48:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:28] [617/914] Prima (Czech Republic) => Working
+[2026-09-22 16:48:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:29] [618/914] Prime9 News => Working
+[2026-09-22 16:48:29] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:30] [619/914] Prime News => Working
+[2026-09-22 16:48:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:30] [620/914] Prudent Media => Working
+[2026-09-22 16:48:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:31] [621/914] PTC Chakde => Working
+[2026-09-22 16:48:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:31] [622/914] PTC Music => Working
+[2026-09-22 16:48:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:32] [623/914] PTC News => Working
+[2026-09-22 16:48:32] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:33] [624/914] PTC Simran => Working
+[2026-09-22 16:48:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:37] [625/914] PTV Sports => Non-working
+[2026-09-22 16:48:37] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:38] [626/914] Public Movies => Working
+[2026-09-22 16:48:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:39] [627/914] Public Music => Working
+[2026-09-22 16:48:39] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:40] [628/914] Public TV => Working
+[2026-09-22 16:48:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:40] [629/914] Pudhari News => Working
+[2026-09-22 16:48:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:41] [630/914] Pulari TV => Working
+[2026-09-22 16:48:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:42] [631/914] Puthuyugam TV => Working
+[2026-09-22 16:48:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:43] [632/914] Q TV => Working
+[2026-09-22 16:48:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:44] [633/914] R Plus => Working
+[2026-09-22 16:48:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:44] [634/914] R Plus Gold => Working
+[2026-09-22 16:48:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:45] [635/914] Raftaar Media => Working
+[2026-09-22 16:48:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:47] [636/914] Raj Digital Plus => Working
+[2026-09-22 16:48:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:48] [637/914] Raj TV => Working
+[2026-09-22 16:48:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:48] [638/914] Ramdhenu => Working
+[2026-09-22 16:48:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:49] [639/914] Rang => Working
+[2026-09-22 16:48:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:50] [640/914] RDX Goa (720p) => Non-working
+[2026-09-22 16:48:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:51] [641/914] Real News Kerala (1080p) => Working
+[2026-09-22 16:48:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:52] [642/914] Rengoni => Working
+[2026-09-22 16:48:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:52] [643/914] Reporter TV => Working
+[2026-09-22 16:48:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:52] [644/914] Republic Bharat => Working
+[2026-09-22 16:48:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:52] [645/914] Republic TV => Working
+[2026-09-22 16:48:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:52] [646/914] Republica TV => Working
+[2026-09-22 16:48:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:53] [647/914] Rongeen TV => Working
+[2026-09-22 16:48:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:54] [648/914] Rozana Spokesman => Working
+[2026-09-22 16:48:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:55] [649/914] RT India => Working
+[2026-09-22 16:48:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:56] [650/914] Saam TV => Working
+[2026-09-22 16:48:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:56] [651/914] Sach Bedhadak => Working
+[2026-09-22 16:48:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:56] [652/914] SADA TV (1080p) => Working
+[2026-09-22 16:48:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:57] [653/914] Sadhna => Working
+[2026-09-22 16:48:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:58] [654/914] Sadhna News Madhya Pradesh/Chhattisgarh => Working
+[2026-09-22 16:48:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:59] [655/914] Sadhna Plus News => Working
+[2026-09-22 16:48:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:48:59] [656/914] Sadhna TV => Working
+[2026-09-22 16:48:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:00] [657/914] Safari TV => Working
+[2026-09-22 16:49:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:01] [658/914] Sahana News => Working
+[2026-09-22 16:49:01] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:02] [659/914] Sai TV => Working
+[2026-09-22 16:49:02] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:03] [660/914] Sairam TV => Working
+[2026-09-22 16:49:03] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:03] [661/914] Sakshi TV => Working
+[2026-09-22 16:49:03] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:04] [662/914] Salaam TV => Working
+[2026-09-22 16:49:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:04] [663/914] Salvation TV (India) => Working
+[2026-09-22 16:49:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:05] [664/914] Samachar Plus 24x7 => Working
+[2026-09-22 16:49:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:06] [665/914] Samay Kolkata => Working
+[2026-09-22 16:49:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:07] [666/914] Sana Plus => Working
+[2026-09-22 16:49:07] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:07] [667/914] Sana TV => Working
+[2026-09-22 16:49:07] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:08] [668/914] Sandesh News => Working
+[2026-09-22 16:49:08] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:08] [669/914] Sangeet Bhojpuri => Working
+[2026-09-22 16:49:09] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:09] [670/914] Sankara TV => Working
+[2026-09-22 16:49:09] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:13] [671/914] Sansad TV 1 => Non-working
+[2026-09-22 16:49:13] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:14] [672/914] Sansad TV 1 HD => Working
+[2026-09-22 16:49:14] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:14] [673/914] Sansad TV 2 => Working
+[2026-09-22 16:49:14] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:15] [674/914] Sansad TV 2 HD => Working
+[2026-09-22 16:49:15] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:16] [675/914] Sanskar TV => Working
+[2026-09-22 16:49:16] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:16] [676/914] Sanskar UK => Working
+[2026-09-22 16:49:16] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:17] [677/914] Sanskar USA => Working
+[2026-09-22 16:49:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:18] [678/914] Sanskar Web TV => Working
+[2026-09-22 16:49:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:18] [679/914] Santvani Channel => Working
+[2026-09-22 16:49:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:19] [680/914] Sarv Dharam Sangam => Working
+[2026-09-22 16:49:19] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:19] [681/914] Sarv Dharm Sangam => Working
+[2026-09-22 16:49:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:20] [682/914] Sathiyam TV => Working
+[2026-09-22 16:49:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:21] [683/914] Satsang TV => Working
+[2026-09-22 16:49:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:21] [684/914] Satsang Web TV => Working
+[2026-09-22 16:49:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:25] [685/914] like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Sports",Setanta Sports 1 => Non-working
+[2026-09-22 16:49:25] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:26] [686/914] like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Sports",Setanta Sports 1 Eurasia => Working
+[2026-09-22 16:49:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:30] [687/914] like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Sports",Setanta Sports 2 => Non-working
+[2026-09-22 16:49:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:30] [688/914] like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Sports",Setanta Sports 2 Eurasia => Non-working
+[2026-09-22 16:49:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:34] [689/914] like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Sports",Setanta Sports 3 => Non-working
+[2026-09-22 16:49:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:34] [690/914] like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Sports",Setanta Sports => Non-working
+[2026-09-22 16:49:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:35] [691/914] like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Sports",Setanta Sports HD => Working
+[2026-09-22 16:49:35] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:36] [692/914] like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Sports",Setanta Sports+ Ukraine => Non-working
+[2026-09-22 16:49:36] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:36] [693/914] Shalom => Working
+[2026-09-22 16:49:36] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:36] [694/914] Shalom Global => Working
+[2026-09-22 16:49:36] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:37] [695/914] Sharnam TV => Working
+[2026-09-22 16:49:37] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:37] [696/914] Shekinah TV => Working
+[2026-09-22 16:49:37] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:38] [697/914] Shemaroo Bollywood => Working
+[2026-09-22 16:49:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:38] [698/914] Shemaroo Filmi Gaane => Non-working
+[2026-09-22 16:49:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:39] [699/914] Shemaroo Josh => Working
+[2026-09-22 16:49:39] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:40] [700/914] Shemaroo TV => Working
+[2026-09-22 16:49:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:40] [701/914] Shemaroo Umang => Working
+[2026-09-22 16:49:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:41] [702/914] Shubh Cinema TV => Working
+[2026-09-22 16:49:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:42] [703/914] Shubh TV => Working
+[2026-09-22 16:49:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:42] [704/914] Shubhsandesh TV => Working
+[2026-09-22 16:49:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:43] [705/914] Siembra TV (Dominican Republic) => Working
+[2026-09-22 16:49:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:43] [706/914] Sirippoli TV => Working
+[2026-09-22 16:49:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:43] [707/914] Sky Sports Cricket (Ireland) => Non-working
+[2026-09-22 16:49:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:44] [708/914] Sky Sports Cricket (United Kingdom) HD => Working
+[2026-09-22 16:49:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:45] [709/914] Soham TV => Working
+[2026-09-22 16:49:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:45] [710/914] Songdew TV => Working
+[2026-09-22 16:49:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:45] [711/914] Sonic => Working
+[2026-09-22 16:49:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:45] [712/914] Sony Aath => Working
+[2026-09-22 16:49:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:46] [713/914] Sony BBC Earth HD => Working
+[2026-09-22 16:49:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:46] [714/914] Sony Entertainment Television HD => Working
+[2026-09-22 16:49:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:46] [715/914] Sony KAL Hindi => Working
+[2026-09-22 16:49:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:46] [716/914] Sony Max 2 => Working
+[2026-09-22 16:49:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:46] [717/914] Sony Max => Working
+[2026-09-22 16:49:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:46] [718/914] Sony Max HD => Working
+[2026-09-22 16:49:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:46] [719/914] Sony Pal => Working
+[2026-09-22 16:49:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:46] [720/914] Sony Pix HD => Working
+[2026-09-22 16:49:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:46] [721/914] Sony SAB HD => Working
+[2026-09-22 16:49:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:46] [722/914] Sony Sports Ten 1 => Working
+[2026-09-22 16:49:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:47] [723/914] Sony Sports Ten 1 HD => Working
+[2026-09-22 16:49:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:47] [724/914] Sony Sports Ten 2 => Working
+[2026-09-22 16:49:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:47] [725/914] Sony Sports Ten 2 HD => Working
+[2026-09-22 16:49:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:47] [726/914] Sony Sports Ten 3 Hindi => Working
+[2026-09-22 16:49:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:47] [727/914] Sony Sports Ten 3 Hindi HD => Working
+[2026-09-22 16:49:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:47] [728/914] Sony Sports Ten 4 => Working
+[2026-09-22 16:49:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:47] [729/914] Sony Sports Ten 5 => Working
+[2026-09-22 16:49:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:47] [730/914] Sony Sports Ten 5 HD => Working
+[2026-09-22 16:49:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:48] [731/914] Sony Wah => Working
+[2026-09-22 16:49:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:48] [732/914] Sony Yay! => Working
+[2026-09-22 16:49:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:48] [733/914] South Station => Working
+[2026-09-22 16:49:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:50] [734/914] Spektrum (Czech Republic) => Working
+[2026-09-22 16:49:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:51] [735/914] Spektrum Home (Czech Republic) => Working
+[2026-09-22 16:49:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:52] [736/914] Spondon => Working
+[2026-09-22 16:49:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:53] [737/914] Star Gold 2 => Working
+[2026-09-22 16:49:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:53] [738/914] Star Jalsha (576p) => Working
+[2026-09-22 16:49:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:54] [739/914] Star Jalsha HD => Working
+[2026-09-22 16:49:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:54] [740/914] Star Pravah HD => Working
+[2026-09-22 16:49:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:54] [741/914] Star Sports 2 HD => Working
+[2026-09-22 16:49:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:55] [742/914] Star Sports 2 Hindi => Working
+[2026-09-22 16:49:55] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:56] [743/914] Star Sports 2 Telugu HD => Working
+[2026-09-22 16:49:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:57] [744/914] Star Sports Select 2 HD => Working
+[2026-09-22 16:49:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:58] [745/914] Starnet => Non-working
+[2026-09-22 16:49:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:58] [746/914] StarPlus HD (1080i) => Non-working
+[2026-09-22 16:49:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:49:59] [747/914] Steelbird Music (720p) => Working
+[2026-09-22 16:49:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:00] [748/914] Studio One + => Working
+[2026-09-22 16:50:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:00] [749/914] Studio Yuva => Working
+[2026-09-22 16:50:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:02] [750/914] Subhavaartha TV => Working
+[2026-09-22 16:50:02] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:03] [751/914] Subin TV => Working
+[2026-09-22 16:50:03] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:04] [752/914] Sudarshan News => Working
+[2026-09-22 16:50:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:04] [753/914] Super Canal (Dominican Republic) (1080p) => Working
+[2026-09-22 16:50:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:04] [754/914] Super Hungama => Working
+[2026-09-22 16:50:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:05] [755/914] Suriya TV => Working
+[2026-09-22 16:50:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:06] [756/914] Suriyan TV => Working
+[2026-09-22 16:50:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:06] [757/914] Suvarna News SD => Working
+[2026-09-22 16:50:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:08] [758/914] SVBC 2 => Working
+[2026-09-22 16:50:08] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:08] [759/914] SVBC 3 => Working
+[2026-09-22 16:50:09] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:09] [760/914] SVBC 4 => Working
+[2026-09-22 16:50:09] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:10] [761/914] SVBC => Working
+[2026-09-22 16:50:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:11] [762/914] Swadesh News => Working
+[2026-09-22 16:50:11] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:11] [763/914] Swaraj Express SMBC => Working
+[2026-09-22 16:50:11] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:12] [764/914] Swastik TV => Working
+[2026-09-22 16:50:12] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:13] [765/914] Swatantra TV => Working
+[2026-09-22 16:50:13] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:14] [766/914] T News => Working
+[2026-09-22 16:50:14] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:14] [767/914] T Sports 7 => Working
+[2026-09-22 16:50:14] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:15] [768/914] T Sports => Non-working
+[2026-09-22 16:50:15] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:17] [769/914] Taaza TV => Working
+[2026-09-22 16:50:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:18] [770/914] Tabbar Hits => Working
+[2026-09-22 16:50:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:18] [771/914] Tarang Music => Working
+[2026-09-22 16:50:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:19] [772/914] Tarang TV => Working
+[2026-09-22 16:50:19] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:20] [773/914] TeenNick (Israel) => Working
+[2026-09-22 16:50:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:30] [774/914] TeenNick (United States) => Non-working
+[2026-09-22 16:50:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:30] [775/914] Tehzeeb TV => Working
+[2026-09-22 16:50:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:31] [776/914] Telecentro (Dominican Republic) => Non-working
+[2026-09-22 16:50:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:31] [777/914] Telefuturo (Dominican Republic) (480p) => Working
+[2026-09-22 16:50:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:31] [778/914] Telemax (Dominican Republic) (1080p) => Working
+[2026-09-22 16:50:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:31] [779/914] Televida (Dominican Republic) (1080p) => Working
+[2026-09-22 16:50:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:32] [780/914] Thalaa TV => Working
+[2026-09-22 16:50:32] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:32] [781/914] The Design Network => Working
+[2026-09-22 16:50:32] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:33] [782/914] The Jungle Book => Working
+[2026-09-22 16:50:33] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:34] [783/914] The Movie Club => Working
+[2026-09-22 16:50:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:34] [784/914] The Movie Club +2 => Working
+[2026-09-22 16:50:34] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:35] [785/914] The Pet Collective India => Working
+[2026-09-22 16:50:35] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:39] [786/914] like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Undefined",The Q India => Non-working
+[2026-09-22 16:50:39] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:39] [787/914] The Voice TV => Working
+[2026-09-22 16:50:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:40] [788/914] Thendral TV => Working
+[2026-09-22 16:50:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:40] [789/914] Times Now (720p) => Non-working
+[2026-09-22 16:50:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:40] [790/914] Times Now Navbharat => Working
+[2026-09-22 16:50:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:40] [791/914] Times Now Navbharat HD => Working
+[2026-09-22 16:50:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:41] [792/914] TNP News => Non-working
+[2026-09-22 16:50:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:42] [793/914] TOI Global => Working
+[2026-09-22 16:50:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:43] [794/914] Tolly TV => Working
+[2026-09-22 16:50:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:43] [795/914] Total Bhakti => Working
+[2026-09-22 16:50:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:44] [796/914] Total TV Haryana => Working
+[2026-09-22 16:50:44] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:45] [797/914] Trace Urban Caribbean And Indian Ocean => Working
+[2026-09-22 16:50:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:45] [798/914] Travelxp 4K HDR (2160p) => Non-working
+[2026-09-22 16:50:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:45] [799/914] Travelxp HD (1080p) => Working
+[2026-09-22 16:50:45] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:46] [800/914] Travelxp Russia => Working
+[2026-09-22 16:50:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:46] [801/914] TV5 News => Working
+[2026-09-22 16:50:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:46] [802/914] TV9 Bharatvarsh => Working
+[2026-09-22 16:50:46] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:47] [803/914] TV27 News => Working
+[2026-09-22 16:50:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:48] [804/914] TV30 India => Working
+[2026-09-22 16:50:48] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:49] [805/914] TV45 => Working
+[2026-09-22 16:50:49] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:50] [806/914] TV BRICS English => Working
+[2026-09-22 16:50:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:50] [807/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Lifestyle;Travel",TV Paprika (Czech Republic) => Working
+[2026-09-22 16:50:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:50] [808/914] TVN (Dominican Republic) (1080p) => Working
+[2026-09-22 16:50:50] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:51] [809/914] TVS (Dominican Republic) (540p) => Working
+[2026-09-22 16:50:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:52] [810/914] Ultimate TV => Working
+[2026-09-22 16:50:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:53] [811/914] Unique TV => Working
+[2026-09-22 16:50:53] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:54] [812/914] like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Sports",Unite8 Sports 2 => Working
+[2026-09-22 16:50:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:54] [813/914] Utsav Bharat => Working
+[2026-09-22 16:50:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:54] [814/914] Utsav Plus => Working
+[2026-09-22 16:50:54] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:57] [815/914] UTV (Czech Republic) => Working
+[2026-09-22 16:50:57] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:57] [816/914] UTV Palakkad => Working
+[2026-09-22 16:50:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:58] [817/914] V6 News => Working
+[2026-09-22 16:50:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:58] [818/914] Vaanavil TV => Working
+[2026-09-22 16:50:58] SAVE OK | src=11 | cand=914
+[2026-09-22 16:50:59] [819/914] Vanitha TV => Working
+[2026-09-22 16:50:59] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:00] [820/914] Vasanth TV => Working
+[2026-09-22 16:51:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:00] [821/914] VCV (720p) => Working
+[2026-09-22 16:51:00] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:01] [822/914] Vedic => Working
+[2026-09-22 16:51:01] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:02] [823/914] Velicham TV => Working
+[2026-09-22 16:51:02] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:03] [824/914] Vendhar TV => Working
+[2026-09-22 16:51:03] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:03] [825/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Series",Viasat Epic Drama Czechia => Working
+[2026-09-22 16:51:03] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:03] [826/914] like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Series",Viasat Epic Drama Romania => Non-working
+[2026-09-22 16:51:03] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:03] [827/914] Viasat Epic Drama Ukraine => Working
+[2026-09-22 16:51:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:04] [828/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Documentary",Viasat Explore (Czech Republic) => Working
+[2026-09-22 16:51:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:04] [829/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Documentary",Viasat History (Czech Republic) => Working
+[2026-09-22 16:51:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:04] [830/914] like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Documentary",Viasat Nature (Czech Republic) => Working
+[2026-09-22 16:51:04] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:05] [831/914] Vijay Takkar APAC => Working
+[2026-09-22 16:51:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:05] [832/914] Village TV => Working
+[2026-09-22 16:51:05] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:06] [833/914] VIP News => Non-working
+[2026-09-22 16:51:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:06] [834/914] Vision (India) => Working
+[2026-09-22 16:51:06] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:07] [835/914] Vissa TV => Working
+[2026-09-22 16:51:07] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:07] [836/914] Vistaar News => Working
+[2026-09-22 16:51:07] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:09] [837/914] VR Live => Working
+[2026-09-22 16:51:09] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:09] [838/914] VTU => Working
+[2026-09-22 16:51:09] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:10] [839/914] VTV News => Working
+[2026-09-22 16:51:10] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:14] [840/914] Vyas Channel => Non-working
+[2026-09-22 16:51:14] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:15] [841/914] WeatherSpy (India) => Working
+[2026-09-22 16:51:15] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:15] [842/914] Willow => Non-working
+[2026-09-22 16:51:15] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:15] [843/914] Willow Sports => Working
+[2026-09-22 16:51:15] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:16] [844/914] Win TV => Working
+[2026-09-22 16:51:16] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:17] [845/914] WION => Working
+[2026-09-22 16:51:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:17] [846/914] WOW Kidz => Working
+[2026-09-22 16:51:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:17] [847/914] YET Max => Working
+[2026-09-22 16:51:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:17] [848/914] YET TV => Working
+[2026-09-22 16:51:17] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:18] [849/914] YRF Music => Working
+[2026-09-22 16:51:18] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:19] [850/914] Zainabia Channel => Working
+[2026-09-22 16:51:19] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:20] [851/914] ZB Bhakti => Working
+[2026-09-22 16:51:20] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:21] [852/914] ZB Cartoon => Working
+[2026-09-22 16:51:21] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:22] [853/914] ZB Music => Working
+[2026-09-22 16:51:22] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:23] [854/914] Zee 24 Ghanta => Working
+[2026-09-22 16:51:23] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:24] [855/914] Zee 24 Kalak => Working
+[2026-09-22 16:51:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:24] [856/914] Zee 24 Taas => Working
+[2026-09-22 16:51:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:24] [857/914] Zee Action => Working
+[2026-09-22 16:51:24] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:25] [858/914] Zee Bharat => Working
+[2026-09-22 16:51:25] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:25] [859/914] Zee Bihar Jharkhand => Working
+[2026-09-22 16:51:25] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:25] [860/914] Zee Business => Working
+[2026-09-22 16:51:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:26] [861/914] Zee Cine Classic => Non-working
+[2026-09-22 16:51:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:26] [862/914] Zee Cinema => Working
+[2026-09-22 16:51:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:26] [863/914] Zee Cinema APAC => Working
+[2026-09-22 16:51:26] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:27] [864/914] Zee Cinemalu HD => Non-working
+[2026-09-22 16:51:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:27] [865/914] Zee Classic => Working
+[2026-09-22 16:51:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:27] [866/914] Zee Comedy Nation => Non-working
+[2026-09-22 16:51:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:27] [867/914] Zee Delhi NCR Haryana => Working
+[2026-09-22 16:51:27] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:28] [868/914] Zee Dil Se => Non-working
+[2026-09-22 16:51:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:28] [869/914] Zee Horror Nights => Non-working
+[2026-09-22 16:51:28] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:28] [870/914] Zee Madhya Pradesh Chhattisgarh => Working
+[2026-09-22 16:51:29] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:29] [871/914] Zee News => Working
+[2026-09-22 16:51:29] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:29] [872/914] Zee Nung (1080p) => Non-working
+[2026-09-22 16:51:29] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:29] [873/914] Zee One => Working
+[2026-09-22 16:51:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:30] [874/914] Zee One French => Working
+[2026-09-22 16:51:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:30] [875/914] Zee One German => Working
+[2026-09-22 16:51:30] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:31] [876/914] Zee Punjab Haryana Himachal => Working
+[2026-09-22 16:51:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:31] [877/914] Zee Rajasthan => Working
+[2026-09-22 16:51:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:31] [878/914] Zee South Flix => Non-working
+[2026-09-22 16:51:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:31] [879/914] Zee Talkies => Working
+[2026-09-22 16:51:31] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:32] [880/914] Zee TV HD (720p) => Working
+[2026-09-22 16:51:32] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:32] [881/914] Zee TV Asia Pacific => Working
+[2026-09-22 16:51:32] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:32] [882/914] Zee Uttar Pradesh/Uttarakhand => Working
+[2026-09-22 16:51:32] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:36] [883/914] Zee Zest HD => Non-working
+[2026-09-22 16:51:36] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:37] [884/914] ZillarBarta News => Working
+[2026-09-22 16:51:37] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:38] [885/914] Zing! => Working
+[2026-09-22 16:51:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:38] [886/914] Zoom (India) => Working
+[2026-09-22 16:51:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:38] [887/914] Apna Punjab TV => Working
+[2026-09-22 16:51:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:38] [888/914] Gaunda Punjab TV => Working
+[2026-09-22 16:51:38] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:39] [889/914] Hamdard TV => Working
+[2026-09-22 16:51:39] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:39] [890/914] Hyder TV => Working
+[2026-09-22 16:51:39] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:40] [891/914] INFAST => Working
+[2026-09-22 16:51:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:40] [892/914] INWILD => Working
+[2026-09-22 16:51:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:40] [893/914] InWonder => Working
+[2026-09-22 16:51:40] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:41] [894/914] Mr Bean Animated => Working
+[2026-09-22 16:51:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:41] [895/914] Qello Concerts by Stingray => Working
+[2026-09-22 16:51:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:41] [896/914] Stingray Classic Rock => Working
+[2026-09-22 16:51:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:41] [897/914] Stingray DJAZZ => Working
+[2026-09-22 16:51:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:41] [898/914] Stingray Easy Listening => Working
+[2026-09-22 16:51:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:41] [899/914] Stingray Naturescape => Working
+[2026-09-22 16:51:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:41] [900/914] Stingray The Spa => Working
+[2026-09-22 16:51:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:41] [901/914] Stingray Today's K-Pop => Working
+[2026-09-22 16:51:41] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:42] [902/914] TV Punjab (720p) => Working
+[2026-09-22 16:51:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:42] [903/914] Diya TV => Working
+[2026-09-22 16:51:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:42] [904/914] God Stands TV Hindi => Working
+[2026-09-22 16:51:42] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:43] [905/914] GurSikh Sabha TV (720p) => Working
+[2026-09-22 16:51:43] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:47] [906/914] Jus Hindi => Non-working
+[2026-09-22 16:51:47] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:51] [907/914] Jus One => Non-working
+[2026-09-22 16:51:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:51] [908/914] Kanshi TV (720p) => Working
+[2026-09-22 16:51:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:51] [909/914] LLBN TV South Asia => Working
+[2026-09-22 16:51:51] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:52] [910/914] MTA2 Europe => Working
+[2026-09-22 16:51:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:52] [911/914] MTA7 Asia => Working
+[2026-09-22 16:51:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:52] [912/914] TAG TV (1080p) => Working
+[2026-09-22 16:51:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:52] [913/914] Trishul Broadcasting Network (720p) => Working
+[2026-09-22 16:51:52] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:56] [914/914] TV2 (Malaysia) => Non-working
+[2026-09-22 16:51:56] SAVE OK | src=11 | cand=914
+[2026-09-22 16:51:56] SAVE OK | src=11 | cand=914

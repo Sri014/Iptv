@@ -1,171 +1,163 @@
 #EXTM3U
-#EXTINF:-1 group-title="Movie" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",&TV HD
+#EXTINF:-1 group-title="Movie" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",&TV HD
 http://202.70.146.135:8000/play/a06c/index.m3u8
-#EXTINF:-1 group-title="Movie" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",&TV International
+#EXTINF:-1 group-title="Movie" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",&TV International
 https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8
-#EXTINF:-1 group-title="Movie" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png",&xplor HD (1080p)
-http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=209743&extension=ts&play_token=mR7FwO88sY
-#EXTINF:-1 group-title="News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png",Aaj Tak
+#EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png",Aaj Tak
 http://103.213.31.109:90/AajtakHD/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/IqgrV92.png",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Religious",Aastha
+#EXTINF:-1 group-title="Devotional" tvg-language="Hindi" tvg-logo="https://i.imgur.com/IqgrV92.png",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Religious",Aastha
 http://103.175.73.12:8080/live/338/master.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/IqgrV92.png",Aastha HD
-https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://dtil.tmsimg.com/assets/s142514_ld_h15_aa.png?lock=720x540",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Religious",Aastha Bhajan
+#EXTINF:-1 group-title="Devotional" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s142514_ld_h15_aa.png?lock=720x540",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Religious",Aastha Bhajan
 http://103.175.73.12:8080/live/339/master.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/LyWSMJS.png",Aastha Prime 1
-https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Calcutta%20News.png",AKD Calcutta News
+#EXTINF:-1 group-title="News" tvg-language="Bengali" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Calcutta%20News.png",AKD Calcutta News
 https://live.legitpro.co.in/cnnnews/index.m3u8
-#EXTINF:-1 group-title="Movie" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALL_TIME_MOVIES/images/LOGO_HD/image.png",All Time Movies
-https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV
+#EXTINF:-1 group-title="Devotional" tvg-language="Tamil" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV
 https://janya-digimix.akamaized.net/vglive-sk-394914/india/ngrp:angelindia_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Africa
+#EXTINF:-1 group-title="Devotional" tvg-language="English" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Africa
 https://janya-digimix.akamaized.net/vglive-sk-904559/africa/ngrp:angelafrica_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV America
+#EXTINF:-1 group-title="Devotional" tvg-language="Tamil" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV America
 https://janya-digimix.akamaized.net/vglive-sk-374850/america/ngrp:angelamerica_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Arabia
+#EXTINF:-1 group-title="Devotional" tvg-language="English" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Arabia
 https://janya-digimix.akamaized.net/vglive-sk-213167/arabia/ngrp:angelarabia_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Australia
+#EXTINF:-1 group-title="Devotional" tvg-language="English" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Australia
 https://janya-digimix.akamaized.net/vglive-sk-310787/australia/ngrp:angelaustralia_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Chinese
+#EXTINF:-1 group-title="Devotional" tvg-language="Unknown" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Chinese
 https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Europe
+#EXTINF:-1 group-title="Devotional" tvg-language="English" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Europe
 https://janya-digimix.akamaized.net/vglive-sk-512011/europe/ngrp:angeleurope_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV FarEast
+#EXTINF:-1 group-title="Devotional" tvg-language="English" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV FarEast
 https://janya-digimix.akamaized.net/vglive-sk-438760/fareast/ngrp:angelfareast_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Hebrew
+#EXTINF:-1 group-title="Devotional" tvg-language="Unknown" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Hebrew
 https://janya-digimix.akamaized.net/vglive-sk-150533/hebrew/ngrp:angelhebrew_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Indo-China
+#EXTINF:-1 group-title="Devotional" tvg-language="Tamil" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Indo-China
 https://janya-digimix.akamaized.net/vglive-sk-703035/indochina/ngrp:angelindochina_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Indonesia
+#EXTINF:-1 group-title="Devotional" tvg-language="Tamil" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Indonesia
 https://janya-digimix.akamaized.net/vglive-sk-234616/indonesia/ngrp:angelindonesia_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Nepal
+#EXTINF:-1 group-title="Devotional" tvg-language="Nepali" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Nepal
 https://janya-digimix.akamaized.net/vglive-sk-109639/nepali/ngrp:angelnepali_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Portuguese
+#EXTINF:-1 group-title="Devotional" tvg-language="Unknown" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Portuguese
 https://janya-digimix.akamaized.net/vglive-sk-382409/portuese/ngrp:angelportuguese_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Russian
+#EXTINF:-1 group-title="Devotional" tvg-language="Unknown" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Russian
 https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Spanish
+#EXTINF:-1 group-title="Devotional" tvg-language="Unknown" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Spanish
 https://janya-digimix.akamaized.net/vglive-sk-351398/spanish/ngrp:angelspanish_all/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://dtil.tmsimg.com/assets/s142649_ld_h9_aa.png?lock=720x540",Aradana TV
+#EXTINF:-1 group-title="Devotional" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s142649_ld_h9_aa.png?lock=720x540",Aradana TV
 https://mumbai-edge.smartplaytv.in/AradanaTV/index.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://i.imgur.com/XiwygDJ.png",Bada Khabar
+#EXTINF:-1 group-title="News" tvg-language="Odia" tvg-logo="https://i.imgur.com/XiwygDJ.png",Bada Khabar
 https://mumbai-edge.smartplaytv.in/BADAKHABAR/index.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BANSAL_NEWS/images/LOGO_HD/image.png",Bansal News
+#EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BANSAL_NEWS/images/LOGO_HD/image.png",Bansal News
 https://8yzmq2gbdvax-hls-live.wmncdn.net/bansalnewstv1/live1.stream/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/f6da6ddbbd4e157e54904f34196118e7.png",Bhakthi Siri
+#EXTINF:-1 group-title="Devotional" tvg-language="Kannada" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/f6da6ddbbd4e157e54904f34196118e7.png",Bhakthi Siri
 https://mumbai-edge.smartplaytv.in/Bhakthisiri/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0029CNNM.png?lock=720x540",Captain
+#EXTINF:-1 group-title="Entertainment" tvg-language="Bhojpuri" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0029CNNM.png?lock=720x540",Captain
 https://mumbai-edge.smartplaytv.in/captain/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/M8uCJ0D.png",Colors HD
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/M8uCJ0D.png",Colors HD
 http://66.102.126.10:8000/play/a00a/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/xkOunuW.png",Colors Rishtey Americas
-https://manatv.akamaized.net/090823/smil:ristheyamerica.smil/playlist.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CVR_OM_Spiritual.png",CVR OM Spiritual
-https://yuppnimrestreammum.akamaized.net/181224/smil:cvrom1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://play-lh.googleusercontent.com/brn76ZzRlqS8ylZVVcc5ZFWcqUp36iJ82WyzwiQ8-Nqi_8pIZZ_gsMCXNn6YiLhOEQ",Dharsan TV
+#EXTINF:-1 group-title="Devotional" tvg-language="Tamil" tvg-logo="https://play-lh.googleusercontent.com/brn76ZzRlqS8ylZVVcc5ZFWcqUp36iJ82WyzwiQ8-Nqi_8pIZZ_gsMCXNn6YiLhOEQ",Dharsan TV
 https://cable91tataplay.akamaized.net/live/dharshantv/index.m3u8
-#EXTINF:-1 group-title="Cartoon" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL_HD/images/LOGO_HD/image.png",Disney Channel (India) HD
+#EXTINF:-1 group-title="Cartoon" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL_HD/images/LOGO_HD/image.png",Disney Channel (India) HD
 http://66.102.126.10:8000/play/a013/index.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://dtil.tmsimg.com/assets/s143015_ld_h15_aa.png?lock=720x540",DY 365
+#EXTINF:-1 group-title="News" tvg-language="Assamese" tvg-logo="https://dtil.tmsimg.com/assets/s143015_ld_h15_aa.png?lock=720x540",DY 365
 https://cdn.smartstream.video/smartstream-us/dy365/dy365/playlist.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 4
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 4
 http://103.72.101.252:8080/live/406.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 5
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 5
 http://103.72.101.252:8080/live/407.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 6
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 6
 http://103.72.101.252:8080/live/408.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 7
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 7
 http://103.72.101.252:8080/live/404.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 8
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 8
 http://103.72.101.252:8080/live/409.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 9
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 9
 http://103.72.101.252:8080/live/410.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 10
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 10
 http://103.72.101.252:8080/live/411.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 11
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 11
 http://103.72.101.252:8080/live/1410.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 12
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/0sz6t9F.png",E-Vidya 12
 http://103.72.101.252:8080/live/1532.m3u8
-#EXTINF:-1 group-title="Business" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ET_NOW/images/LOGO_HD/image.png",ET Now (720p)
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0032BW6T.png?lock=720x540",Epic Bharat Digital
+https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8
+#EXTINF:-1 group-title="Business" tvg-language="English" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ET_NOW/images/LOGO_HD/image.png",ET Now (720p)
 https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/etnow/etnow_master.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://i.imgur.com/pFNCRnf.png",ETV Andhra Pradesh
+#EXTINF:-1 group-title="News" tvg-language="Telugu" tvg-logo="https://i.imgur.com/pFNCRnf.png",ETV Andhra Pradesh
 https://d1g35elx8qnif3.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264_cloud_in/index.m3u8
-#EXTINF:-1 group-title="Movie" tvg-logo="https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540",ETV Cinema HD
+#EXTINF:-1 group-title="Movie" tvg-language="Telugu" tvg-logo="https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540",ETV Cinema HD
 https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8
-#EXTINF:-1 group-title="Lifestyle" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_LIFE/images/LOGO_HD/image.png",ETV Life
+#EXTINF:-1 group-title="Lifestyle" tvg-language="Telugu" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_LIFE/images/LOGO_HD/image.png",ETV Life
 https://mumbai-edge.smartplaytv.in/ETVLIFE/index.m3u8
-#EXTINF:-1 group-title="Music" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ETVMusic12.png",ETV Music
+#EXTINF:-1 group-title="Music" tvg-language="Telugu" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ETVMusic12.png",ETV Music
 https://mumbai-edge.smartplaytv.in/ETVABHIRUCHI/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png",ETV Plus
-https://yupplivegcpusa.yuppcdn.net/100823/smil:etvplus.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png",ETV Plus HD
+#EXTINF:-1 group-title="Entertainment" tvg-language="Telugu" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png",ETV Plus HD
 https://d12ee3o8yfkkhd.cloudfront.net/c6a4b411295f47f48c908d2ac0605bad/index.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://dtil.tmsimg.com/assets/s143032_ld_h15_aa.png?lock=720x540",ETV Telangana
+#EXTINF:-1 group-title="News" tvg-language="Telugu" tvg-logo="https://dtil.tmsimg.com/assets/s143032_ld_h15_aa.png?lock=720x540",ETV Telangana
 https://d37d7pfp7vjqhh.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_TS_H264_cloud_in/index.m3u8
-#EXTINF:-1 group-title="Movie" tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Goldmines Movies
+#EXTINF:-1 group-title="Movie" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Goldmines Movies
 http://103.175.73.12:8080/live/51/51_0.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HARVEST_TV_24X7/images/LOGO_HD/image.png",Harvest TV
+#EXTINF:-1 group-title="Devotional" tvg-language="Malayalam" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HARVEST_TV_24X7/images/LOGO_HD/image.png",Harvest TV
 https://mumbai-edge.smartplaytv.in/HarvestTV/index.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://dtil.tmsimg.com/assets/s143131_ld_h15_aa.png?lock=720x540",Hindu Dharmam
+#EXTINF:-1 group-title="Devotional" tvg-language="Telugu" tvg-logo="https://dtil.tmsimg.com/assets/s143131_ld_h15_aa.png?lock=720x540",Hindu Dharmam
 https://mumbai-edge.smartplaytv.in/Hindudharmam/index.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://i.imgur.com/VYorU1L.png",Hosanna TV Hindi
+#EXTINF:-1 group-title="Devotional" tvg-language="Hindi" tvg-logo="https://i.imgur.com/VYorU1L.png",Hosanna TV Hindi
 https://mumbai-edge.smartplaytv.in/HosannaTV/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_PLUS/images/LOGO_HD/image.png",Jaya Plus
+#EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TV_SPEED_NEWS/images/LOGO_HD/image.png",India TV Speed News
+https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-language="Tamil" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_PLUS/images/LOGO_HD/image.png",Jaya Plus
 https://mumbai-edge.smartplaytv.in/JayaPLus/index.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/K_News_India.png",K News India
+#EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/K_News_India.png",K News India
 https://legitpro.co.in/knews/index.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://papaji.freetvindia.com/media/kabaddi_24x7.png",Kabaddi 24x7
+#EXTINF:-1 group-title="Sports" tvg-language="Hindi" tvg-logo="https://papaji.freetvindia.com/media/kabaddi_24x7.png",Kabaddi 24x7
 http://180.188.254.253/live/KABADDI24X7.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KANAK_NEWS/images/LOGO_HD/image.png",Kanak News
+#EXTINF:-1 group-title="News" tvg-language="Odia" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KANAK_NEWS/images/LOGO_HD/image.png",Kanak News
 https://mumbai-edge.smartplaytv.in/kanaknews/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://dtil.tmsimg.com/assets/s135691_ld_h15_aa.png?lock=720x540",MBC TV
+#EXTINF:-1 group-title="Entertainment" tvg-language="Odia" tvg-logo="https://dtil.tmsimg.com/assets/s135691_ld_h15_aa.png?lock=720x540",MBC TV
 https://mumbai-edge.smartplaytv.in/MBCTV/index.m3u8
-#EXTINF:-1 group-title="Music" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MTV/images/LOGO_HD/image.png",like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Entertainment",MTV (India) HD
+#EXTINF:-1 group-title="Music" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MTV/images/LOGO_HD/image.png",like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Entertainment",MTV (India) HD
 https://maamusic.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://dtil.tmsimg.com/assets/s90009_ld_h15_aa.png?lock=720x540",News 24 (India)
+#EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s90009_ld_h15_aa.png?lock=720x540",News 24 (India)
 https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://dtil.tmsimg.com/assets/s143624_ld_h15_aa.png?lock=720x540",NewsX
+#EXTINF:-1 group-title="News" tvg-language="English" tvg-logo="https://dtil.tmsimg.com/assets/s143624_ld_h15_aa.png?lock=720x540",NewsX
 https://mumbai-edge.smartplaytv.in/NewsX/index.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/RDX_News.png",RDX Goa (720p)
+#EXTINF:-1 group-title="News" tvg-language="Konkani" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/RDX_News.png",RDX Goa (720p)
 https://g5nl6xoalpq6-hls-live.5centscdn.com/rdxgoa/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Movie" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png",Shemaroo Filmi Gaane
+#EXTINF:-1 group-title="Movie" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png",Shemaroo Filmi Gaane
 https://prod-runn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1302.png",Sky Sports Cricket (Ireland)
+#EXTINF:-1 group-title="Sports" tvg-language="English" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1302.png",Sky Sports Cricket (Ireland)
 https://leaf.highfly.dev/m3u/now-sky-sports-cricket/live.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/IlufzR5.png",Star Jalsha (576p)
+#EXTINF:-1 group-title="Entertainment" tvg-language="Bengali" tvg-logo="https://i.imgur.com/IlufzR5.png",Star Jalsha (576p)
 http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/J3jB7Kr.png",Starnet
+#EXTINF:-1 group-title="Entertainment" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/J3jB7Kr.png",Starnet
 https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.imgur.com/xWxNy3L.png",StarPlus HD (1080i)
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/xWxNy3L.png",StarPlus HD (1080i)
 http://202.70.146.135:8000/play/a009/index.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-logo="https://dtil.tmsimg.com/assets/s143890_ld_h9_aa.png?lock=720x540",SVBC 2
+#EXTINF:-1 group-title="Devotional" tvg-language="Tamil" tvg-logo="https://dtil.tmsimg.com/assets/s143890_ld_h9_aa.png?lock=720x540",SVBC 2
 https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://dtil.tmsimg.com/assets/s144002_ld_h15_aa.png?lock=720x540",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Undefined",The Q India
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s144002_ld_h15_aa.png?lock=720x540",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Undefined",The Q India
 http://103.175.73.12:8080/live/25/25_0.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TIMES_NOW/images/LOGO_HD/image.png",Times Now (720p)
+#EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TIMES_NOW/images/LOGO_HD/image.png",Times Now (720p)
 https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/timesnow/timesnow_master.m3u8
-#EXTINF:-1 group-title="Lifestyle" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png",Travelxp 4K HDR (2160p)
+#EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TIMES_NOW_NAVBHARAT_HD/images/LOGO_HD/image.png",Times Now Navbharat HD
+https://yupprestreamliveus.akamaized.net/v1/vglive-sk-717514/main.m3u8
+#EXTINF:-1 group-title="Lifestyle" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png",Travelxp 4K HDR (2160p)
 https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VIP_NEWS/images/LOGO_HD/image.png",VIP News
+#EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VIP_NEWS/images/LOGO_HD/image.png",VIP News
 https://live.vipnews24x7.co.in/vipnews24x7/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://cricket.willow.tv/_nuxt/img/willow_blue_logo.362ed8e.png",Willow
+#EXTINF:-1 group-title="Sports" tvg-language="English" tvg-logo="https://cricket.willow.tv/_nuxt/img/willow_blue_logo.362ed8e.png",Willow
 http://tvsen5.aynascope.net/willowhd/index.m3u8
-#EXTINF:-1 group-title="Movie" tvg-logo="https://i.imgur.com/QCRhS1n.png",Zee Cine Classic
+#EXTINF:-1 group-title="Movie" tvg-language="Hindi" tvg-logo="https://i.imgur.com/QCRhS1n.png",Zee Cine Classic
 https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8
-#EXTINF:-1 group-title="Movie" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZEQ9.png?lock=720x540",Zee Cinemalu HD
+#EXTINF:-1 group-title="Movie" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZEQ9.png?lock=720x540",Zee Cinemalu HD
 https://mumbai-edge.smartplaytv.in/ZeeCinemaluHD/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100002GD_20260325T012327SQUARE.png",Zee Comedy Nation
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100002GD_20260325T012327SQUARE.png",Zee Comedy Nation
 https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://d2mxb63djushzm.cloudfront.net/images/Zee_Dil_Se.png",Zee Dil Se
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://d2mxb63djushzm.cloudfront.net/images/Zee_Dil_Se.png",Zee Dil Se
 https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zhornights.png",Zee Horror Nights
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zhornights.png",Zee Horror Nights
 https://amg00862-amg00862c7-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c7-amgplt0173/playlist.m3u8
-#EXTINF:-1 group-title="Movie" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zsouthflix.png",Zee South Flix
+#EXTINF:-1 group-title="Movie" tvg-language="Hindi" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zsouthflix.png",Zee South Flix
 https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png",Zee TV HD (720p)
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png",Zee TV HD (720p)
 http://41.205.93.154/ZEE-TV/index.m3u8
-#EXTINF:-1 group-title="Lifestyle" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ZEST/images/LOGO_HD/LOGO_HD_image.png",Zee Zest HD
+#EXTINF:-1 group-title="Lifestyle" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ZEST/images/LOGO_HD/LOGO_HD_image.png",Zee Zest HD
 http://103.72.101.252:8080/live/2757.m3u8

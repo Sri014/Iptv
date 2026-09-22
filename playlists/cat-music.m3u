@@ -151,8 +151,10 @@ https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.imgur.com/Zl40NYi.jpg",Kuriakos Music
 http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8
-#EXTINF:-1 group-title="Music" tvg-logo="https://i.imgur.com/wbRdUw8.png",like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Music",M1 (Ukraine)
-http://stream.mcquack.net/218/index.m3u8
+#EXTINF:-1 group-title="Music" tvg-logo="https://i.imgur.com/AfcBWCg.png",like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Music",M2 (Ukraine)
+http://stream.mcquack.net/330/index.m3u8
+#EXTINF:-1 group-title="Music" tvg-logo="https://i.imgur.com/tCg7owd.png",MasMusica FM
+https://movil.ejeserver.com/live/masmusica.m3u8
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.imgur.com/j6IiysJ.png",MCN6 Music Channel (1080p)
 https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8
 #EXTINF:-1 group-title="Music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/MEGOGO_Music_%28%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%29.png",Megogo Music
@@ -189,8 +191,6 @@ https://stream.qmusic.nl/qmusic/videohls.m3u8
 https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 group-title="Music" tvg-logo="https://cdn.m3u.cl/logo/1765_Retromusica_Television.png",Retromusica Television
 https://vdochile.com:3864/stream/play.m3u8
-#EXTINF:-1 group-title="Music" tvg-logo="https://i.imgur.com/ZkJ3Rh9.png",Russian MusicBox
-http://stream.mcquack.net/319/index.m3u8
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.vimeocdn.com/portrait/31947989_640x640",Salto Brasa Music
 https://salto-streams.nl/hls/sotv1.m3u8
 #EXTINF:-1 group-title="Music" tvg-logo="https://i.imgur.com/qDNRgSQ.png",like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Music",Slager TV

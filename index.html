@@ -3,44 +3,113 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>IPTV Working Channels</title>
+<title>IPTV Channels</title>
 <style>
-* { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; background: #0a0e14; color: #e6e6e6; font-family: -apple-system, Arial, sans-serif; }
-body { padding: 16px; }
-h1 { font-size: 22px; margin: 0 0 8px; }
-.sub { color: #8a94a6; font-size: 13px; margin-bottom: 16px; }
-.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
-select, input { background: #151a22; color: #e6e6e6; border: 1px solid #252b36; border-radius: 8px; padding: 10px 12px; font-size: 14px; }
-select[multiple] { min-height: 90px; min-width: 150px; }
-input { flex: 1; min-width: 180px; }
-.btn { background: #2563eb; color: #fff; border: 0; border-radius: 8px; padding: 10px 14px; font-size: 14px; cursor: pointer; }
-.btn.reset { background: #374151; }
-.stats { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
-.stat { background: #11151d; border: 1px solid #252b36; border-radius: 10px; padding: 10px 14px; font-size: 13px; color: #8a94a6; }
-.stat b { color: #22c55e; font-size: 16px; display: block; margin-top: 2px; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
-.card { background: #11151d; border: 1px solid #252b36; border-radius: 10px; padding: 12px; }
-.card:hover { border-color: #3b82f6; }
-.card .name { font-weight: 600; font-size: 14px; margin-bottom: 6px; word-break: break-word; }
-.badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; margin-top: 6px; margin-right: 4px; }
-.badge.cat { background: #2a1f4a; color: #c4b5fd; }
-.badge.lang { background: #14402a; color: #86efac; }
-.play { display: inline-block; margin-top: 8px; font-size: 12px; color: #3b82f6; text-decoration: none; }
-.play:hover { text-decoration: underline; }
-#result { color: #8a94a6; font-size: 13px; margin-bottom: 10px; }
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { margin: 0; padding: 0; background: #0d0d18; color: #fff; font-family: -apple-system, Arial, sans-serif; }
+body { padding: 12px; }
+
+.header {
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: 14px;
+}
+.search-box {
+  flex: 1; background: #1a1a2e; border: 0; border-radius: 24px;
+  padding: 14px 18px; color: #fff; font-size: 15px;
+}
+.search-box::placeholder { color: #6b7280; }
+.icon-btn {
+  width: 48px; height: 48px; border-radius: 50%;
+  background: #1a1a2e; border: 0; color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px; cursor: pointer;
+}
+.icon-btn.active { background: #d946ef; }
+
+.filters { display: flex; gap: 10px; margin-bottom: 14px; }
+.filters select {
+  flex: 1; background: #1a1a2e; border: 0; border-radius: 12px;
+  padding: 14px 16px; color: #fff; font-size: 14px; appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%239ca3af' d='M6 8L2 4h8z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 40px;
+}
+
+.stats { display: flex; gap: 8px; margin-bottom: 14px; font-size: 12px; color: #8a94a6; }
+.stat { background: #1a1a2e; padding: 6px 12px; border-radius: 20px; }
+.stat b { color: #22c55e; margin-left: 4px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 16px 8px;
+}
+
+.card {
+  display: flex; flex-direction: column; align-items: center;
+  text-align: center; cursor: pointer;
+  padding: 8px 4px;
+}
+
+.logo-wrap {
+  position: relative;
+  width: 90px; height: 90px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+  margin-bottom: 8px;
+  border: 2px solid #1a1a2e;
+}
+
+.logo-wrap img {
+  width: 100%; height: 100%; object-fit: contain; padding: 10px;
+}
+
+.logo-fallback {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, #d946ef, #8b5cf6);
+  color: #fff; font-size: 28px; font-weight: bold;
+}
+
+.hd-badge {
+  position: absolute; top: 2px; right: 2px;
+  background: #f97316; color: #fff;
+  font-size: 9px; font-weight: bold;
+  padding: 2px 6px; border-radius: 8px;
+}
+
+.card .name {
+  font-size: 12px; color: #cbd5e1; line-height: 1.3;
+  max-width: 100%; overflow: hidden; text-overflow: ellipsis;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  word-break: break-word;
+}
+
+.card:hover .logo-wrap { border-color: #3b82f6; }
+.card:hover .name { color: #fff; }
+
+#result { color: #8a94a6; font-size: 12px; margin-bottom: 10px; }
+.empty { text-align: center; padding: 40px; color: #6b7280; }
 </style>
 </head>
 <body>
 
-<h1>IPTV Working Channels</h1>
-<div class="sub">GitHub hosted • Auto-updated • Category & language filter</div>
+<div class="header">
+  <input class="search-box" id="search" placeholder="Search Channels...">
+  <button class="icon-btn" id="musicBtn" title="Music only">🎵</button>
+  <button class="icon-btn active" id="filterBtn">⚙️</button>
+</div>
 
 <div class="filters">
-  <select id="langFilter" multiple></select>
-  <select id="catFilter" multiple></select>
-  <input id="search" placeholder="Search channel...">
-  <button class="btn reset" onclick="resetFilters()">Reset</button>
+  <select id="catFilter">
+    <option value="">All Categories</option>
+  </select>
+  <select id="langFilter">
+    <option value="">All Languages</option>
+  </select>
 </div>
 
 <div class="stats" id="stats"></div>
@@ -51,122 +120,143 @@ input { flex: 1; min-width: 180px; }
 let allChannels = [];
 
 async function loadPlaylist() {
-  try {
-    const res = await fetch('working_unique.m3u?_=' + Date.now(), { cache: 'no-store' });
-    const text = await res.text();
-    allChannels = parseM3U(text);
-    buildFilters();
-    renderStats();
-    applyFilters();
-  } catch (e) {
-    document.getElementById('result').textContent = 'Error: ' + e.message;
+  const sources = ['working_unique.m3u', 'working.m3u'];
+  for (const src of sources) {
+    try {
+      const res = await fetch(src + '?_=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) continue;
+      const text = await res.text();
+      allChannels = parseM3U(text);
+      if (allChannels.length > 0) {
+        console.log('Loaded ' + allChannels.length + ' from ' + src);
+        break;
+      }
+    } catch (e) {}
   }
+
+  if (allChannels.length === 0) {
+    document.getElementById('result').innerHTML = '<div class="empty">No channels loaded.<br>Run the workflow first.</div>';
+    return;
+  }
+
+  buildFilters();
+  renderStats();
+  applyFilters();
 }
 
 function parseM3U(text) {
   const lines = text.split(/\r?\n/);
   const out = [];
-  let current = null;
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i].trim();
+  let cur = null;
+  for (let line of lines) {
+    line = line.trim();
     if (line.startsWith('#EXTINF:')) {
-      const name = line.split(',').slice(1).join(',').trim();
-      const groupMatch = line.match(/group-title="([^"]*)"/i);
+      const nameMatch = line.match(/,(.+)$/);
+      const name = nameMatch ? nameMatch[1].trim() : 'Unknown';
+      const catMatch = line.match(/group-title="([^"]*)"/i);
       const langMatch = line.match(/tvg-language="([^"]*)"/i);
-      current = {
+      const logoMatch = line.match(/tvg-logo="([^"]*)"/i);
+      cur = {
         name: name,
-        group: groupMatch ? groupMatch[1] : 'General',
-        lang: langMatch ? langMatch[1] : ''
+        cat: catMatch ? catMatch[1] : 'General',
+        lang: langMatch ? langMatch[1] : '',
+        logo: logoMatch ? logoMatch[1] : '',
+        hd: /\(.*?(1080|720|hd).*?\)/i.test(name) || /\bHD\b/i.test(name)
       };
-    } else if (current && line && !line.startsWith('#')) {
-      current.url = line;
-      out.push(current);
-      current = null;
+    } else if (cur && line && !line.startsWith('#')) {
+      cur.url = line;
+      out.push(cur);
+      cur = null;
     }
   }
   return out;
 }
 
 function buildFilters() {
-  const langs = new Set();
   const cats = new Set();
+  const langs = new Set();
   allChannels.forEach(c => {
+    if (c.cat) cats.add(c.cat);
     if (c.lang) langs.add(c.lang);
-    if (c.group) cats.add(c.group);
-  });
-
-  const langSel = document.getElementById('langFilter');
-  langSel.innerHTML = '';
-  [...langs].sort().forEach(l => {
-    const opt = document.createElement('option');
-    opt.value = l; opt.textContent = l;
-    langSel.appendChild(opt);
   });
 
   const catSel = document.getElementById('catFilter');
-  catSel.innerHTML = '';
-  [...cats].sort().forEach(g => {
-    const opt = document.createElement('option');
-    opt.value = g; opt.textContent = g;
-    catSel.appendChild(opt);
+  catSel.innerHTML = '<option value="">All Categories</option>';
+  [...cats].sort().forEach(c => {
+    const o = document.createElement('option');
+    o.value = c; o.textContent = c;
+    catSel.appendChild(o);
+  });
+
+  const langSel = document.getElementById('langFilter');
+  langSel.innerHTML = '<option value="">All Languages</option>';
+  [...langs].sort().forEach(l => {
+    const o = document.createElement('option');
+    o.value = l; o.textContent = l;
+    langSel.appendChild(o);
   });
 }
 
-function getSelected(select) {
-  return [...select.selectedOptions].map(o => o.value).filter(v => v !== '');
-}
-
 function applyFilters() {
-  const langs = getSelected(document.getElementById('langFilter'));
-  const cats = getSelected(document.getElementById('catFilter'));
+  const cat = document.getElementById('catFilter').value;
+  const lang = document.getElementById('langFilter').value;
   const search = document.getElementById('search').value.toLowerCase();
 
-  let filtered = allChannels;
-  if (langs.length > 0) filtered = filtered.filter(c => langs.includes(c.lang));
-  if (cats.length > 0) filtered = filtered.filter(c => cats.includes(c.group));
-  if (search) filtered = filtered.filter(c => c.name.toLowerCase().includes(search));
+  let list = allChannels;
+  if (cat) list = list.filter(c => c.cat === cat);
+  if (lang) list = list.filter(c => c.lang === lang);
+  if (search) list = list.filter(c => c.name.toLowerCase().includes(search));
 
-  renderGrid(filtered);
-}
-
-function resetFilters() {
-  document.getElementById('langFilter').selectedIndex = -1;
-  document.getElementById('catFilter').selectedIndex = -1;
-  document.getElementById('search').value = '';
-  applyFilters();
+  renderGrid(list);
 }
 
 function renderStats() {
   const langs = new Set(allChannels.map(c => c.lang).filter(Boolean));
-  const cats = new Set(allChannels.map(c => c.group).filter(Boolean));
-  document.getElementById('stats').innerHTML = `
-    <div class="stat">Total Channels<b>${allChannels.length}</b></div>
-    <div class="stat">Languages<b>${langs.size}</b></div>
-    <div class="stat">Categories<b>${cats.size}</b></div>
-  `;
+  const cats = new Set(allChannels.map(c => c.cat).filter(Boolean));
+  document.getElementById('stats').innerHTML =
+    `<div class="stat">Total<b>${allChannels.length}</b></div>` +
+    `<div class="stat">Languages<b>${langs.size}</b></div>` +
+    `<div class="stat">Categories<b>${cats.size}</b></div>`;
 }
 
 function renderGrid(list) {
   document.getElementById('result').textContent = 'Showing ' + list.length + ' channels';
-  document.getElementById('grid').innerHTML = list.map(c => `
-    <div class="card">
-      <div class="name">${escapeHtml(c.name)}</div>
-      <div>
-        ${c.group ? `<span class="badge cat">${escapeHtml(c.group)}</span>` : ''}
-        ${c.lang ? `<span class="badge lang">${escapeHtml(c.lang)}</span>` : ''}
+  const grid = document.getElementById('grid');
+
+  if (list.length === 0) {
+    grid.innerHTML = '<div class="empty">No channels match filters</div>';
+    return;
+  }
+
+  grid.innerHTML = list.map(c => {
+    const initial = c.name.charAt(0).toUpperCase();
+    const logoHtml = c.logo
+      ? `<img src="${escapeHtml(c.logo)}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="logo-fallback" style="display:none">${initial}</div>`
+      : `<div class="logo-fallback">${initial}</div>`;
+
+    return `
+      <div class="card" onclick="playChannel('${escapeHtml(c.url)}')">
+        <div class="logo-wrap">
+          ${logoHtml}
+          ${c.hd ? '<div class="hd-badge">HD</div>' : ''}
+        </div>
+        <div class="name">${escapeHtml(c.name)}</div>
       </div>
-      <a class="play" href="${escapeHtml(c.url)}" target="_blank">▶ Play</a>
-    </div>
-  `).join('');
+    `;
+  }).join('');
+}
+
+function playChannel(url) {
+  window.open(url, '_blank');
 }
 
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 }
 
-document.getElementById('langFilter').addEventListener('change', applyFilters);
-document.getElementById('catFilter').addEventListener('change', applyFilters);
 document.getElementById('search').addEventListener('input', applyFilters);
+document.getElementById('catFilter').addEventListener('change', applyFilters);
+document.getElementById('langFilter').addEventListener('change', applyFilters);
 
 loadPlaylist();
 </script>

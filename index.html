@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>IPTV Channels</title>
+<title>IPTV Player</title>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
 <style>
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 html, body { margin: 0; padding: 0; background: #0d0d18; color: #fff; font-family: -apple-system, Arial, sans-serif; }
@@ -14,12 +15,46 @@ body { padding: 12px; }
 .search-box::placeholder { color: #6b7280; }
 
 .filters { display: flex; gap: 10px; margin-bottom: 14px; }
-.filters select {
+.filter-btn {
   flex: 1; background: #1a1a2e; border: 0; border-radius: 12px;
-  padding: 14px 16px; color: #fff; font-size: 14px; appearance: none;
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%239ca3af' d='M6 8L2 4h8z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat; background-position: right 16px center; padding-right: 40px;
+  padding: 14px 16px; color: #fff; font-size: 14px; cursor: pointer;
+  text-align: left; position: relative;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
+.filter-btn.active { background: #2563eb; }
+.filter-btn::after {
+  content: '▾'; position: absolute; right: 16px; color: #9ca3af;
+}
+.filter-btn.active::after { color: #fff; }
+
+/* MODAL */
+.modal-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 9998;
+  display: none; align-items: flex-end;
+}
+.modal-overlay.active { display: flex; }
+.modal {
+  background: #11151d; width: 100%; max-height: 70vh;
+  border-radius: 20px 20px 0 0; padding: 20px;
+  display: flex; flex-direction: column;
+}
+.modal h3 { margin: 0 0 14px; font-size: 16px; }
+.modal-actions { display: flex; gap: 10px; margin-bottom: 14px; }
+.modal-actions button {
+  flex: 1; background: #1a1a2e; border: 0; color: #fff; border-radius: 8px;
+  padding: 10px; font-size: 13px; cursor: pointer;
+}
+.modal-actions .primary { background: #2563eb; }
+.modal-list {
+  flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 4px;
+}
+.modal-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 12px 14px; background: #1a1a2e; border-radius: 10px; cursor: pointer;
+  font-size: 14px;
+}
+.modal-item input { accent-color: #2563eb; width: 18px; height: 18px; }
+.modal-item.checked { background: #1e3a5f; }
 
 .url-box {
   background: #1a1a2e; border-radius: 12px; padding: 12px;
@@ -40,7 +75,8 @@ body { padding: 12px; }
 .stat b { color: #22c55e; margin-left: 4px; }
 
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 16px 8px; }
-.card { display: flex; flex-direction: column; align-items: center; text-align: center; cursor: pointer; padding: 8px 4px; }
+.card { display: flex; flex-direction: column; align-items: center; text-align: center; cursor: pointer; padding: 8px 4px; transition: transform 0.15s; }
+.card:active { transform: scale(0.95); }
 .logo-wrap { position: relative; width: 90px; height: 90px; background: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; overflow: hidden; margin-bottom: 8px; border: 2px solid #1a1a2e; }
 .logo-wrap img { width: 100%; height: 100%; object-fit: contain; padding: 10px; }
 .logo-fallback { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #d946ef, #8b5cf6); color: #fff; font-size: 28px; font-weight: bold; }
@@ -50,11 +86,58 @@ body { padding: 12px; }
 #result { color: #8a94a6; font-size: 12px; margin-bottom: 10px; }
 .empty { text-align: center; padding: 40px; color: #6b7280; }
 
+/* PLAYER */
+.player-overlay {
+  position: fixed; inset: 0; background: #000; z-index: 9999;
+  display: none; flex-direction: column;
+}
+.player-overlay.active { display: flex; }
+.player-header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 14px; background: #11151d;
+}
+.player-header .title { flex: 1; font-size: 14px; font-weight: 600; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.player-header button {
+  background: #1a1a2e; border: 0; color: #fff; border-radius: 8px;
+  padding: 8px 10px; font-size: 14px; cursor: pointer;
+}
+.player-header button:hover { background: #2a2a3e; }
+.player-body { flex: 1; display: flex; align-items: center; justify-content: center; background: #000; position: relative; }
+.player-body video { width: 100%; height: 100%; max-height: 100vh; background: #000; }
+.player-loading {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column; gap: 10px;
+  background: rgba(0,0,0,0.85); color: #fff;
+}
+.player-loading .spinner {
+  width: 40px; height: 40px;
+  border: 3px solid #333; border-top-color: #22c55e;
+  border-radius: 50%; animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.player-error {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column; gap: 12px; padding: 20px;
+  background: rgba(0,0,0,0.9); color: #fff; text-align: center;
+}
+.player-error h3 { margin: 0; color: #ef4444; }
+.player-error p { margin: 0; font-size: 13px; color: #9ca3af; }
+.player-error button {
+  background: #2563eb; border: 0; color: #fff; border-radius: 8px;
+  padding: 10px 20px; font-size: 14px; cursor: pointer; margin-top: 10px;
+}
+.player-error .stream-url {
+  font-size: 10px; color: #6b7280; font-family: monospace;
+  word-break: break-all; max-width: 400px; margin-top: 8px;
+}
+
 .toast {
   position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%);
   background: #22c55e; color: #fff; padding: 12px 24px; border-radius: 24px;
   font-size: 14px; opacity: 0; transition: opacity 0.3s; pointer-events: none;
-  z-index: 1000;
+  z-index: 10000;
 }
 .toast.show { opacity: 1; }
 </style>
@@ -66,16 +149,12 @@ body { padding: 12px; }
 </div>
 
 <div class="filters">
-  <select id="catFilter" multiple size="1">
-    <option value="">All Categories</option>
-  </select>
-  <select id="langFilter" multiple size="1">
-    <option value="">All Languages</option>
-  </select>
+  <button class="filter-btn" id="catBtn" onclick="openModal('cat')">All Categories</button>
+  <button class="filter-btn" id="langBtn" onclick="openModal('lang')">All Languages</button>
 </div>
 
 <div class="url-box">
-  <label>📋 Filtered Playlist URL — Copy & paste in IPTV player</label>
+  <label>📋 Filtered Playlist URL</label>
   <div class="url-row">
     <input class="url-input" id="playlistUrl" readonly value="Loading...">
     <button class="copy-btn" id="copyBtn" onclick="copyUrl()">Copy</button>
@@ -86,14 +165,58 @@ body { padding: 12px; }
 <div id="result">Loading...</div>
 <div class="grid" id="grid"></div>
 
+<!-- MODAL for multi-select -->
+<div class="modal-overlay" id="modalOverlay" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <h3 id="modalTitle">Select</h3>
+    <div class="modal-actions">
+      <button onclick="selectAll()">Select All</button>
+      <button onclick="clearAll()">Clear All</button>
+      <button class="primary" onclick="applyModal()">Apply</button>
+    </div>
+    <div class="modal-list" id="modalList"></div>
+  </div>
+</div>
+
+<!-- PLAYER OVERLAY -->
+<div class="player-overlay" id="playerOverlay">
+  <div class="player-header">
+    <button onclick="closePlayer()">✕</button>
+    <div class="title" id="playerTitle">Channel</div>
+    <button onclick="togglePiP()" title="Picture in Picture" id="pipBtn">⧉</button>
+    <button onclick="reloadPlayer()" title="Reload">⟳</button>
+  </div>
+  <div class="player-body">
+    <video id="video" controls autoplay playsinline></video>
+    <div class="player-loading" id="playerLoading">
+      <div class="spinner"></div>
+      <div>Loading stream...</div>
+    </div>
+    <div class="player-error" id="playerError" style="display:none">
+      <h3>Stream Not Playing</h3>
+      <p id="playerErrorMsg">Could not load the stream</p>
+      <div class="stream-url" id="playerStreamUrl"></div>
+      <button onclick="openExternal()">Open in VLC</button>
+      <button onclick="closePlayer()" style="background:#374151">Close</button>
+    </div>
+  </div>
+</div>
+
 <div class="toast" id="toast">Copied!</div>
 
 <script>
 const BASE_URL = window.location.origin + window.location.pathname.replace(/index\.html$/, '');
 let allChannels = [];
+let currentList = [];
+let hls = null;
+let currentStreamUrl = '';
+let selectedCats = [];
+let selectedLangs = [];
+let modalType = null;
 
+// ============ LOAD ============
 async function loadPlaylist() {
-  const sources = ['working.m3u'];
+  const sources = ['working.m3u', 'combined.m3u'];
   for (const src of sources) {
     try {
       const res = await fetch(src + '?_=' + Date.now(), { cache: 'no-store' });
@@ -105,11 +228,10 @@ async function loadPlaylist() {
   }
 
   if (allChannels.length === 0) {
-    document.getElementById('result').innerHTML = '<div class="empty">No channels loaded. Run workflow first.</div>';
+    document.getElementById('result').innerHTML = '<div class="empty">No channels loaded.</div>';
     return;
   }
 
-  buildFilters();
   renderStats();
   applyFilters();
 }
@@ -129,7 +251,7 @@ function parseM3U(text) {
       cur = {
         name: name,
         cat: catMatch ? catMatch[1] : 'General',
-        lang: langMatch ? langMatch[1] : '',
+        lang: langMatch ? langMatch[1] : 'Unknown',
         logo: logoMatch ? logoMatch[1] : '',
         hd: /\bHD\b/i.test(name)
       };
@@ -142,69 +264,111 @@ function parseM3U(text) {
   return out;
 }
 
-function buildFilters() {
-  const cats = new Set(), langs = new Set();
+// ============ STATS ============
+function renderStats() {
+  const langs = new Set(allChannels.map(c => c.lang).filter(Boolean));
+  const cats = new Set(allChannels.map(c => c.cat).filter(Boolean));
+  document.getElementById('stats').innerHTML =
+    `<div class="stat">Total<b>${allChannels.length}</b></div>` +
+    `<div class="stat">Languages<b>${langs.size}</b></div>` +
+    `<div class="stat">Categories<b>${cats.size}</b></div>`;
+}
+
+// ============ MODAL MULTI-SELECT ============
+function openModal(type) {
+  modalType = type;
+  const list = document.getElementById('modalList');
+  const title = document.getElementById('modalTitle');
+  const selected = type === 'cat' ? selectedCats : selectedLangs;
+
+  const items = new Set();
   allChannels.forEach(c => {
-    if (c.cat) cats.add(c.cat);
-    if (c.lang) langs.add(c.lang);
+    const v = type === 'cat' ? c.cat : c.lang;
+    if (v) items.add(v);
   });
 
-  const catSel = document.getElementById('catFilter');
-  catSel.innerHTML = '';
-  [...cats].sort().forEach(c => {
-    const o = document.createElement('option');
-    o.value = c; o.textContent = c;
-    catSel.appendChild(o);
+  title.textContent = type === 'cat' ? 'Select Categories' : 'Select Languages';
+  list.innerHTML = [...items].sort().map(item => `
+    <label class="modal-item ${selected.includes(item) ? 'checked' : ''}">
+      <input type="checkbox" value="${escapeHtml(item)}" ${selected.includes(item) ? 'checked' : ''}>
+      <span>${escapeHtml(item)}</span>
+    </label>
+  `).join('');
+
+  list.querySelectorAll('input').forEach(cb => {
+    cb.addEventListener('change', () => {
+      cb.parentElement.classList.toggle('checked', cb.checked);
+    });
   });
 
-  const langSel = document.getElementById('langFilter');
-  langSel.innerHTML = '';
-  [...langs].sort().forEach(l => {
-    const o = document.createElement('option');
-    o.value = l; o.textContent = l;
-    langSel.appendChild(o);
+  document.getElementById('modalOverlay').classList.add('active');
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('active');
+  modalType = null;
+}
+
+function selectAll() {
+  document.querySelectorAll('#modalList input').forEach(cb => {
+    cb.checked = true;
+    cb.parentElement.classList.add('checked');
   });
 }
 
-function getSelected(sel) {
-  return [...sel.selectedOptions].map(o => o.value).filter(v => v !== '');
+function clearAll() {
+  document.querySelectorAll('#modalList input').forEach(cb => {
+    cb.checked = false;
+    cb.parentElement.classList.remove('checked');
+  });
 }
 
+function applyModal() {
+  const selected = [...document.querySelectorAll('#modalList input:checked')].map(cb => cb.value);
+  if (modalType === 'cat') {
+    selectedCats = selected;
+    document.getElementById('catBtn').textContent = selected.length > 0 ? 'Categories (' + selected.length + ')' : 'All Categories';
+    document.getElementById('catBtn').classList.toggle('active', selected.length > 0);
+  } else {
+    selectedLangs = selected;
+    document.getElementById('langBtn').textContent = selected.length > 0 ? 'Languages (' + selected.length + ')' : 'All Languages';
+    document.getElementById('langBtn').classList.toggle('active', selected.length > 0);
+  }
+  closeModal();
+  applyFilters();
+}
+
+// ============ FILTER ============
 function applyFilters() {
-  const cats = getSelected(document.getElementById('catFilter'));
-  const langs = getSelected(document.getElementById('langFilter'));
   const search = document.getElementById('search').value.toLowerCase();
-
   let list = allChannels;
-  if (cats.length > 0) list = list.filter(c => cats.includes(c.cat));
-  if (langs.length > 0) list = list.filter(c => langs.includes(c.lang));
+
+  if (selectedCats.length > 0) list = list.filter(c => selectedCats.includes(c.cat));
+  if (selectedLangs.length > 0) list = list.filter(c => selectedLangs.includes(c.lang));
   if (search) list = list.filter(c => c.name.toLowerCase().includes(search));
 
   renderGrid(list);
-  updatePlaylistUrl(cats, langs);
+  updatePlaylistUrl();
 }
 
-function updatePlaylistUrl(cats, langs) {
+function updatePlaylistUrl() {
   let url;
+  const oneCat = selectedCats.length === 1;
+  const oneLang = selectedLangs.length === 1;
 
-  if (cats.length === 0 && langs.length === 0) {
-    // No filter — full playlist
+  if (!oneCat && !oneLang && selectedCats.length === 0 && selectedLangs.length === 0) {
     url = BASE_URL + 'working.m3u';
-  } else if (langs.length === 1 && cats.length === 0) {
-    // Single language
-    const safe = langs[0].toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  } else if (oneLang && selectedCats.length === 0) {
+    const safe = selectedLangs[0].toLowerCase().replace(/[^a-z0-9]+/g, '-');
     url = BASE_URL + 'playlists/lang-' + safe + '.m3u';
-  } else if (cats.length === 1 && langs.length === 0) {
-    // Single category
-    const safe = cats[0].toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  } else if (oneCat && selectedLangs.length === 0) {
+    const safe = selectedCats[0].toLowerCase().replace(/[^a-z0-9]+/g, '-');
     url = BASE_URL + 'playlists/cat-' + safe + '.m3u';
-  } else if (langs.length === 1 && cats.length === 1) {
-    // Language + Category
-    const safeL = langs[0].toLowerCase().replace(/[^a-z0-9]+/g, '-');
-    const safeC = cats[0].toLowerCase().replace(/[^a-z0-9]+/g, '-');
-    url = BASE_URL + 'playlists/lang-' + safeL + '-cat-' + safeC + '.m3u';
+  } else if (oneLang && oneCat) {
+    const sl = selectedLangs[0].toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    const sc = selectedCats[0].toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    url = BASE_URL + 'playlists/lang-' + sl + '-cat-' + sc + '.m3u';
   } else {
-    // Multiple selections — combined
     url = BASE_URL + 'working.m3u';
   }
 
@@ -218,54 +382,38 @@ function copyUrl() {
   const input = document.getElementById('playlistUrl');
   input.select();
   input.setSelectionRange(0, 99999);
-
   navigator.clipboard.writeText(input.value).then(() => {
-    showToast('Copied: ' + input.value);
+    showToast('Copied!');
     const btn = document.getElementById('copyBtn');
     btn.classList.add('done');
-    btn.textContent = '✓ Copied';
-    setTimeout(() => {
-      btn.classList.remove('done');
-      btn.textContent = 'Copy';
-    }, 2000);
-  }).catch(() => {
-    document.execCommand('copy');
-    showToast('Copied!');
-  });
+    btn.textContent = '✓';
+    setTimeout(() => { btn.classList.remove('done'); btn.textContent = 'Copy'; }, 2000);
+  }).catch(() => { document.execCommand('copy'); showToast('Copied!'); });
 }
 
 function showToast(msg) {
   const t = document.getElementById('toast');
   t.textContent = msg;
   t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 2500);
+  setTimeout(() => t.classList.remove('show'), 2000);
 }
 
-function renderStats() {
-  const langs = new Set(allChannels.map(c => c.lang).filter(Boolean));
-  const cats = new Set(allChannels.map(c => c.cat).filter(Boolean));
-  document.getElementById('stats').innerHTML =
-    `<div class="stat">Total<b>${allChannels.length}</b></div>` +
-    `<div class="stat">Languages<b>${langs.size}</b></div>` +
-    `<div class="stat">Categories<b>${cats.size}</b></div>`;
-}
-
+// ============ GRID ============
 function renderGrid(list) {
+  currentList = list;
   document.getElementById('result').textContent = 'Showing ' + list.length + ' channels';
   const grid = document.getElementById('grid');
-
   if (list.length === 0) {
     grid.innerHTML = '<div class="empty">No channels match filters</div>';
     return;
   }
-
-  grid.innerHTML = list.map(c => {
+  grid.innerHTML = list.map((c, idx) => {
     const initial = c.name.charAt(0).toUpperCase();
     const logoHtml = c.logo
       ? `<img src="${escapeHtml(c.logo)}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="logo-fallback" style="display:none">${initial}</div>`
       : `<div class="logo-fallback">${initial}</div>`;
     return `
-      <div class="card" onclick="playChannel('${escapeHtml(c.url)}')">
+      <div class="card" onclick="playChannel(${idx})">
         <div class="logo-wrap">
           ${logoHtml}
           ${c.hd ? '<div class="hd-badge">HD</div>' : ''}
@@ -276,8 +424,149 @@ function renderGrid(list) {
   }).join('');
 }
 
-function playChannel(url) {
-  window.open(url, '_blank');
+// ============ PLAYER ============
+function playChannel(idx) {
+  const ch = currentList[idx];
+  if (!ch || !ch.url) return;
+
+  currentStreamUrl = ch.url;
+  const overlay = document.getElementById('playerOverlay');
+  const video = document.getElementById('video');
+  const loading = document.getElementById('playerLoading');
+  const error = document.getElementById('playerError');
+
+  document.getElementById('playerTitle').textContent = ch.name;
+  document.getElementById('playerStreamUrl').textContent = ch.url;
+
+  overlay.classList.add('active');
+  loading.style.display = 'flex';
+  error.style.display = 'none';
+
+  if (hls) { hls.destroy(); hls = null; }
+  video.pause();
+  video.removeAttribute('src');
+  video.load();
+
+  const isM3U8 = /\.m3u8(\?|$)/i.test(ch.url);
+
+  if (isM3U8 && Hls.isSupported()) {
+    hls = new Hls({
+      enableWorker: true,
+      lowLatencyMode: false,
+      maxBufferLength: 30,
+      maxMaxBufferLength: 60,
+      manifestLoadingTimeOut: 15000,
+      manifestLoadingMaxRetry: 3,
+      levelLoadingTimeOut: 15000,
+      fragLoadingTimeOut: 30000,
+      // AUTO QUALITY — highest
+      startLevel: -1,
+      capLevelToPlayerSize: false,
+      autoStartLoad: true
+    });
+
+    hls.loadSource(ch.url);
+    hls.attachMedia(video);
+
+    hls.on(Hls.Events.MANIFEST_PARSED, function(event, data) {
+      // Pick HIGHEST quality level
+      if (data.levels && data.levels.length > 0) {
+        let maxIdx = 0;
+        let maxHeight = 0;
+        data.levels.forEach((lvl, i) => {
+          if (lvl.height && lvl.height > maxHeight) {
+            maxHeight = lvl.height;
+            maxIdx = i;
+          }
+        });
+        hls.currentLevel = maxIdx;
+        console.log('Playing highest quality:', maxHeight + 'p');
+      }
+      loading.style.display = 'none';
+      video.play().catch(e => console.log('Autoplay:', e));
+    });
+
+    // Auto-switch to highest on level updates
+    hls.on(Hls.Events.LEVEL_SWITCHED, function(event, data) {
+      const lvl = hls.levels[data.level];
+      if (lvl && lvl.height) {
+        console.log('Now playing: ' + lvl.height + 'p');
+      }
+    });
+
+    hls.on(Hls.Events.ERROR, function(event, data) {
+      if (data.fatal) {
+        console.log('HLS error:', data);
+        loading.style.display = 'none';
+        error.style.display = 'flex';
+        document.getElementById('playerErrorMsg').textContent = data.type + ' / ' + data.details;
+      }
+    });
+  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = ch.url;
+    video.addEventListener('loadedmetadata', () => {
+      loading.style.display = 'none';
+      video.play().catch(e => console.log(e));
+    }, { once: true });
+    video.addEventListener('error', () => {
+      loading.style.display = 'none';
+      error.style.display = 'flex';
+    }, { once: true });
+  } else {
+    loading.style.display = 'none';
+    error.style.display = 'flex';
+    document.getElementById('playerErrorMsg').textContent = 'HLS not supported';
+  }
+}
+
+// ============ PiP ============
+async function togglePiP() {
+  const video = document.getElementById('video');
+  try {
+    if (document.pictureInPictureElement) {
+      await document.exitPictureInPicture();
+    } else if (document.pictureInPictureEnabled && video.readyState > 0) {
+      await video.requestPictureInPicture();
+    } else {
+      showToast('PiP not available');
+    }
+  } catch (e) {
+    console.log('PiP error:', e);
+    showToast('PiP failed: ' + e.message);
+  }
+}
+
+// Auto-PiP on tab change (optional)
+document.addEventListener('visibilitychange', async () => {
+  if (document.hidden && document.getElementById('playerOverlay').classList.contains('active')) {
+    const video = document.getElementById('video');
+    if (document.pictureInPictureEnabled && video.readyState > 0 && !document.pictureInPictureElement) {
+      try { await video.requestPictureInPicture(); } catch(e) {}
+    }
+  }
+});
+
+function reloadPlayer() {
+  const title = document.getElementById('playerTitle').textContent;
+  const idx = currentList.findIndex(c => c.name === title);
+  if (idx >= 0) {
+    if (hls) { hls.destroy(); hls = null; }
+    playChannel(idx);
+  }
+}
+
+function openExternal() {
+  if (currentStreamUrl) window.open(currentStreamUrl, '_blank');
+}
+
+function closePlayer() {
+  document.getElementById('playerOverlay').classList.remove('active');
+  const video = document.getElementById('video');
+  if (document.pictureInPictureElement) document.exitPictureInPicture().catch(()=>{});
+  if (hls) { hls.destroy(); hls = null; }
+  video.pause();
+  video.removeAttribute('src');
+  video.load();
 }
 
 function escapeHtml(s) {
@@ -285,16 +574,7 @@ function escapeHtml(s) {
 }
 
 document.getElementById('search').addEventListener('input', applyFilters);
-document.getElementById('catFilter').addEventListener('change', applyFilters);
-document.getElementById('langFilter').addEventListener('change', applyFilters);
-
-// Multi-select support for mobile
-document.querySelectorAll('select[multiple]').forEach(sel => {
-  sel.addEventListener('change', () => {
-    const selected = [...sel.selectedOptions].map(o => o.text);
-    sel.title = selected.join(', ') || 'Select';
-  });
-});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closePlayer(); });
 
 loadPlaylist();
 </script>

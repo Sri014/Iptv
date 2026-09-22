@@ -35,22 +35,23 @@ $USER_AGENT = 'Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 Chrome/120 Mob
 $IPTV_INDEX = 'https://iptv-org.github.io/iptv/index.m3u';
 
 $SOURCES = [
-    ['label' => 'IPTV-ORG Index',  'url' => 'https://iptv-org.github.io/iptv/index.m3u',           'type' => 'complete'],
-    ['label' => 'India',           'url' => 'https://iptv-org.github.io/iptv/countries/in.m3u',    'type' => 'india'],
-    ['label' => 'UK',              'url' => 'https://iptv-org.github.io/iptv/countries/uk.m3u',    'type' => 'diaspora'],
-    ['label' => 'USA',             'url' => 'https://iptv-org.github.io/iptv/countries/us.m3u',    'type' => 'diaspora'],
-    ['label' => 'Australia',       'url' => 'https://iptv-org.github.io/iptv/countries/au.m3u',    'type' => 'diaspora'],
-    ['label' => 'Pakistan',        'url' => 'https://iptv-org.github.io/iptv/countries/pk.m3u',    'type' => 'diaspora'],
-    ['label' => 'Bangladesh',      'url' => 'https://iptv-org.github.io/iptv/countries/bd.m3u',    'type' => 'diaspora'],
-    ['label' => 'Ireland',         'url' => 'https://iptv-org.github.io/iptv/countries/ie.m3u',    'type' => 'diaspora'],
-    ['label' => 'Hindi',           'url' => 'https://iptv-org.github.io/iptv/languages/hin.m3u',   'type' => 'hindi'],
-    ['label' => 'Bhojpuri',        'url' => 'https://iptv-org.github.io/iptv/languages/bho.m3u',   'type' => 'hindi'],
-    ['label' => 'English India',   'url' => 'https://iptv-org.github.io/iptv/languages/eng.m3u',   'type' => 'english'],
+    ['label' => 'IPTV-ORG Index',  'url' => 'https://iptv-org.github.io/iptv/index.m3u',                'type' => 'complete'],
+    ['label' => 'India',           'url' => 'https://iptv-org.github.io/iptv/countries/in.m3u',         'type' => 'india'],
+    ['label' => 'Hindi',           'url' => 'https://iptv-org.github.io/iptv/languages/hin.m3u',        'type' => 'hindi'],
+    ['label' => 'Bhojpuri',        'url' => 'https://iptv-org.github.io/iptv/languages/bho.m3u',        'type' => 'hindi'],
+    ['label' => 'English India',   'url' => 'https://iptv-org.github.io/iptv/languages/eng.m3u',        'type' => 'english'],
+    ['label' => 'Bangladesh',      'url' => 'https://iptv-org.github.io/iptv/countries/bd.m3u',         'type' => 'sports'],
+    ['label' => 'Music',           'url' => 'https://iptv-org.github.io/iptv/categories/music.m3u',     'type' => 'music'],
+    ['label' => 'Cartoon',         'url' => 'https://iptv-org.github.io/iptv/categories/animation.m3u', 'type' => 'cartoon'],
+    ['label' => 'Documentary',     'url' => 'https://iptv-org.github.io/iptv/categories/documentary.m3u', 'type' => 'science'],
+    ['label' => 'Sports',          'url' => 'https://iptv-org.github.io/iptv/categories/sports.m3u',    'type' => 'sports'],
+];
 
-    ['label' => 'Garden Music', 'url' => 'https://iptv-org.github.io/iptv/categories/music.m3u', 'type' => 'music'],
-    ['label' => 'Garden Cartoon', 'url' => 'https://iptv-org.github.io/iptv/categories/animation.m3u', 'type' => 'cartoon'],
-    ['label' => 'Garden Documentary', 'url' => 'https://iptv-org.github.io/iptv/categories/documentary.m3u', 'type' => 'science'],
-    ['label' => 'Garden Sports', 'url' => 'https://iptv-org.github.io/iptv/categories/sports.m3u', 'type' => 'sports'],
+// Garden ke 9 alag channels
+$MANUAL_CHANNELS = [
+    ['name' => 'Sangeet Bhojpuri', 'url' => 'https://mumt01.tangotv.in/O5aw8Zn3SANGEETBHOJPURI/index.m3u8', 'group' => 'Music', 'country' => 'IN', 'language' => 'Bhojpuri', 'logo' => ''],
+    ['name' => 'Bhojpuri Cinema', 'url' => 'https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8', 'group' => 'Movies', 'country' => 'IN', 'language' => 'Bhojpuri', 'logo' => ''],
+    ['name' => 'Willow', 'url' => 'https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8', 'group' => 'Sports', 'country' => 'US', 'language' => 'English', 'logo' => ''],
 ];
 
 $BLOCK = ['tamil','telugu','malayalam','kannada','bengali','bangla','marathi','gujarati','punjabi','odia','oriya','assamese','urdu','sun tv','sun news','ktv','adithya','gemini','eenadu','etv telugu','asianet','manorama','flowers tv','mathrubhumi','mazhavil','surya tv','udaya','colors kannada','colors tamil','colors marathi','zee kannada','zee tamil','zee telugu','zee keralam','star suvarna','star vijay','star maa','jaya tv','polimer','puthiya','thanthi','abn andhra','tv9 telugu','tv9 kannada','tv9 marathi','news18 tamil','news18 kerala','news18 kannada','news18 assam','dd chandana','dd yadagiri','dd malayalam','dd podhigai','dd sahyadri','chithiram','jaya max'];
@@ -386,11 +387,18 @@ function looks_indian(array $item): bool
 
 function garden_accept(array $item, string $type): bool
 {
+    // Country whitelist
+    $allowedCountries = ['IN', 'PK', 'BD', 'UK', 'US', 'AU', 'IE', ''];
+    $country = strtoupper(trim((string)($item['country'] ?? '')));
+    if ($country !== '' && !in_array($country, $allowedCountries, true)) return false;
     $nameLower = strtolower((string)($item['name'] ?? ''));
-    $whitelist = ['sony kal hindi','aaj tak','utsav bharat','utsav plus','cricket gold','dd sports','ptv sports','sky sports cricket','star sports 2','star sports select 2','t sports','willow','bbc earth','disney channel india'];
+    $whitelist = ['sky sports cricket','utsav bharat','utsav plus','zee one','shemaroo bollywood','sony kal hindi','the q india','willow','t sports','cricket gold'];
     foreach ($whitelist as $w) {
         if (strpos($nameLower, $w) !== false) return true;
     }
+
+    // Sirf India ke channels (whitelist alag se upar check ho chuki)
+    if ($country !== '' && $country !== 'IN') return false;
     global $ENG_HINTS, $SPORT_HINTS, $INTL_SPORT;
     $name  = strtolower((string)($item['name'] ?? ''));
     $group = strtolower((string)($item['group'] ?? ''));
@@ -584,6 +592,21 @@ function process_source(array &$state, int $index): array
 
 function build_batch(array &$state): array
 {
+    if (($state['source_index'] ?? 0) === 0 && empty($state['manual_added'])) {
+        global $MANUAL_CHANNELS;
+        $ma = 0;
+        foreach ($MANUAL_CHANNELS as $ch) {
+            $ch['source_label'] = 'Garden Manual';
+            $ch['category'] = category_of($ch['group'] ?? '', $ch['name'] ?? '');
+            $ch['hd'] = (bool) preg_match('/\bHD\b/i', $ch['name'] ?? '');
+            $ch['source'] = 'garden';
+            if (add_candidate($state['candidates'], $state['seen'], $ch, 'Garden Manual')) $ma++;
+        }
+        $state['manual_added'] = true;
+        log_line("Garden Manual => +$ma");
+        save_state($state);
+    }
+
     global $SOURCES;
 
     if ($state['phase'] !== 'build') return ['done'=>true,'phase'=>$state['phase']];

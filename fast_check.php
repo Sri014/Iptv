@@ -87,7 +87,15 @@ foreach ($working as $c) {
 }
 file_put_contents('working.m3u', $out);
 
-// Combined.m3u (working + nonworking deduped)
+// Non-working.m3u
+$out2 = "#EXTM3U\n";
+foreach ($nonworking as $c) {
+    $out2 .= '#EXTINF:-1 group-title="' . ($c['category'] ?? 'General') . '",' . ($c['name'] ?? '') . "\n";
+    $out2 .= ($c['url'] ?? '') . "\n";
+}
+file_put_contents('nonworking.m3u', $out2);
+
+// Combined.m3u
 $combined = array_merge($working, $nonworking);
 $seen = [];
 $unique = [];
@@ -98,12 +106,12 @@ foreach ($combined as $c) {
     $unique[] = $c;
 }
 
-$out2 = "#EXTM3U\n";
+$out3 = "#EXTM3U\n";
 foreach ($unique as $c) {
-    $out2 .= '#EXTINF:-1 group-title="' . ($c['category'] ?? 'General') . '",' . ($c['name'] ?? '') . "\n";
-    $out2 .= ($c['url'] ?? '') . "\n";
+    $out3 .= '#EXTINF:-1 group-title="' . ($c['category'] ?? 'General') . '",' . ($c['name'] ?? '') . "\n";
+    $out3 .= ($c['url'] ?? '') . "\n";
 }
-file_put_contents('combined.m3u', $out2);
+file_put_contents('combined.m3u', $out3);
 
 echo "\n=== DONE ===\n";
 echo "Working: " . count($working) . "\n";

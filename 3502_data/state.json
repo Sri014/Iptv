@@ -14147,21 +14147,6 @@
             "http_status": 200
         },
         {
-            "name": "Aastha Prime 1",
-            "group": "Religious",
-            "logo": "https://i.imgur.com/LyWSMJS.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8",
-            "category": "Devotional",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
-        },
-        {
             "name": "ABN TV India",
             "group": "Religious",
             "logo": "https://i.imgur.com/VcZn60X.png",
@@ -14275,21 +14260,6 @@
             "lang": "",
             "source": "complete",
             "url": "https://alt-al.otteravision.com/alt/al/al.m3u8",
-            "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
-            "name": "AKD Calcutta News",
-            "group": "News",
-            "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Calcutta%20News.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://live.legitpro.co.in/cnnnews/index.m3u8",
             "category": "News",
             "source_label": "IPTV-ORG Index",
             "hd": false,
@@ -15040,6 +15010,21 @@
             "lang": "",
             "source": "complete",
             "url": "http://46.32.176.50/bbcworld/index.m3u8",
+            "category": "News",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
+            "name": "BBC News Latin America",
+            "group": "News",
+            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png",
+            "country": "UK",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://138.121.15.230:9002/BBC-NEWS/index.m3u8",
             "category": "News",
             "source_label": "IPTV-ORG Index",
             "hd": false,
@@ -16946,21 +16931,6 @@
             "source": "complete",
             "url": "https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8",
             "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
-        },
-        {
-            "name": "ETV Plus",
-            "group": "Entertainment",
-            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvplus.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
-            "category": "Entertainment",
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Working",
@@ -19667,6 +19637,21 @@
             "http_status": 206
         },
         {
+            "name": "Nick Jr. (Croatia)",
+            "group": "Kids",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",
+            "country": "HR",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://176.61.157.250/NickJr/index.m3u8",
+            "category": "Cartoon",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
             "name": "like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Kids\",Nick Jr. (Czech Republic)",
             "group": "Kids",
             "logo": "https://i.imgur.com/KT4tdQs.png",
@@ -19742,6 +19727,36 @@
             "http_status": 206
         },
         {
+            "name": "Nick Jr. (Russia)",
+            "group": "Kids",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",
+            "country": "RU",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://stream.mcquack.net/220/index.m3u8",
+            "category": "Cartoon",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
+        },
+        {
+            "name": "Nick Jr. (United States)",
+            "group": "Kids",
+            "logo": "https://i.imgur.com/KT4tdQs.png",
+            "country": "US",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://212.5.144.156:8080/nickjr/index.m3u8",
+            "category": "Cartoon",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
             "name": "Nickelodeon (Brazil)",
             "group": "Kids",
             "logo": "https://i.imgur.com/E84jnP8.png",
@@ -19750,6 +19765,21 @@
             "lang": "",
             "source": "complete",
             "url": "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8",
+            "category": "Cartoon",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
+            "name": "Nickelodeon (Croatia)",
+            "group": "Kids",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png",
+            "country": "HR",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://176.61.157.250/Nickelodeon/index.m3u8",
             "category": "Cartoon",
             "source_label": "IPTV-ORG Index",
             "hd": false,
@@ -19817,21 +19847,6 @@
             "http_status": 206
         },
         {
-            "name": "Nickelodeon (Russia)",
-            "group": "Kids",
-            "logo": "https://i.imgur.com/w8iE8dV.png",
-            "country": "RU",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://stream.mcquack.net/443/index.m3u8",
-            "category": "Cartoon",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
-        },
-        {
             "name": "Nickelodeon (United States)",
             "group": "Kids",
             "logo": "https://i.imgur.com/E84jnP8.png",
@@ -19870,6 +19885,21 @@
             "lang": "",
             "source": "complete",
             "url": "http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8",
+            "category": "Cartoon",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
+            "name": "Nickelodeon Latin America",
+            "group": "Kids",
+            "logo": "https://i.imgur.com/E84jnP8.png",
+            "country": "US",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://15.204.246.24:8080/NickHD/index.m3u8",
             "category": "Cartoon",
             "source_label": "IPTV-ORG Index",
             "hd": false,
@@ -20051,6 +20081,21 @@
             "source": "complete",
             "url": "https://live.olidigital.in/olitv/olitv/index.m3u8",
             "category": "Entertainment",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
+            "name": "OM TV",
+            "group": "Religious",
+            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/OM_TV.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://mumt01.tangotv.in/O5aw8Zn3OMTV/index.m3u8",
+            "category": "Devotional",
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Working",
@@ -20425,6 +20470,21 @@
             "lang": "",
             "source": "complete",
             "url": "https://stream.ottlive.co.in/primenews/index.m3u8",
+            "category": "News",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
+        },
+        {
+            "name": "Prudent Media",
+            "group": "News",
+            "logo": "https://i.imgur.com/DG0x4UD.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://prudentmcdn.rixcast.com/prudentm.m3u8",
             "category": "News",
             "source_label": "IPTV-ORG Index",
             "hd": false,
@@ -21362,21 +21422,6 @@
             "http_status": 206
         },
         {
-            "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Sports\",Setanta Sports 1 Eurasia",
-            "group": "Sports",
-            "logo": "https://i.imgur.com/zlJK7ca.png",
-            "country": "IE",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://stream.mcquack.net/234/index.m3u8",
-            "category": "Sports",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
-        },
-        {
             "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Sports\",Setanta Sports 2 Eurasia",
             "group": "Sports",
             "logo": "https://i.imgur.com/ouHunnK.png",
@@ -22050,21 +22095,6 @@
             "hd": false,
             "status": "Working",
             "http_status": 206
-        },
-        {
-            "name": "Star Jalsha (576p)",
-            "group": "Entertainment",
-            "logo": "https://i.imgur.com/IlufzR5.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV",
-            "category": "Entertainment",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
         },
         {
             "name": "Star Jalsha HD",
@@ -23672,6 +23702,21 @@
             "http_status": 206
         },
         {
+            "name": "Zee 24 Taas",
+            "group": "News",
+            "logo": "https://dtil.tmsimg.com/assets/GNLZZGG00230LKE.png?lock=720x540",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8",
+            "category": "News",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
             "name": "Zee Action",
             "group": "Movies",
             "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0022K5ZV.png?lock=720x540",
@@ -23942,6 +23987,21 @@
             "http_status": 206
         },
         {
+            "name": "Zee Uttar Pradesh/Uttarakhand",
+            "group": "News",
+            "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002317GQ.png?lock=720x540",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://duw35ict5q7th.cloudfront.net/index_3.m3u8",
+            "category": "News",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
             "name": "ZillarBarta News",
             "group": "Classic;News",
             "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/zillarbarta.png",
@@ -24071,6 +24131,21 @@
             "source": "india",
             "url": "https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8",
             "category": "Entertainment",
+            "source_label": "India",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
+        },
+        {
+            "name": "InWonder",
+            "group": "Science",
+            "logo": "https://cdn.uc.assets.prezly.com/f12e798d-6da4-46e1-8ec5-e391d6762659/InWonder_portrait-purple.png",
+            "country": "NL",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "https://amg00861-terninternation-inwonder-samsungau-1k63k.amagi.tv/playlist/amg00861-terninternation-inwonder-samsungau/playlist.m3u8",
+            "category": "Science",
             "source_label": "India",
             "hd": false,
             "status": "Working",
@@ -24602,6 +24677,21 @@
             "http_status": 206
         },
         {
+            "name": "EU Music",
+            "group": "Music",
+            "logo": "https://i.imgur.com/fJdvyrG.png",
+            "country": "UA",
+            "language": "",
+            "lang": "",
+            "source": "music",
+            "url": "http://stream.mcquack.net/261/index.m3u8",
+            "category": "Music",
+            "source_label": "Garden Music",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
+        },
+        {
             "name": "Euro Indie Music Chart TV",
             "group": "Music",
             "logo": "https://i.imgur.com/lF0iofX.png",
@@ -24760,21 +24850,6 @@
             "lang": "",
             "source": "music",
             "url": "http://stream.mcquack.net/218/index.m3u8",
-            "category": "Music",
-            "source_label": "Garden Music",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
-        },
-        {
-            "name": "like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Music\",M2 (Ukraine)",
-            "group": "Music",
-            "logo": "https://i.imgur.com/AfcBWCg.png",
-            "country": "UA",
-            "language": "",
-            "lang": "",
-            "source": "music",
-            "url": "http://stream.mcquack.net/330/index.m3u8",
             "category": "Music",
             "source_label": "Garden Music",
             "hd": false,
@@ -25097,6 +25172,21 @@
             "http_status": 206
         },
         {
+            "name": "Russian MusicBox",
+            "group": "Music",
+            "logo": "https://i.imgur.com/ZkJ3Rh9.png",
+            "country": "RU",
+            "language": "",
+            "lang": "",
+            "source": "music",
+            "url": "http://stream.mcquack.net/319/index.m3u8",
+            "category": "Music",
+            "source_label": "Garden Music",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
+        },
+        {
             "name": "Salto Brasa Music",
             "group": "Music",
             "logo": "https://i.vimeocdn.com/portrait/31947989_640x640",
@@ -25352,21 +25442,6 @@
             "http_status": 206
         },
         {
-            "name": "Vintage Music",
-            "group": "Music",
-            "logo": "https://i.imgur.com/KImqYnN.jpeg",
-            "country": "CR",
-            "language": "",
-            "lang": "",
-            "source": "music",
-            "url": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
-            "category": "Music",
-            "source_label": "Garden Music",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
             "name": "Zwei Music Television",
             "group": "Music",
             "logo": "https://i.imgur.com/RbdpCNf.png",
@@ -25412,6 +25487,21 @@
             "http_status": 200
         },
         {
+            "name": "Disney Channel Latin America",
+            "group": "Animation;Kids",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",
+            "country": "AR",
+            "language": "",
+            "lang": "",
+            "source": "cartoon",
+            "url": "http://15.204.246.24:8080/DisneyHD/index.m3u8",
+            "category": "Cartoon",
+            "source_label": "Garden Cartoon",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
             "name": "Disney Channel Latin America Center",
             "group": "Animation;Kids",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",
@@ -25440,6 +25530,21 @@
             "hd": false,
             "status": "Working",
             "http_status": 200
+        },
+        {
+            "name": "Disney Channel Latin America North",
+            "group": "Animation;Kids",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",
+            "country": "AR",
+            "language": "",
+            "lang": "",
+            "source": "cartoon",
+            "url": "http://138.121.15.230:9002/DISNEY-CHANNEL/index.m3u8",
+            "category": "Cartoon",
+            "source_label": "Garden Cartoon",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
         },
         {
             "name": "Disney Channel Latin America Panregional HD",
@@ -25562,6 +25667,21 @@
             "http_status": 206
         },
         {
+            "name": "National Geographic (Croatia)",
+            "group": "Documentary",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
+            "country": "HR",
+            "language": "",
+            "lang": "",
+            "source": "science",
+            "url": "http://176.61.157.250/NationalGeographic/index.m3u8",
+            "category": "Science",
+            "source_label": "Garden Documentary",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
             "name": "like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Documentary\",National Geographic (Hungary)",
             "group": "Documentary",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
@@ -25575,6 +25695,21 @@
             "hd": false,
             "status": "Working",
             "http_status": 200
+        },
+        {
+            "name": "National Geographic (Mexico)",
+            "group": "Documentary",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
+            "country": "MX",
+            "language": "",
+            "lang": "",
+            "source": "science",
+            "url": "http://138.121.15.230:9002/NAT-GEO/index.m3u8",
+            "category": "Science",
+            "source_label": "Garden Documentary",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
         },
         {
             "name": "like Gecko) Chrome/149.0.0.0 Safari/537.3\" group-title=\"Documentary\",National Geographic (Netherlands) HD",
@@ -25607,6 +25742,21 @@
             "http_status": 206
         },
         {
+            "name": "National Geographic (United States)",
+            "group": "Documentary",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
+            "country": "US",
+            "language": "",
+            "lang": "",
+            "source": "science",
+            "url": "http://212.5.144.156:8080/natgeo/index.m3u8",
+            "category": "Science",
+            "source_label": "Garden Documentary",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
             "name": "National Geographic (United States) HD East",
             "group": "Documentary",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
@@ -25618,6 +25768,21 @@
             "category": "Science",
             "source_label": "Garden Documentary",
             "hd": true,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
+            "name": "National Geographic Latin America",
+            "group": "Documentary",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
+            "country": "US",
+            "language": "",
+            "lang": "",
+            "source": "science",
+            "url": "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
+            "category": "Science",
+            "source_label": "Garden Documentary",
+            "hd": false,
             "status": "Working",
             "http_status": 206
         },
@@ -25787,6 +25952,36 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 0
+        },
+        {
+            "name": "Aastha Prime 1",
+            "group": "Religious",
+            "logo": "https://i.imgur.com/LyWSMJS.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8",
+            "category": "Devotional",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 206
+        },
+        {
+            "name": "AKD Calcutta News",
+            "group": "News",
+            "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Calcutta%20News.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://live.legitpro.co.in/cnnnews/index.m3u8",
+            "category": "News",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 404
         },
         {
             "name": "Al Jazeera English HD",
@@ -26267,21 +26462,6 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 0
-        },
-        {
-            "name": "BBC News Latin America",
-            "group": "News",
-            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png",
-            "country": "UK",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://138.121.15.230:9002/BBC-NEWS/index.m3u8",
-            "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 404
         },
         {
             "name": "BBC News South Asia",
@@ -27634,6 +27814,21 @@
             "http_status": 404
         },
         {
+            "name": "ETV Plus",
+            "group": "Entertainment",
+            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvplus.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+            "category": "Entertainment",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 200
+        },
+        {
             "name": "ETV Plus HD",
             "group": "Entertainment",
             "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png",
@@ -27919,51 +28114,6 @@
             "http_status": 0
         },
         {
-            "name": "Nick Jr. (Croatia)",
-            "group": "Kids",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",
-            "country": "HR",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://176.61.157.250/NickJr/index.m3u8",
-            "category": "Cartoon",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 403
-        },
-        {
-            "name": "Nick Jr. (Russia)",
-            "group": "Kids",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",
-            "country": "RU",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://stream.mcquack.net/220/index.m3u8",
-            "category": "Cartoon",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 200
-        },
-        {
-            "name": "Nick Jr. (United States)",
-            "group": "Kids",
-            "logo": "https://i.imgur.com/KT4tdQs.png",
-            "country": "US",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://212.5.144.156:8080/nickjr/index.m3u8",
-            "category": "Cartoon",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 403
-        },
-        {
             "name": "Nick Jr. Asia",
             "group": "Kids",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",
@@ -28084,21 +28234,6 @@
             "http_status": 0
         },
         {
-            "name": "Nickelodeon (Croatia)",
-            "group": "Kids",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png",
-            "country": "HR",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://176.61.157.250/Nickelodeon/index.m3u8",
-            "category": "Cartoon",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 403
-        },
-        {
             "name": "like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18\" group-title=\"Kids\",Nickelodeon (Romania)",
             "group": "Kids",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png",
@@ -28107,6 +28242,21 @@
             "lang": "",
             "source": "complete",
             "url": "https://onyx1.mofta1.cfd/nike/usergenm24qrnd.m3u8",
+            "category": "Cartoon",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 200
+        },
+        {
+            "name": "Nickelodeon (Russia)",
+            "group": "Kids",
+            "logo": "https://i.imgur.com/w8iE8dV.png",
+            "country": "RU",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://stream.mcquack.net/443/index.m3u8",
             "category": "Cartoon",
             "source_label": "IPTV-ORG Index",
             "hd": false,
@@ -28202,21 +28352,6 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 404
-        },
-        {
-            "name": "Nickelodeon Latin America",
-            "group": "Kids",
-            "logo": "https://i.imgur.com/E84jnP8.png",
-            "country": "US",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "http://15.204.246.24:8080/NickHD/index.m3u8",
-            "category": "Cartoon",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 403
         },
         {
             "name": "Nickelodeon Pluto TV",
@@ -28384,21 +28519,6 @@
             "http_status": 404
         },
         {
-            "name": "OM TV",
-            "group": "Religious",
-            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/OM_TV.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://mumt01.tangotv.in/O5aw8Zn3OMTV/index.m3u8",
-            "category": "Devotional",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 403
-        },
-        {
             "name": "Only Bharat",
             "group": "News",
             "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AMV_NETWORK/images/LOGO_HD/image.png",
@@ -28412,21 +28532,6 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 0
-        },
-        {
-            "name": "Prudent Media",
-            "group": "News",
-            "logo": "https://i.imgur.com/DG0x4UD.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://prudentmcdn.rixcast.com/prudentm.m3u8",
-            "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 200
         },
         {
             "name": "PTV Sports",
@@ -28472,6 +28577,21 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 0
+        },
+        {
+            "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Sports\",Setanta Sports 1 Eurasia",
+            "group": "Sports",
+            "logo": "https://i.imgur.com/zlJK7ca.png",
+            "country": "IE",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://stream.mcquack.net/234/index.m3u8",
+            "category": "Sports",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 200
         },
         {
             "name": "like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Sports\",Setanta Sports 2",
@@ -28562,6 +28682,21 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 0
+        },
+        {
+            "name": "Star Jalsha (576p)",
+            "group": "Entertainment",
+            "logo": "https://i.imgur.com/IlufzR5.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV",
+            "category": "Entertainment",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 509
         },
         {
             "name": "Starnet",
@@ -28714,21 +28849,6 @@
             "http_status": 404
         },
         {
-            "name": "Zee 24 Taas",
-            "group": "News",
-            "logo": "https://dtil.tmsimg.com/assets/GNLZZGG00230LKE.png?lock=720x540",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8",
-            "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 0
-        },
-        {
             "name": "Zee Cine Classic",
             "group": "Classic",
             "logo": "https://i.imgur.com/QCRhS1n.png",
@@ -28834,21 +28954,6 @@
             "http_status": 403
         },
         {
-            "name": "Zee Uttar Pradesh/Uttarakhand",
-            "group": "News",
-            "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002317GQ.png?lock=720x540",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://duw35ict5q7th.cloudfront.net/index_3.m3u8",
-            "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 0
-        },
-        {
             "name": "Zee Zest HD",
             "group": "Lifestyle",
             "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ZEST/images/LOGO_HD/LOGO_HD_image.png",
@@ -28860,21 +28965,6 @@
             "category": "Lifestyle",
             "source_label": "IPTV-ORG Index",
             "hd": true,
-            "status": "Non-working",
-            "http_status": 0
-        },
-        {
-            "name": "InWonder",
-            "group": "Science",
-            "logo": "https://cdn.uc.assets.prezly.com/f12e798d-6da4-46e1-8ec5-e391d6762659/InWonder_portrait-purple.png",
-            "country": "NL",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "https://amg00861-terninternation-inwonder-samsungau-1k63k.amagi.tv/playlist/amg00861-terninternation-inwonder-samsungau/playlist.m3u8",
-            "category": "Science",
-            "source_label": "India",
-            "hd": false,
             "status": "Non-working",
             "http_status": 0
         },
@@ -29014,21 +29104,6 @@
             "http_status": 0
         },
         {
-            "name": "EU Music",
-            "group": "Music",
-            "logo": "https://i.imgur.com/fJdvyrG.png",
-            "country": "UA",
-            "language": "",
-            "lang": "",
-            "source": "music",
-            "url": "http://stream.mcquack.net/261/index.m3u8",
-            "category": "Music",
-            "source_label": "Garden Music",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 200
-        },
-        {
             "name": "First Music Channel Russia",
             "group": "Music",
             "logo": "https://i.imgur.com/rEo7nR1.png",
@@ -29087,6 +29162,21 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 404
+        },
+        {
+            "name": "like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Music\",M2 (Ukraine)",
+            "group": "Music",
+            "logo": "https://i.imgur.com/AfcBWCg.png",
+            "country": "UA",
+            "language": "",
+            "lang": "",
+            "source": "music",
+            "url": "http://stream.mcquack.net/330/index.m3u8",
+            "category": "Music",
+            "source_label": "Garden Music",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 200
         },
         {
             "name": "M6 Music",
@@ -29359,19 +29449,19 @@
             "http_status": 403
         },
         {
-            "name": "Russian MusicBox",
+            "name": "Vintage Music",
             "group": "Music",
-            "logo": "https://i.imgur.com/ZkJ3Rh9.png",
-            "country": "RU",
+            "logo": "https://i.imgur.com/KImqYnN.jpeg",
+            "country": "CR",
             "language": "",
             "lang": "",
             "source": "music",
-            "url": "http://stream.mcquack.net/319/index.m3u8",
+            "url": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
             "category": "Music",
             "source_label": "Garden Music",
             "hd": false,
             "status": "Non-working",
-            "http_status": 200
+            "http_status": 403
         },
         {
             "name": "Yo! MTV",
@@ -29419,36 +29509,6 @@
             "http_status": 0
         },
         {
-            "name": "Disney Channel Latin America",
-            "group": "Animation;Kids",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",
-            "country": "AR",
-            "language": "",
-            "lang": "",
-            "source": "cartoon",
-            "url": "http://15.204.246.24:8080/DisneyHD/index.m3u8",
-            "category": "Cartoon",
-            "source_label": "Garden Cartoon",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 403
-        },
-        {
-            "name": "Disney Channel Latin America North",
-            "group": "Animation;Kids",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",
-            "country": "AR",
-            "language": "",
-            "lang": "",
-            "source": "cartoon",
-            "url": "http://138.121.15.230:9002/DISNEY-CHANNEL/index.m3u8",
-            "category": "Cartoon",
-            "source_label": "Garden Cartoon",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 404
-        },
-        {
             "name": "Disney Jr. (Turkiye) (1080p)",
             "group": "Animation;Kids",
             "logo": "https://www.dsmart.com.tr/api/v1/public/images/kanallar/disneyjr.png",
@@ -29491,7 +29551,7 @@
             "source_label": "Garden Cartoon",
             "hd": false,
             "status": "Non-working",
-            "http_status": 403
+            "http_status": 0
         },
         {
             "name": "You Man Cartoon Channel",
@@ -29524,21 +29584,6 @@
             "http_status": 0
         },
         {
-            "name": "National Geographic (Croatia)",
-            "group": "Documentary",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
-            "country": "HR",
-            "language": "",
-            "lang": "",
-            "source": "science",
-            "url": "http://176.61.157.250/NationalGeographic/index.m3u8",
-            "category": "Science",
-            "source_label": "Garden Documentary",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 403
-        },
-        {
             "name": "National Geographic (Finland) (720p)",
             "group": "Documentary",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
@@ -29552,21 +29597,6 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 451
-        },
-        {
-            "name": "National Geographic (Mexico)",
-            "group": "Documentary",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
-            "country": "MX",
-            "language": "",
-            "lang": "",
-            "source": "science",
-            "url": "http://138.121.15.230:9002/NAT-GEO/index.m3u8",
-            "category": "Science",
-            "source_label": "Garden Documentary",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 404
         },
         {
             "name": "like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18\" group-title=\"Documentary\",National Geographic (Romania)",
@@ -29612,36 +29642,6 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 200
-        },
-        {
-            "name": "National Geographic (United States)",
-            "group": "Documentary",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
-            "country": "US",
-            "language": "",
-            "lang": "",
-            "source": "science",
-            "url": "http://212.5.144.156:8080/natgeo/index.m3u8",
-            "category": "Science",
-            "source_label": "Garden Documentary",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 403
-        },
-        {
-            "name": "National Geographic Latin America",
-            "group": "Documentary",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
-            "country": "US",
-            "language": "",
-            "lang": "",
-            "source": "science",
-            "url": "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
-            "category": "Science",
-            "source_label": "Garden Documentary",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 403
         },
         {
             "name": "National Geographic Wild (Bulgaria)",
@@ -29746,7 +29746,7 @@
             "source_label": "Garden Documentary",
             "hd": false,
             "status": "Non-working",
-            "http_status": 0
+            "http_status": 404
         },
         {
             "name": "Pluto TV Science (United States)",
@@ -30949,6 +30949,6 @@
             "error": false
         }
     ],
-    "started_at": "2026-09-22T17:26:45+00:00",
-    "updated_at": "2026-09-22T17:26:49+00:00"
+    "started_at": "2026-09-22T17:55:08+00:00",
+    "updated_at": "2026-09-22T17:55:11+00:00"
 }

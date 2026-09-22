@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Cartoon" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png",Disney Channel (India)
-http://202.70.146.135:8000/play/a01q/index.m3u8
 #EXTINF:-1 group-title="Cartoon" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png",Disney International HD
 http://202.70.146.135:8000/play/a04p/index.m3u8
 #EXTINF:-1 group-title="Cartoon" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GUBBARE/images/LOGO_HD/image.png",Epic Kids Digital

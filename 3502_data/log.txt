@@ -2120,3 +2120,37 @@
 [2026-09-22 20:18:13] SAVE OK | src=10 | cand=637
 [2026-09-22 20:18:13] Sports => +0 (from 421) | total 637
 [2026-09-22 20:18:13] SAVE OK | src=10 | cand=637
+[2026-09-22 20:31:20] SAVE OK | src=0 | cand=0
+[2026-09-22 20:31:20] Garden Manual => +3
+[2026-09-22 20:31:20] SAVE OK | src=0 | cand=3
+[2026-09-22 20:31:20] FETCH IPTV-ORG Index
+[2026-09-22 20:31:20] SAVE OK | src=1 | cand=637
+[2026-09-22 20:31:20] IPTV-ORG Index => +634 (from 10958) | total 637
+[2026-09-22 20:31:20] FETCH India
+[2026-09-22 20:31:20] SAVE OK | src=2 | cand=637
+[2026-09-22 20:31:20] India => +0 (from 741) | total 637
+[2026-09-22 20:31:20] FETCH Hindi
+[2026-09-22 20:31:20] SAVE OK | src=3 | cand=637
+[2026-09-22 20:31:20] Hindi => +0 (from 323) | total 637
+[2026-09-22 20:31:20] FETCH Bhojpuri
+[2026-09-22 20:31:21] SAVE OK | src=4 | cand=637
+[2026-09-22 20:31:21] Bhojpuri => +0 (from 11) | total 637
+[2026-09-22 20:31:21] FETCH English India
+[2026-09-22 20:31:21] SAVE OK | src=5 | cand=637
+[2026-09-22 20:31:21] English India => +0 (from 2972) | total 637
+[2026-09-22 20:31:21] FETCH Bangladesh
+[2026-09-22 20:31:21] SAVE OK | src=6 | cand=637
+[2026-09-22 20:31:21] Bangladesh => +0 (from 41) | total 637
+[2026-09-22 20:31:21] FETCH Music
+[2026-09-22 20:31:21] SAVE OK | src=7 | cand=637
+[2026-09-22 20:31:21] Music => +0 (from 738) | total 637
+[2026-09-22 20:31:21] FETCH Cartoon
+[2026-09-22 20:31:21] SAVE OK | src=8 | cand=637
+[2026-09-22 20:31:21] Cartoon => +0 (from 161) | total 637
+[2026-09-22 20:31:21] FETCH Documentary
+[2026-09-22 20:31:21] SAVE OK | src=9 | cand=637
+[2026-09-22 20:31:21] Documentary => +0 (from 252) | total 637
+[2026-09-22 20:31:21] FETCH Sports
+[2026-09-22 20:31:21] SAVE OK | src=10 | cand=637
+[2026-09-22 20:31:21] Sports => +0 (from 421) | total 637
+[2026-09-22 20:31:21] SAVE OK | src=10 | cand=637

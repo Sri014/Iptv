@@ -71,10 +71,22 @@ foreach ($chunks as $ci => $chunk) {
     file_put_contents($STATE_FILE, json_encode($state, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
 }
 
+function detect_lang($c) {
+    static $langMap = null;
+    if ($langMap === null) {
+        $file = __DIR__ . '/langmap_indian.json';
+        $langMap = is_file($file) ? json_decode(file_get_contents($file), true) : [];
+        if (!is_array($langMap)) $langMap = [];
+    }
+    $url = strtolower(trim($c['url'] ?? ''));
+    if ($url !== '' && isset($langMap[$url])) return $langMap[$url];
+    return 'Unknown';
+}
+
 function makeM3U($items) {
     $out = "#EXTM3U\n";
     foreach ($items as $c) {
-        $lang = $c['lang'] ?? $c['language'] ?? '';
+        $lang = detect_lang($c);
         $cat  = $c['category'] ?? $c['group'] ?? 'General';
         $name = $c['name'] ?? '';
         $logo = $c['logo'] ?? '';

@@ -7,7 +7,7 @@ if (!$state || empty($state['candidates'])) { echo "No candidates\n"; exit(1); }
 
 $candidates = $state['candidates'];
 $total = count($candidates);
-echo "Total: $total\n";
+echo "Total candidates: $total\n";
 
 $UA = 'Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 Chrome/120 Mobile Safari/537.36';
 
@@ -79,6 +79,7 @@ foreach ($chunks as $ci => $chunk) {
     file_put_contents($STATE_FILE, json_encode($state, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
 }
 
+// Working.m3u
 $out = "#EXTM3U\n";
 foreach ($working as $c) {
     $out .= '#EXTINF:-1 group-title="' . ($c['category'] ?? 'General') . '",' . ($c['name'] ?? '') . "\n";
@@ -86,11 +87,25 @@ foreach ($working as $c) {
 }
 file_put_contents('working.m3u', $out);
 
+// Combined.m3u (working + nonworking deduped)
+$combined = array_merge($working, $nonworking);
+$seen = [];
+$unique = [];
+foreach ($combined as $c) {
+    $url = strtolower(trim($c['url'] ?? ''));
+    if ($url === '' || isset($seen[$url])) continue;
+    $seen[$url] = true;
+    $unique[] = $c;
+}
+
 $out2 = "#EXTM3U\n";
-foreach ($nonworking as $c) {
+foreach ($unique as $c) {
     $out2 .= '#EXTINF:-1 group-title="' . ($c['category'] ?? 'General') . '",' . ($c['name'] ?? '') . "\n";
     $out2 .= ($c['url'] ?? '') . "\n";
 }
-file_put_contents('nonworking.m3u', $out2);
+file_put_contents('combined.m3u', $out2);
 
-echo "\n=== DONE ===\nWorking: " . count($working) . "\nNon-working: " . count($nonworking) . "\n";
+echo "\n=== DONE ===\n";
+echo "Working: " . count($working) . "\n";
+echo "Non-working: " . count($nonworking) . "\n";
+echo "Combined (deduped): " . count($unique) . "\n";

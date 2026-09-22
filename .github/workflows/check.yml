@@ -34,22 +34,84 @@ jobs:
             RES=$(curl -s "http://127.0.0.1:8080/3502.php?action=build")
             echo "$RES" | head -c 150
             echo ""
-            if echo "$RES" | grep -q '"done":true'; then break; fi
+            if echo "$RES" | grep -q '"done":true'; then
+              echo "BUILD COMPLETE"
+              break
+            fi
           done
 
-      - name: Fast parallel check
-        run: php fast_check.php
-
-      - name: Generate combined.m3u
+      - name: Check + Working/Non-working
         run: |
-          curl -s -o combined.m3u "http://127.0.0.1:8080/3502.php?action=download&type=combined"
+          echo "=== Starting check ==="
+          for i in $(seq 1 2000); do
+            RES=$(curl -s "http://127.0.0.1:8080/3502.php?action=check")
+            PHASE=$(echo "$RES" | grep -o '"phase":"[^"]*"' | head -1)
+            CHECKED=$(echo "$RES" | grep -o '"checked":[0-9]*' | head -1)
+            WORKING=$(echo "$RES" | grep -o '"working":[0-9]*' | head -1)
+            echo "$PHASE | $CHECKED | $WORKING"
+            if echo "$RES" | grep -q '"phase":"complete"'; then
+              echo "CHECK COMPLETE"
+              break
+            fi
+          done
+
+      - name: Download working.m3u + nonworking.m3u
+        run: |
+          curl -s -o working.m3u "http://127.0.0.1:8080/3502.php?action=download&type=working"
+          curl -s -o nonworking.m3u "http://127.0.0.1:8080/3502.php?action=download&type=nonworking"
+          echo "=== WORKING ==="
+          wc -l working.m3u
+          echo "=== NON-WORKING ==="
+          wc -l nonworking.m3u
+
+      - name: Make combined.m3u
+        run: |
+          php -r '
+          $w = file_get_contents("working.m3u");
+          $n = file_get_contents("nonworking.m3u");
+          $lines_w = preg_split("/\r\n|\r|\n/", $w);
+          $lines_n = preg_split("/\r\n|\r|\n/", $n);
+          $combined = ["#EXTM3U"];
+          $seen = [];
+          foreach ([$lines_w, $lines_n] as $lines) {
+              $i = 0; $cnt = count($lines);
+              while ($i < $cnt) {
+                  $line = trim($lines[$i]);
+                  if (stripos($line, "#EXTINF:") === 0 && isset($lines[$i+1])) {
+                      $url = trim($lines[$i+1]);
+                      if ($url !== "" && strpos($url, "#") !== 0) {
+                          $key = strtolower($url);
+                          if (!isset($seen[$key])) {
+                              $seen[$key] = true;
+                              $combined[] = $line;
+                              $combined[] = $url;
+                          }
+                      }
+                      $i += 2;
+                  } else {
+                      $i++;
+                  }
+              }
+          }
+          file_put_contents("combined.m3u", implode("\n", $combined) . "\n");
+          echo "Combined: " . (count($combined) - 1) . " lines\n";
+          '
+          echo "=== COMBINED ==="
           wc -l combined.m3u
+
+      - name: Show results
+        run: |
+          echo "=== WORKING (first 10) ==="
+          head -20 working.m3u
+          echo ""
+          echo "=== COMBINED (first 10) ==="
+          head -20 combined.m3u
 
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add working.m3u combined.m3u 3502_data/ 2>/dev/null || true
+          git add working.m3u nonworking.m3u combined.m3u 3502_data/ 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Update $(date -u +%Y-%m-%d_%H-%M)"
           git push || true
 
@@ -59,4 +121,5 @@ jobs:
           name: m3u-files
           path: |
             working.m3u
+            nonworking.m3u
             combined.m3u

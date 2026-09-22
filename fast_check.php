@@ -70,7 +70,7 @@ foreach ($chunks as $ci => $chunk) {
 
     curl_multi_close($mh);
 
-    echo "Batch " . ($ci + 1) . "/" . count($chunks) . " | working=" . count($working) . " | nonworking=" . count($nonworking) . "\n";
+    echo "Batch " . ($ci + 1) . "/" . count($chunks) . " | working=" . count($working) . "\n";
 
     $state['working'] = $working;
     $state['nonworking'] = $nonworking;
@@ -79,23 +79,30 @@ foreach ($chunks as $ci => $chunk) {
     file_put_contents($STATE_FILE, json_encode($state, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
 }
 
-// Working.m3u
-$out = "#EXTM3U\n";
-foreach ($working as $c) {
-    $out .= '#EXTINF:-1 group-title="' . ($c['category'] ?? 'General') . '",' . ($c['name'] ?? '') . "\n";
-    $out .= ($c['url'] ?? '') . "\n";
-}
-file_put_contents('working.m3u', $out);
+// Build M3U with language + logo
+function makeM3U($items) {
+    $out = "#EXTM3U\n";
+    foreach ($items as $c) {
+        $lang = $c['lang'] ?? $c['language'] ?? '';
+        $cat  = $c['category'] ?? $c['group'] ?? 'General';
+        $name = $c['name'] ?? '';
+        $logo = $c['logo'] ?? '';
+        $url  = $c['url'] ?? '';
 
-// Non-working.m3u
-$out2 = "#EXTM3U\n";
-foreach ($nonworking as $c) {
-    $out2 .= '#EXTINF:-1 group-title="' . ($c['category'] ?? 'General') . '",' . ($c['name'] ?? '') . "\n";
-    $out2 .= ($c['url'] ?? '') . "\n";
-}
-file_put_contents('nonworking.m3u', $out2);
+        $attrs = 'group-title="' . $cat . '"';
+        if ($lang !== '') $attrs .= ' tvg-language="' . $lang . '"';
+        if ($logo !== '') $attrs .= ' tvg-logo="' . $logo . '"';
 
-// Combined.m3u
+        $out .= '#EXTINF:-1 ' . $attrs . ',' . $name . "\n";
+        $out .= $url . "\n";
+    }
+    return $out;
+}
+
+file_put_contents('working.m3u', makeM3U($working));
+file_put_contents('nonworking.m3u', makeM3U($nonworking));
+
+// Combined
 $combined = array_merge($working, $nonworking);
 $seen = [];
 $unique = [];
@@ -105,15 +112,6 @@ foreach ($combined as $c) {
     $seen[$url] = true;
     $unique[] = $c;
 }
+file_put_contents('combined.m3u', makeM3U($unique));
 
-$out3 = "#EXTM3U\n";
-foreach ($unique as $c) {
-    $out3 .= '#EXTINF:-1 group-title="' . ($c['category'] ?? 'General') . '",' . ($c['name'] ?? '') . "\n";
-    $out3 .= ($c['url'] ?? '') . "\n";
-}
-file_put_contents('combined.m3u', $out3);
-
-echo "\n=== DONE ===\n";
-echo "Working: " . count($working) . "\n";
-echo "Non-working: " . count($nonworking) . "\n";
-echo "Combined (deduped): " . count($unique) . "\n";
+echo "\n=== DONE ===\nWorking: " . count($working) . "\nNon-working: " . count($nonworking) . "\nCombined: " . count($unique) . "\n";

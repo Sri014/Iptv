@@ -46,6 +46,11 @@ $SOURCES = [
     ['label' => 'Hindi',           'url' => 'https://iptv-org.github.io/iptv/languages/hin.m3u',   'type' => 'hindi'],
     ['label' => 'Bhojpuri',        'url' => 'https://iptv-org.github.io/iptv/languages/bho.m3u',   'type' => 'hindi'],
     ['label' => 'English India',   'url' => 'https://iptv-org.github.io/iptv/languages/eng.m3u',   'type' => 'english'],
+
+    ['label' => 'Garden Music', 'url' => 'https://iptv-org.github.io/iptv/categories/music.m3u', 'type' => 'music'],
+    ['label' => 'Garden Cartoon', 'url' => 'https://iptv-org.github.io/iptv/categories/animation.m3u', 'type' => 'cartoon'],
+    ['label' => 'Garden Documentary', 'url' => 'https://iptv-org.github.io/iptv/categories/documentary.m3u', 'type' => 'science'],
+    ['label' => 'Garden Sports', 'url' => 'https://iptv-org.github.io/iptv/categories/sports.m3u', 'type' => 'sports'],
 ];
 
 $BLOCK = ['tamil','telugu','malayalam','kannada','bengali','bangla','marathi','gujarati','punjabi','odia','oriya','assamese','urdu','sun tv','sun news','ktv','adithya','gemini','eenadu','etv telugu','asianet','manorama','flowers tv','mathrubhumi','mazhavil','surya tv','udaya','colors kannada','colors tamil','colors marathi','zee kannada','zee tamil','zee telugu','zee keralam','star suvarna','star vijay','star maa','jaya tv','polimer','puthiya','thanthi','abn andhra','tv9 telugu','tv9 kannada','tv9 marathi','news18 tamil','news18 kerala','news18 kannada','news18 assam','dd chandana','dd yadagiri','dd malayalam','dd podhigai','dd sahyadri','chithiram','jaya max'];
@@ -395,6 +400,16 @@ function garden_accept(array $item, string $type): bool
     if ($type === 'hindi' || $type === 'bhojpuri' || $type === 'india') return true;
     if ($type === 'diaspora') return false; // sirf whitelist wale upar accept ho chuke
     if ($type === 'english') return looks_indian($item);
+
+    if ($type === 'music') {
+        return contains_any($name, ['music','mtv','9xm','9x ','b4u','mastiii','masti','vh1','sangeet']);
+    }
+    if ($type === 'cartoon') {
+        return contains_any($name, ['kid','cartoon','nick','pogo','hungama','disney','sony yay','cartoon network']);
+    }
+    if ($type === 'science') {
+        return contains_any($name, ['science','discovery','national geographic','nat geo','animal planet','history tv','ngc','bbc earth']);
+    }
     if (contains_any($name, $ENG_HINTS) || contains_any($name, $SPORT_HINTS)) return true;
 
     $cat = ['kid','cartoon','nick','pogo','hungama','disney','sony yay','cartoon network',
@@ -641,6 +656,7 @@ function check_batch(array &$state, int $batchSize = 4): array
     if ($state['check_index'] >= $total) {
         $state['phase'] = 'complete';
         save_state($state);
+        save_combined_m3u($state);
         return ['done'=>true,'phase'=>'complete','checked'=>$total,'total'=>$total,
                 'working'=>count($state['working']),'nonworking'=>count($state['nonworking'])];
     }
@@ -659,6 +675,32 @@ function m3u_escape(string $v): string
 {
     $v = strip_invalid_utf8($v);
     return str_replace(["\r","\n",'"'], ['','',"'"], $v);
+}
+
+function save_combined_m3u(array $state): void
+{
+    global $DATA_DIR;
+    $combined = [];
+    foreach ($state['working'] ?? [] as $c) $combined[] = $c;
+    foreach ($state['candidates'] ?? [] as $c) {
+        if (($c['status'] ?? '') === 'Working') continue;
+        $combined[] = $c;
+    }
+    $seen = []; $unique = [];
+    foreach ($combined as $c) {
+        $url = strtolower(trim($c['url'] ?? ''));
+        if ($url === '' || isset($seen[$url])) continue;
+        $seen[$url] = true; $unique[] = $c;
+    }
+    $out = "#EXTM3U\n";
+    foreach ($unique as $ch) {
+        $name = m3u_escape((string)($ch['name'] ?? ''));
+        $group = m3u_escape((string)($ch['category'] ?? $ch['group'] ?? 'General'));
+        $out .= '#EXTINF:-1 group-title="' . $group . '",' . $name . "\n";
+        $out .= trim((string)($ch['url'] ?? '')) . "\n";
+    }
+    file_put_contents($DATA_DIR . '/combined.m3u', $out);
+    log_line('Combined M3U: ' . count($unique) . ' channels');
 }
 
 function make_m3u(array $channels): string
@@ -728,6 +770,18 @@ if ($action === 'download') {
 
     if ($what === 'candidates') download_m3u('3502_candidates.m3u', $state['candidates'] ?? []);
     if ($what === 'nonworking' || $what === 'non-working') download_m3u('3502_nonworking.m3u', $state['nonworking'] ?? []);
+
+    if ($what === 'combined') {
+        $cf = $DATA_DIR . '/combined.m3u';
+        if (is_file($cf)) {
+            header('Content-Type: audio/x-mpegurl');
+            header('Content-Disposition: attachment; filename="combined.m3u"');
+            header('Content-Length: ' . filesize($cf));
+            readfile($cf);
+            exit;
+        }
+        download_m3u('combined.m3u', $state['candidates'] ?? []);
+    }
     download_m3u('3502_working.m3u', $state['working'] ?? []);
 }
 

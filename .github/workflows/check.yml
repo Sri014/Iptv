@@ -32,7 +32,7 @@ jobs:
         run: |
           for i in $(seq 1 100); do
             RES=$(curl -s "http://127.0.0.1:8080/3502.php?action=build")
-            echo "$RES" | head -c 100
+            echo "$RES" | head -c 150
             echo ""
             if echo "$RES" | grep -q '"done":true'; then break; fi
           done
@@ -40,16 +40,23 @@ jobs:
       - name: Fast parallel check
         run: php fast_check.php
 
-      - name: Commit result
+      - name: Generate combined.m3u
+        run: |
+          curl -s -o combined.m3u "http://127.0.0.1:8080/3502.php?action=download&type=combined"
+          wc -l combined.m3u
+
+      - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add working.m3u nonworking.m3u 3502_data/ 2>/dev/null || true
+          git add working.m3u combined.m3u 3502_data/ 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Update $(date -u +%Y-%m-%d_%H-%M)"
           git push || true
 
-      - name: Upload artifact
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: working-m3u
-          path: working.m3u
+          name: m3u-files
+          path: |
+            working.m3u
+            combined.m3u

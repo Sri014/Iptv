@@ -33,19 +33,21 @@ body { padding: 12px; padding-bottom: 90px; }
 .stat { background: #151b26; border: 1px solid #1f2937; padding: 6px 12px; border-radius: 20px; font-size: 11px; color: #9ca3af; white-space: nowrap; }
 .stat b { color: #22c55e; margin-left: 4px; }
 
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 18px 10px; }
-.card { display: flex; flex-direction: column; align-items: center; cursor: pointer; transition: transform 0.15s; }
+/* 4 COLUMN GRID */
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px 8px; }
+.card { display: flex; flex-direction: column; align-items: center; cursor: pointer; transition: transform 0.15s; min-width: 0; }
 .card:active { transform: scale(0.94); }
 
 .logo-wrap {
   position: relative;
-  width: 90px;
-  height: 90px;
+  width: 100%;
+  max-width: 80px;
+  aspect-ratio: 1 / 1;
   background: #ffffff;
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   border: 2px solid #1f2937;
   transition: all 0.2s;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
@@ -53,14 +55,12 @@ body { padding: 12px; padding-bottom: 90px; }
 }
 .card:hover .logo-wrap { border-color: #3b82f6; box-shadow: 0 8px 24px rgba(59,130,246,0.3); transform: translateY(-2px); }
 .logo-wrap img { width: 100%; height: 100%; object-fit: contain; border-radius: 50%; }
-.logo-fallback { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #d946ef, #8b5cf6); color: #fff; font-size: 28px; font-weight: bold; border-radius: 50%; }
-.hd-badge { position: absolute; top: 2px; right: 2px; background: linear-gradient(135deg, #f97316, #ef4444); color: #fff; font-size: 8px; font-weight: 800; padding: 2px 5px; border-radius: 6px; z-index: 2; }
-.cat-badge { position: absolute; bottom: -4px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.85); color: #c4b5fd; font-size: 8px; padding: 2px 8px; border-radius: 10px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; z-index: 2; }
-.card .name { font-size: 11.5px; color: #cbd5e1; line-height: 1.3; text-align: center; max-width: 100%; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; word-break: break-word; padding: 0 2px; }
+.logo-fallback { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #d946ef, #8b5cf6); color: #fff; font-size: 22px; font-weight: bold; border-radius: 50%; }
+.hd-badge { position: absolute; top: 0; right: 0; background: linear-gradient(135deg, #f97316, #ef4444); color: #fff; font-size: 7px; font-weight: 800; padding: 2px 4px; border-radius: 6px; z-index: 2; }
+.card .name { font-size: 10.5px; color: #cbd5e1; line-height: 1.25; text-align: center; max-width: 100%; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; word-break: break-word; padding: 0 2px; }
 .card:hover .name { color: #fff; }
 
 .fab { position: fixed; bottom: 20px; right: 20px; background: linear-gradient(135deg, #2563eb, #7c3aed); color: #fff; border: 0; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; font-size: 24px; cursor: pointer; box-shadow: 0 8px 24px rgba(37,99,235,0.4); z-index: 500; }
-.fab:active { transform: scale(0.9); }
 
 .drawer-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 600; display: none; align-items: flex-end; backdrop-filter: blur(4px); }
 .drawer-overlay.active { display: flex; }
@@ -88,7 +88,7 @@ body { padding: 12px; padding-bottom: 90px; }
 
 #result { color: #6b7280; font-size: 12px; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
 #result .badge { background: #1f2937; padding: 3px 8px; border-radius: 6px; color: #9ca3af; }
-.empty { text-align: center; padding: 60px 20px; color: #4b5563; }
+.empty { text-align: center; padding: 60px 20px; color: #4b5563; grid-column: 1 / -1; }
 .empty-icon { font-size: 48px; margin-bottom: 12px; }
 
 .player-overlay { position: fixed; inset: 0; background: #000; z-index: 9999; display: none; flex-direction: column; }
@@ -121,6 +121,12 @@ body { padding: 12px; padding-bottom: 90px; }
 .modal-item { display: flex; align-items: center; gap: 10px; padding: 12px 14px; background: #1a1f2e; border-radius: 10px; cursor: pointer; font-size: 13px; }
 .modal-item.checked { background: linear-gradient(135deg, #1e3a5f, #1e1b4b); border: 1px solid #2563eb55; }
 .modal-item input { accent-color: #2563eb; width: 18px; height: 18px; }
+
+@media (max-width: 360px) {
+  .grid { gap: 12px 6px; }
+  .logo-wrap { max-width: 68px; }
+  .card .name { font-size: 9.5px; }
+}
 </style>
 </head>
 <body>
@@ -202,6 +208,8 @@ body { padding: 12px; padding-bottom: 90px; }
 
 <script>
 const BASE_URL = window.location.origin + window.location.pathname.replace(/index\.html$/, '');
+const JIO_LOGO_BASE = 'https://jiotvimages.cdn.jio.com/dare_images/images/';
+
 let allChannels = [];
 let currentList = [];
 let hls = null;
@@ -209,6 +217,16 @@ let currentStreamUrl = '';
 let selectedCats = [];
 let selectedLangs = [];
 let modalType = null;
+
+// ============ JIO LOGO FETCH ============
+// JioTV logo URL format: https://jiotvimages.cdn.jio.com/dare_images/images/<logoUrl>
+// Agar playlist mein logo relative hai (sirf filename), toh JioTV base se prepend karo
+function resolveLogo(logo) {
+  if (!logo) return '';
+  if (logo.startsWith('http://') || logo.startsWith('https://')) return logo;
+  // Relative filename — JioTV base se add karo
+  return JIO_LOGO_BASE + logo.replace(/^\//, '');
+}
 
 async function loadPlaylist() {
   const sources = ['working.m3u', 'combined.m3u'];
@@ -243,7 +261,14 @@ function parseM3U(text) {
       const catMatch = line.match(/group-title="([^"]*)"/i);
       const langMatch = line.match(/tvg-language="([^"]*)"/i);
       const logoMatch = line.match(/tvg-logo="([^"]*)"/i);
-      cur = { name, cat: catMatch ? catMatch[1] : 'General', lang: langMatch ? langMatch[1] : 'Unknown', logo: logoMatch ? logoMatch[1] : '', hd: /\bHD\b/i.test(name) };
+      const rawLogo = logoMatch ? logoMatch[1] : '';
+      cur = {
+        name,
+        cat: catMatch ? catMatch[1] : 'General',
+        lang: langMatch ? langMatch[1] : 'Unknown',
+        logo: resolveLogo(rawLogo),
+        hd: /\bHD\b/i.test(name)
+      };
     } else if (cur && line && !line.startsWith('#')) {
       cur.url = line;
       out.push(cur);
@@ -359,13 +384,11 @@ function renderGrid(list) {
     const logoHtml = c.logo
       ? `<img src="${escapeHtml(c.logo)}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="logo-fallback" style="display:none">${initial}</div>`
       : `<div class="logo-fallback">${initial}</div>`;
-    const catShort = (c.cat || '').substring(0, 12);
     return `
       <div class="card" onclick="playChannel(${idx})">
         <div class="logo-wrap">
           ${logoHtml}
           ${c.hd ? '<div class="hd-badge">HD</div>' : ''}
-          ${catShort ? `<div class="cat-badge">${escapeHtml(catShort)}</div>` : ''}
         </div>
         <div class="name">${escapeHtml(c.name)}</div>
       </div>

@@ -2448,3 +2448,52 @@
 [2026-09-25 05:28:53] SAVE OK | src=15 | cand=637
 [2026-09-25 05:28:53] AU => +0 (from 74) | total 637
 [2026-09-25 05:28:53] SAVE OK | src=15 | cand=637
+[2026-09-25 05:33:50] SAVE OK | src=0 | cand=0
+[2026-09-25 05:33:50] Garden Manual => +3
+[2026-09-25 05:33:50] SAVE OK | src=0 | cand=3
+[2026-09-25 05:33:50] FETCH IPTV-ORG Index
+[2026-09-25 05:33:50] SAVE OK | src=1 | cand=637
+[2026-09-25 05:33:50] IPTV-ORG Index => +634 (from 10910) | total 637
+[2026-09-25 05:33:50] FETCH India
+[2026-09-25 05:33:50] SAVE OK | src=2 | cand=637
+[2026-09-25 05:33:50] India => +0 (from 740) | total 637
+[2026-09-25 05:33:50] FETCH Hindi
+[2026-09-25 05:33:50] SAVE OK | src=3 | cand=637
+[2026-09-25 05:33:50] Hindi => +0 (from 323) | total 637
+[2026-09-25 05:33:50] FETCH Bhojpuri
+[2026-09-25 05:33:50] SAVE OK | src=4 | cand=637
+[2026-09-25 05:33:50] Bhojpuri => +0 (from 11) | total 637
+[2026-09-25 05:33:50] FETCH English India
+[2026-09-25 05:33:51] SAVE OK | src=5 | cand=637
+[2026-09-25 05:33:51] English India => +0 (from 2943) | total 637
+[2026-09-25 05:33:51] FETCH Bangladesh
+[2026-09-25 05:33:51] SAVE OK | src=6 | cand=637
+[2026-09-25 05:33:51] Bangladesh => +0 (from 41) | total 637
+[2026-09-25 05:33:51] FETCH Music
+[2026-09-25 05:33:51] SAVE OK | src=7 | cand=637
+[2026-09-25 05:33:51] Music => +0 (from 739) | total 637
+[2026-09-25 05:33:51] FETCH Cartoon
+[2026-09-25 05:33:51] SAVE OK | src=8 | cand=637
+[2026-09-25 05:33:51] Cartoon => +0 (from 158) | total 637
+[2026-09-25 05:33:51] FETCH Documentary
+[2026-09-25 05:33:51] SAVE OK | src=9 | cand=637
+[2026-09-25 05:33:51] Documentary => +0 (from 250) | total 637
+[2026-09-25 05:33:51] FETCH Sports
+[2026-09-25 05:33:51] SAVE OK | src=10 | cand=637
+[2026-09-25 05:33:51] Sports => +0 (from 431) | total 637
+[2026-09-25 05:33:51] FETCH UK
+[2026-09-25 05:33:51] SAVE OK | src=11 | cand=637
+[2026-09-25 05:33:51] UK => +0 (from 295) | total 637
+[2026-09-25 05:33:51] FETCH USA
+[2026-09-25 05:33:51] SAVE OK | src=12 | cand=637
+[2026-09-25 05:33:51] USA => +0 (from 1462) | total 637
+[2026-09-25 05:33:51] FETCH NZ
+[2026-09-25 05:33:51] SAVE OK | src=13 | cand=637
+[2026-09-25 05:33:51] NZ => +0 (from 27) | total 637
+[2026-09-25 05:33:51] FETCH ZA
+[2026-09-25 05:33:51] SAVE OK | src=14 | cand=637
+[2026-09-25 05:33:51] ZA => +0 (from 21) | total 637
+[2026-09-25 05:33:51] FETCH AU
+[2026-09-25 05:33:52] SAVE OK | src=15 | cand=637
+[2026-09-25 05:33:52] AU => +0 (from 74) | total 637
+[2026-09-25 05:33:52] SAVE OK | src=15 | cand=637

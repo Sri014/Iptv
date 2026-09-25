@@ -88,6 +88,11 @@
             "type": "sports"
         },
         {
+            "label": "Sports",
+            "url": "https://iptv-org.github.io/iptv/categories/sports.m3u",
+            "type": "sports"
+        },
+        {
             "label": "Music",
             "url": "https://iptv-org.github.io/iptv/categories/music.m3u",
             "type": "music"
@@ -101,11 +106,6 @@
             "label": "Documentary",
             "url": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
             "type": "science"
-        },
-        {
-            "label": "Sports",
-            "url": "https://iptv-org.github.io/iptv/categories/sports.m3u",
-            "type": "sports"
         },
         {
             "label": "UK",
@@ -169,6 +169,18 @@
             "group": "Sports",
             "country": "US",
             "language": "English",
+            "logo": "",
+            "source_label": "Garden Manual",
+            "category": "Sports",
+            "hd": false,
+            "source": "garden"
+        },
+        {
+            "name": "Ten Sports",
+            "url": "http://tvsen7.aynascope.net/tensports/index.m3u8",
+            "group": "Sports",
+            "country": "IN",
+            "language": "Hindi",
             "logo": "",
             "source_label": "Garden Manual",
             "category": "Sports",
@@ -10497,21 +10509,6 @@
             "http_status": 200
         },
         {
-            "name": "Aastha Tamil",
-            "group": "Religious",
-            "logo": "https://i.imgur.com/YQK9ewf.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8",
-            "category": "Devotional",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
-        },
-        {
             "name": "Aastha Telugu",
             "group": "Religious",
             "logo": "https://dtil.tmsimg.com/assets/s158136_ld_h15_aa.png?lock=720x540",
@@ -10722,6 +10719,21 @@
             "http_status": 206
         },
         {
+            "name": "Anand Wari TV",
+            "group": "Religious",
+            "logo": "https://papaji.freetvindia.com/media/channels/anandvari.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://mumt03.tangotv.in/Dsly5z3HANANDWARITV/index.m3u8",
+            "category": "Devotional",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
             "name": "Ananda Barta",
             "group": "News",
             "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Anand_Barta.png",
@@ -10821,21 +10833,6 @@
             "source": "complete",
             "url": "https://account33.livebox.co.in/jesushelpshls/live.m3u8",
             "category": "Devotional",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
-            "name": "Aryan TV National",
-            "group": "Undefined",
-            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARYAN_TV_NATIONAL/images/LOGO_HD/image.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://mumt04.tangotv.in/m18aqlK4ARYANTVNATIONAL/index.m3u8",
-            "category": "Entertainment",
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Working",
@@ -12670,6 +12667,21 @@
             "hd": false,
             "status": "Working",
             "http_status": 206
+        },
+        {
+            "name": "ETV Cinema",
+            "group": "Movies",
+            "logo": "https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+            "category": "Movie",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
         },
         {
             "name": "ETV Comedy",
@@ -15252,36 +15264,6 @@
             "http_status": 206
         },
         {
-            "name": "News Capital Gujarat",
-            "group": "News",
-            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/NewsCapital_Gujarat.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://newscapital.com/hls/main4/stream.m3u8",
-            "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
-            "name": "News Capital Market",
-            "group": "Business",
-            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/NewsCapitalMarket.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://newscapital.com/hls/stream.m3u8?token=Nc360PermanentSecureKey987",
-            "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
             "name": "News Daily 24",
             "group": "News",
             "logo": "https://i.imgur.com/lT8rihP.png",
@@ -16011,21 +15993,6 @@
             "source": "complete",
             "url": "https://mumt03.tangotv.in/Dsly5z3HPRAMEYANEWS7/index.m3u8",
             "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
-            "name": "Prarthana Bhawan TV",
-            "group": "Undefined",
-            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PRARTHANA_BHAWAN/images/LOGO_HD/image.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://mumt03.tangotv.in/Dsly5z3HPRATHANABHAWAN/index.m3u8",
-            "category": "Entertainment",
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Working",
@@ -18477,21 +18444,6 @@
             "http_status": 206
         },
         {
-            "name": "Taaza TV",
-            "group": "Undefined",
-            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Taaza_TV.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://live.we2live.in/taazatv/live/playlist.m3u8",
-            "category": "Entertainment",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
             "name": "Tabbar Hits",
             "group": "Music",
             "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TABBAR_HITS/images/LOGO_HD/image.png",
@@ -20069,6 +20021,20 @@
     ],
     "nonworking": [
         {
+            "name": "Ten Sports",
+            "url": "http://tvsen7.aynascope.net/tensports/index.m3u8",
+            "group": "Sports",
+            "country": "IN",
+            "language": "Hindi",
+            "logo": "",
+            "source_label": "Garden Manual",
+            "category": "Sports",
+            "hd": false,
+            "source": "garden",
+            "status": "Non-working",
+            "http_status": 404
+        },
+        {
             "name": "&TV HD",
             "group": "Movies",
             "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
@@ -20174,6 +20140,21 @@
             "http_status": 206
         },
         {
+            "name": "Aastha Tamil",
+            "group": "Religious",
+            "logo": "https://i.imgur.com/YQK9ewf.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8",
+            "category": "Devotional",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 206
+        },
+        {
             "name": "All Time Movies",
             "group": "Movies",
             "logo": "https://yt3.googleusercontent.com/U4INXhwmEUOABHoemQBpI6C9t4jb9iBmDvZ3ZT3lAb9Au_jVl32NL8XDpy-9cBjRJ2LP69Ovzg=s900-c-k-c0x00ffffff-no-rj",
@@ -20187,21 +20168,6 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 404
-        },
-        {
-            "name": "Anand Wari TV",
-            "group": "Religious",
-            "logo": "https://papaji.freetvindia.com/media/channels/anandvari.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://mumt03.tangotv.in/Dsly5z3HANANDWARITV/index.m3u8",
-            "category": "Devotional",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 0
         },
         {
             "name": "Angel TV",
@@ -20438,6 +20404,21 @@
             "source": "complete",
             "url": "https://mumbai-edge.smartplaytv.in/AradanaTV/index.m3u8",
             "category": "Devotional",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 404
+        },
+        {
+            "name": "Aryan TV National",
+            "group": "Undefined",
+            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARYAN_TV_NATIONAL/images/LOGO_HD/image.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://mumt04.tangotv.in/m18aqlK4ARYANTVNATIONAL/index.m3u8",
+            "category": "Entertainment",
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Non-working",
@@ -20774,21 +20755,6 @@
             "http_status": 0
         },
         {
-            "name": "ETV Cinema",
-            "group": "Movies",
-            "logo": "https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
-            "category": "Movie",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 200
-        },
-        {
             "name": "ETV Cinema HD",
             "group": "Movies",
             "logo": "https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540",
@@ -20921,7 +20887,7 @@
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Non-working",
-            "http_status": 404
+            "http_status": 0
         },
         {
             "name": "Harvest TV",
@@ -21134,6 +21100,36 @@
             "http_status": 404
         },
         {
+            "name": "News Capital Gujarat",
+            "group": "News",
+            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/NewsCapital_Gujarat.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://newscapital.com/hls/main4/stream.m3u8",
+            "category": "News",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 301
+        },
+        {
+            "name": "News Capital Market",
+            "group": "Business",
+            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/NewsCapitalMarket.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://newscapital.com/hls/stream.m3u8?token=Nc360PermanentSecureKey987",
+            "category": "News",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 0
+        },
+        {
             "name": "NewsX",
             "group": "News",
             "logo": "https://dtil.tmsimg.com/assets/s143624_ld_h15_aa.png?lock=720x540",
@@ -21157,6 +21153,21 @@
             "lang": "",
             "source": "complete",
             "url": "https://live.ekamraott.com/onepaschima/onepaschima/index.m3u8",
+            "category": "Entertainment",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 404
+        },
+        {
+            "name": "Prarthana Bhawan TV",
+            "group": "Undefined",
+            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PRARTHANA_BHAWAN/images/LOGO_HD/image.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://mumt03.tangotv.in/Dsly5z3HPRATHANABHAWAN/index.m3u8",
             "category": "Entertainment",
             "source_label": "IPTV-ORG Index",
             "hd": false,
@@ -21342,6 +21353,21 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 404
+        },
+        {
+            "name": "Taaza TV",
+            "group": "Undefined",
+            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Taaza_TV.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://live.we2live.in/taazatv/live/playlist.m3u8",
+            "category": "Entertainment",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 0
         },
         {
             "name": "Ten Sports Pakistan",
@@ -21618,6 +21644,7 @@
         "https://mumt01.tangotv.in/o5aw8zn3sangeetbhojpuri/index.m3u8": true,
         "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8": true,
         "https://d36r8jifhgsk5j.cloudfront.net/willow_tv.m3u8": true,
+        "http://tvsen7.aynascope.net/tensports/index.m3u8": true,
         "https://stream.ottlive.co.in/4sidestv/index.m3u8": true,
         "https://cdn.pishow.tv/ott/live/1007/master.m3u8": true,
         "https://yuppparoriglin.akamaized.net/181224/smil:6tv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b": true,
@@ -22383,14 +22410,14 @@
         "https://ranacable.duckdns.org/zodiaktv/index.m3u8": true,
         "https://dai.google.com/linear/hls/event/jcam25qkrxikck1ajmlvkq/master.m3u8": true
     },
-    "check_index": 767,
+    "check_index": 768,
     "source_stats": [
         {
             "label": "IPTV-ORG Index",
             "type": "complete",
             "fetched": 10910,
             "added": 764,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22398,7 +22425,7 @@
             "type": "india",
             "fetched": 740,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22406,7 +22433,7 @@
             "type": "hindi",
             "fetched": 323,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22414,7 +22441,7 @@
             "type": "hindi",
             "fetched": 11,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22422,7 +22449,7 @@
             "type": "hindi",
             "fetched": 118,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22430,7 +22457,7 @@
             "type": "hindi",
             "fetched": 82,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22438,7 +22465,7 @@
             "type": "hindi",
             "fetched": 68,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22446,7 +22473,7 @@
             "type": "hindi",
             "fetched": 33,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22454,7 +22481,7 @@
             "type": "hindi",
             "fetched": 95,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22462,7 +22489,7 @@
             "type": "hindi",
             "fetched": 28,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22470,7 +22497,7 @@
             "type": "hindi",
             "fetched": 19,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22478,7 +22505,7 @@
             "type": "hindi",
             "fetched": 47,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22486,7 +22513,7 @@
             "type": "hindi",
             "fetched": 84,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22494,7 +22521,7 @@
             "type": "hindi",
             "fetched": 15,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22502,7 +22529,7 @@
             "type": "hindi",
             "fetched": 17,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22510,7 +22537,7 @@
             "type": "english",
             "fetched": 2943,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22518,31 +22545,7 @@
             "type": "sports",
             "fetched": 41,
             "added": 0,
-            "total": 767,
-            "error": false
-        },
-        {
-            "label": "Music",
-            "type": "music",
-            "fetched": 739,
-            "added": 0,
-            "total": 767,
-            "error": false
-        },
-        {
-            "label": "Cartoon",
-            "type": "cartoon",
-            "fetched": 158,
-            "added": 0,
-            "total": 767,
-            "error": false
-        },
-        {
-            "label": "Documentary",
-            "type": "science",
-            "fetched": 250,
-            "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22550,7 +22553,31 @@
             "type": "sports",
             "fetched": 431,
             "added": 0,
-            "total": 767,
+            "total": 768,
+            "error": false
+        },
+        {
+            "label": "Music",
+            "type": "music",
+            "fetched": 739,
+            "added": 0,
+            "total": 768,
+            "error": false
+        },
+        {
+            "label": "Cartoon",
+            "type": "cartoon",
+            "fetched": 158,
+            "added": 0,
+            "total": 768,
+            "error": false
+        },
+        {
+            "label": "Documentary",
+            "type": "science",
+            "fetched": 250,
+            "added": 0,
+            "total": 768,
             "error": false
         },
         {
@@ -22558,7 +22585,7 @@
             "type": "diaspora",
             "fetched": 295,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22566,7 +22593,7 @@
             "type": "diaspora",
             "fetched": 1462,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22574,7 +22601,7 @@
             "type": "diaspora",
             "fetched": 74,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22582,7 +22609,7 @@
             "type": "diaspora",
             "fetched": 27,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22590,7 +22617,7 @@
             "type": "diaspora",
             "fetched": 21,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         },
         {
@@ -22598,11 +22625,11 @@
             "type": "diaspora",
             "fetched": 70,
             "added": 0,
-            "total": 767,
+            "total": 768,
             "error": false
         }
     ],
-    "started_at": "2026-09-25T06:27:11+00:00",
-    "updated_at": "2026-09-25T06:27:13+00:00",
+    "started_at": "2026-09-25T06:44:31+00:00",
+    "updated_at": "2026-09-25T06:44:35+00:00",
     "manual_added": true
 }

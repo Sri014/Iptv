@@ -5,7 +5,7 @@ declare(strict_types=1);
 |--------------------------------------------------------------------------
 | 3502.php  (KSWEB-compatible, mbstring-free)
 |--------------------------------------------------------------------------
-| Saare Indian language sources + Garden manual channels
+| Saare Indian language sources
 | URL dedup — same stream skip, different URL add
 | Browser-jaisa probe_stream (TV Garden jaise headers)
 |--------------------------------------------------------------------------
@@ -44,7 +44,7 @@ $SOURCES = [
     // === Country ===
     ['label' => 'India',           'url' => 'https://iptv-org.github.io/iptv/countries/in.m3u',         'type' => 'india'],
 
-    // === Indian Languages (saari) ===
+    // === Indian Languages ===
     ['label' => 'Hindi',           'url' => 'https://iptv-org.github.io/iptv/languages/hin.m3u',        'type' => 'hindi'],
     ['label' => 'Bhojpuri',        'url' => 'https://iptv-org.github.io/iptv/languages/bho.m3u',        'type' => 'hindi'],
     ['label' => 'Tamil',           'url' => 'https://iptv-org.github.io/iptv/languages/tam.m3u',        'type' => 'hindi'],
@@ -60,14 +60,16 @@ $SOURCES = [
     ['label' => 'Assamese',        'url' => 'https://iptv-org.github.io/iptv/languages/asm.m3u',        'type' => 'hindi'],
     ['label' => 'English India',   'url' => 'https://iptv-org.github.io/iptv/languages/eng.m3u',        'type' => 'english'],
 
-    // === Sports & Categories ===
+    // === Sports ===
     ['label' => 'Bangladesh',      'url' => 'https://iptv-org.github.io/iptv/countries/bd.m3u',         'type' => 'sports'],
+    ['label' => 'Sports',          'url' => 'https://iptv-org.github.io/iptv/categories/sports.m3u',    'type' => 'sports'],
+
+    // === Categories ===
     ['label' => 'Music',           'url' => 'https://iptv-org.github.io/iptv/categories/music.m3u',     'type' => 'music'],
     ['label' => 'Cartoon',         'url' => 'https://iptv-org.github.io/iptv/categories/animation.m3u', 'type' => 'cartoon'],
     ['label' => 'Documentary',     'url' => 'https://iptv-org.github.io/iptv/categories/documentary.m3u', 'type' => 'science'],
-    ['label' => 'Sports',          'url' => 'https://iptv-org.github.io/iptv/categories/sports.m3u',    'type' => 'sports'],
 
-    // === Diaspora (whitelist only) ===
+    // === Diaspora ===
     ['label' => 'UK',              'url' => 'https://iptv-org.github.io/iptv/countries/uk.m3u',         'type' => 'diaspora'],
     ['label' => 'USA',             'url' => 'https://iptv-org.github.io/iptv/countries/us.m3u',         'type' => 'diaspora'],
     ['label' => 'AU',              'url' => 'https://iptv-org.github.io/iptv/countries/au.m3u',         'type' => 'diaspora'],
@@ -76,14 +78,13 @@ $SOURCES = [
     ['label' => 'IE',              'url' => 'https://iptv-org.github.io/iptv/countries/ie.m3u',         'type' => 'diaspora'],
 ];
 
-// Garden manual channels (IPTV-ORG mein nahi milte)
 $MANUAL_CHANNELS = [
     ['name' => 'Sangeet Bhojpuri', 'url' => 'https://mumt01.tangotv.in/O5aw8Zn3SANGEETBHOJPURI/index.m3u8', 'group' => 'Music', 'country' => 'IN', 'language' => 'Bhojpuri', 'logo' => ''],
     ['name' => 'Bhojpuri Cinema', 'url' => 'https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8', 'group' => 'Movies', 'country' => 'IN', 'language' => 'Bhojpuri', 'logo' => ''],
     ['name' => 'Willow', 'url' => 'https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8', 'group' => 'Sports', 'country' => 'US', 'language' => 'English', 'logo' => ''],
+    ['name' => 'Ten Sports', 'url' => 'http://tvsen7.aynascope.net/tensports/index.m3u8', 'group' => 'Sports', 'country' => 'IN', 'language' => 'Hindi', 'logo' => ''],
 ];
 
-// Dead channels block karo (language block nahi)
 $BLOCK = ['bollywood classic romania', 'zee cinema me', 'e vidya', 'swayam', 'evidya'];
 
 $ENG_HINTS = ['wion','ndtv','republic','times now','cnn-news18','cnn news18','india today','mirror now','newsx','dd india','cnbc','et now','bloomberg','bbc','al jazeera','dw english','france 24','discovery','history tv','travelxp','good times'];
@@ -411,14 +412,12 @@ function looks_indian(array $item): bool
 
 function garden_accept(array $item, string $type): bool
 {
-    // Country whitelist
     $allowedCountries = ['IN', 'PK', 'BD', 'UK', 'US', 'AU', 'IE', 'NZ', 'ZA', ''];
     $country = strtoupper(trim((string)($item['country'] ?? '')));
     if ($country !== '' && !in_array($country, $allowedCountries, true)) return false;
 
     $nameLower = strtolower((string)($item['name'] ?? ''));
 
-    // Whitelist — always accept
     $whitelist = ['sky sports cricket','utsav bharat','utsav plus','zee one','shemaroo bollywood',
                   'sony kal hindi','the q india','willow','t sports','cricket gold',
                   'sony entertainment','star sports','sony sports','star gold',
@@ -429,7 +428,6 @@ function garden_accept(array $item, string $type): bool
         if (strpos($nameLower, $w) !== false) return true;
     }
 
-    // Sirf India ke channels (whitelist alag se upar check ho chuki)
     if ($country !== '' && $country !== 'IN') return false;
 
     global $ENG_HINTS, $SPORT_HINTS, $INTL_SPORT;
@@ -438,7 +436,6 @@ function garden_accept(array $item, string $type): bool
 
     if ($name === '' || is_blocked($name)) return false;
 
-    // Hindi, Bhojpuri, Tamil, Telugu, etc. — sab accept
     if ($type === 'hindi' || $type === 'bhojpuri' || $type === 'india') return true;
     if ($type === 'complete') return looks_indian($item);
     if ($type === 'diaspora') return false;

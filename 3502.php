@@ -7,6 +7,7 @@ declare(strict_types=1);
 |--------------------------------------------------------------------------
 | Saare Indian language sources + Garden manual channels
 | URL dedup — same stream skip, different URL add
+| Browser-jaisa probe_stream (TV Garden jaise headers)
 |--------------------------------------------------------------------------
 */
 
@@ -34,7 +35,7 @@ if (!is_dir($DATA_DIR)) @mkdir($DATA_DIR, 0777, true);
 
 $STATE_FILE = $DATA_DIR . '/state.json';
 $LOG_FILE   = $DATA_DIR . '/log.txt';
-$USER_AGENT = 'Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 Chrome/120 Mobile Safari/537.36';
+$USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
 
 $SOURCES = [
     // === IPTV-ORG Complete Index ===
@@ -420,7 +421,10 @@ function garden_accept(array $item, string $type): bool
     // Whitelist — always accept
     $whitelist = ['sky sports cricket','utsav bharat','utsav plus','zee one','shemaroo bollywood',
                   'sony kal hindi','the q india','willow','t sports','cricket gold',
-                  'sony entertainment','star sports','sony sports','star gold'];
+                  'sony entertainment','star sports','sony sports','star gold',
+                  'ten sports','ten cricket','sony ten','sony six','sky sports',
+                  'fox cricket','supersport','super sport','astro cricket','fox sports',
+                  'sports18','icc','ptv sports','dd sports','a sports','geo super'];
     foreach ($whitelist as $w) {
         if (strpos($nameLower, $w) !== false) return true;
     }
@@ -484,68 +488,54 @@ function add_candidate(array &$list, array &$seen, array $item, string $sourceLa
 
 /*
 |--------------------------------------------------------------------------
-| Stream probe
+| Stream probe — TV Garden jaisa (browser headers)
 |--------------------------------------------------------------------------
 */
 
 function probe_stream(string $url): array
 {
-    global $USER_AGENT;
     $maxBytes = 8192;
+    $body = ''; $status = 0;
 
-    if (function_exists('curl_init')) {
-        $body = ''; $status = 0; $contentType = '';
-        $ch = curl_init($url);
-        curl_setopt_array($ch, [
-            CURLOPT_RETURNTRANSFER => false,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_MAXREDIRS      => 5,
-            CURLOPT_CONNECTTIMEOUT => 4,
-            CURLOPT_TIMEOUT        => 10,
-            CURLOPT_USERAGENT      => $USER_AGENT,
-            CURLOPT_SSL_VERIFYPEER => false,
-            CURLOPT_SSL_VERIFYHOST => false,
-            CURLOPT_HTTPHEADER     => ['Accept: */*', 'Cache-Control: no-cache'],
-            CURLOPT_HEADERFUNCTION => function($ch, $header) use (&$status, &$contentType) {
-                $line = trim($header);
-                if (preg_match('#^HTTP/\S+\s+(\d{3})#i', $line, $m)) $status = (int)$m[1];
-                if (stripos($line, 'Content-Type:') === 0) $contentType = trim(substr($line, strlen('Content-Type:')));
-                return strlen($header);
-            },
-            CURLOPT_WRITEFUNCTION => function($ch, $chunk) use (&$body, $maxBytes) {
-                $rem = $maxBytes - strlen($body);
-                if ($rem <= 0) return 0;
-                $body .= substr($chunk, 0, $rem);
-                if (strlen($body) >= $maxBytes) return 0;
-                return strlen($chunk);
-            }
-        ]);
-        curl_exec($ch);
-        $error = curl_error($ch);
-        if ($status === 0) $status = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        if ($contentType === '') $contentType = (string)curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
-        curl_close($ch);
+    $ch = curl_init($url);
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => false,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_MAXREDIRS      => 5,
+        CURLOPT_CONNECTTIMEOUT => 6,
+        CURLOPT_TIMEOUT        => 15,
+        CURLOPT_USERAGENT      => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_SSL_VERIFYHOST => false,
+        CURLOPT_HTTPHEADER     => [
+            'Accept: */*',
+            'Accept-Language: en-US,en;q=0.9',
+            'Origin: https://tvgarden.stream',
+            'Referer: https://tvgarden.stream/',
+        ],
+        CURLOPT_HEADERFUNCTION => function($ch, $header) use (&$status) {
+            if (preg_match('#^HTTP/\S+\s+(\d{3})#i', trim($header), $m)) $status = (int)$m[1];
+            return strlen($header);
+        },
+        CURLOPT_WRITEFUNCTION => function($ch, $chunk) use (&$body, $maxBytes) {
+            $rem = $maxBytes - strlen($body);
+            if ($rem <= 0) return 0;
+            $body .= substr($chunk, 0, $rem);
+            if (strlen($body) >= $maxBytes) return 0;
+            return strlen($chunk);
+        }
+    ]);
 
-        $ok = ($status >= 200 && $status < 400 && $body !== '');
-        if ($ok && preg_match('/\.m3u8(?:\?|$)/i', $url)) $ok = (stripos($body, '#EXTM3U') !== false);
+    curl_exec($ch);
+    if ($status === 0) $status = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
 
-        return ['working'=>$ok,'status'=>$status,'bytes'=>strlen($body),'content_type'=>$contentType,'error'=>$error];
+    $ok = ($status >= 200 && $status < 400 && $body !== '');
+    if ($ok && preg_match('/\.m3u8(?:\?|$)/i', $url)) {
+        $ok = (stripos($body, '#EXTM3U') !== false);
     }
 
-    $ctx = stream_context_create([
-        'http' => ['method'=>'GET','timeout'=>8,'follow_location'=>1,'max_redirects'=>5,
-                   'header'=>"User-Agent: {$USER_AGENT}\r\nAccept: */*\r\n"],
-        'ssl'  => ['verify_peer'=>false,'verify_peer_name'=>false]
-    ]);
-    $fp = @fopen($url, 'rb', false, $ctx);
-    if (!$fp) return ['working'=>false,'status'=>0,'bytes'=>0,'error'=>'Connection failed'];
-    @stream_set_timeout($fp, 8);
-    $body = @fread($fp, $maxBytes);
-    @fclose($fp);
-    if (!is_string($body)) $body = '';
-    $ok = ($body !== '');
-    if ($ok && preg_match('/\.m3u8(?:\?|$)/i', $url)) $ok = (stripos($body, '#EXTM3U') !== false);
-    return ['working'=>$ok,'status'=>$ok?200:0,'bytes'=>strlen($body),'error'=>$ok?'':'Empty response'];
+    return ['working'=>$ok,'status'=>$status,'bytes'=>strlen($body)];
 }
 
 /*
@@ -694,7 +684,6 @@ function check_batch(array &$state, int $batchSize = 4): array
         $item['status']      = ($result['working'] ? 'Working' : 'Non-working');
         $item['http_status'] = $result['status'];
         $item['bytes']       = $result['bytes'];
-        if (isset($result['content_type'])) $item['content_type'] = $result['content_type'];
 
         if ($result['working']) $state['working'][] = $item;
         else $state['nonworking'][] = $item;

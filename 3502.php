@@ -5,6 +5,9 @@ declare(strict_types=1);
 |--------------------------------------------------------------------------
 | 3502.php  (KSWEB-compatible, mbstring-free)
 |--------------------------------------------------------------------------
+| Saare Indian language sources + Garden manual channels
+| URL dedup — same stream skip, different URL add
+|--------------------------------------------------------------------------
 */
 
 @set_time_limit(0);
@@ -32,34 +35,55 @@ if (!is_dir($DATA_DIR)) @mkdir($DATA_DIR, 0777, true);
 $STATE_FILE = $DATA_DIR . '/state.json';
 $LOG_FILE   = $DATA_DIR . '/log.txt';
 $USER_AGENT = 'Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 Chrome/120 Mobile Safari/537.36';
-$IPTV_INDEX = 'https://iptv-org.github.io/iptv/index.m3u';
 
 $SOURCES = [
+    // === IPTV-ORG Complete Index ===
     ['label' => 'IPTV-ORG Index',  'url' => 'https://iptv-org.github.io/iptv/index.m3u',                'type' => 'complete'],
+
+    // === Country ===
     ['label' => 'India',           'url' => 'https://iptv-org.github.io/iptv/countries/in.m3u',         'type' => 'india'],
+
+    // === Indian Languages (saari) ===
     ['label' => 'Hindi',           'url' => 'https://iptv-org.github.io/iptv/languages/hin.m3u',        'type' => 'hindi'],
     ['label' => 'Bhojpuri',        'url' => 'https://iptv-org.github.io/iptv/languages/bho.m3u',        'type' => 'hindi'],
+    ['label' => 'Tamil',           'url' => 'https://iptv-org.github.io/iptv/languages/tam.m3u',        'type' => 'hindi'],
+    ['label' => 'Telugu',          'url' => 'https://iptv-org.github.io/iptv/languages/tel.m3u',        'type' => 'hindi'],
+    ['label' => 'Malayalam',       'url' => 'https://iptv-org.github.io/iptv/languages/mal.m3u',        'type' => 'hindi'],
+    ['label' => 'Kannada',         'url' => 'https://iptv-org.github.io/iptv/languages/kan.m3u',        'type' => 'hindi'],
+    ['label' => 'Bengali',         'url' => 'https://iptv-org.github.io/iptv/languages/ben.m3u',        'type' => 'hindi'],
+    ['label' => 'Marathi',         'url' => 'https://iptv-org.github.io/iptv/languages/mar.m3u',        'type' => 'hindi'],
+    ['label' => 'Gujarati',        'url' => 'https://iptv-org.github.io/iptv/languages/guj.m3u',        'type' => 'hindi'],
+    ['label' => 'Punjabi',         'url' => 'https://iptv-org.github.io/iptv/languages/pan.m3u',        'type' => 'hindi'],
+    ['label' => 'Urdu',            'url' => 'https://iptv-org.github.io/iptv/languages/urd.m3u',        'type' => 'hindi'],
+    ['label' => 'Odia',            'url' => 'https://iptv-org.github.io/iptv/languages/ori.m3u',        'type' => 'hindi'],
+    ['label' => 'Assamese',        'url' => 'https://iptv-org.github.io/iptv/languages/asm.m3u',        'type' => 'hindi'],
     ['label' => 'English India',   'url' => 'https://iptv-org.github.io/iptv/languages/eng.m3u',        'type' => 'english'],
+
+    // === Sports & Categories ===
     ['label' => 'Bangladesh',      'url' => 'https://iptv-org.github.io/iptv/countries/bd.m3u',         'type' => 'sports'],
     ['label' => 'Music',           'url' => 'https://iptv-org.github.io/iptv/categories/music.m3u',     'type' => 'music'],
     ['label' => 'Cartoon',         'url' => 'https://iptv-org.github.io/iptv/categories/animation.m3u', 'type' => 'cartoon'],
     ['label' => 'Documentary',     'url' => 'https://iptv-org.github.io/iptv/categories/documentary.m3u', 'type' => 'science'],
     ['label' => 'Sports',          'url' => 'https://iptv-org.github.io/iptv/categories/sports.m3u',    'type' => 'sports'],
+
+    // === Diaspora (whitelist only) ===
     ['label' => 'UK',              'url' => 'https://iptv-org.github.io/iptv/countries/uk.m3u',         'type' => 'diaspora'],
     ['label' => 'USA',             'url' => 'https://iptv-org.github.io/iptv/countries/us.m3u',         'type' => 'diaspora'],
+    ['label' => 'AU',              'url' => 'https://iptv-org.github.io/iptv/countries/au.m3u',         'type' => 'diaspora'],
     ['label' => 'NZ',              'url' => 'https://iptv-org.github.io/iptv/countries/nz.m3u',         'type' => 'diaspora'],
     ['label' => 'ZA',              'url' => 'https://iptv-org.github.io/iptv/countries/za.m3u',         'type' => 'diaspora'],
-    ['label' => 'AU',              'url' => 'https://iptv-org.github.io/iptv/countries/au.m3u',         'type' => 'diaspora'],
+    ['label' => 'IE',              'url' => 'https://iptv-org.github.io/iptv/countries/ie.m3u',         'type' => 'diaspora'],
 ];
 
-// Garden ke 9 alag channels
+// Garden manual channels (IPTV-ORG mein nahi milte)
 $MANUAL_CHANNELS = [
     ['name' => 'Sangeet Bhojpuri', 'url' => 'https://mumt01.tangotv.in/O5aw8Zn3SANGEETBHOJPURI/index.m3u8', 'group' => 'Music', 'country' => 'IN', 'language' => 'Bhojpuri', 'logo' => ''],
     ['name' => 'Bhojpuri Cinema', 'url' => 'https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8', 'group' => 'Movies', 'country' => 'IN', 'language' => 'Bhojpuri', 'logo' => ''],
     ['name' => 'Willow', 'url' => 'https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8', 'group' => 'Sports', 'country' => 'US', 'language' => 'English', 'logo' => ''],
 ];
 
-$BLOCK = ['tamil','telugu','malayalam','kannada','bengali','bangla','marathi','gujarati','punjabi','odia','oriya','assamese','urdu','sun tv','sun news','ktv','adithya','gemini','eenadu','etv telugu','asianet','manorama','flowers tv','mathrubhumi','mazhavil','surya tv','udaya','colors kannada','colors tamil','colors marathi','zee kannada','zee tamil','zee telugu','zee keralam','star suvarna','star vijay','star maa','jaya tv','polimer','puthiya','thanthi','abn andhra','tv9 telugu','tv9 kannada','tv9 marathi','news18 tamil','news18 kerala','news18 kannada','news18 assam','dd chandana','dd yadagiri','dd malayalam','dd podhigai','dd sahyadri','chithiram','jaya max'];
+// Dead channels block karo (language block nahi)
+$BLOCK = ['bollywood classic romania', 'zee cinema me', 'e vidya', 'swayam', 'evidya'];
 
 $ENG_HINTS = ['wion','ndtv','republic','times now','cnn-news18','cnn news18','india today','mirror now','newsx','dd india','cnbc','et now','bloomberg','bbc','al jazeera','dw english','france 24','discovery','history tv','travelxp','good times'];
 
@@ -157,8 +181,6 @@ function json_write(string $file, $data): bool
         return false;
     }
 
-    // KSWEB: rename() fail hota hai — direct write use karo
-    // Pehle truncate karo, phir likho
     $fp = @fopen($file, 'w');
     if ($fp === false) {
         log_line('fopen FAILED: ' . $file);
@@ -170,12 +192,11 @@ function json_write(string $file, $data): bool
     @fclose($fp);
 
     if ($written === false || $written !== strlen($json)) {
-        log_line('fwrite partial: ' . var_export($written, true) . ' vs ' . strlen($json));
+        log_line('fwrite partial');
         return false;
     }
 
     @chmod($file, 0666);
-
     return true;
 }
 
@@ -225,7 +246,7 @@ function category_of(string $group, string $name): string
     if (preg_match('/movie|cinema|cineplex|film|classic/i', $g)) return 'Movie';
     if (preg_match('/music|sangeet|mtv|9xm|song/i', $g)) return 'Music';
     if (preg_match('/kid|cartoon|nick|pogo|hungama|disney|sony yay|cartoon network|discovery kids/i', $g)) return 'Cartoon';
-    if (preg_match('/lifestyle|fox life|tlc|travelxp|food|ndtv good times|good times|fashion|ftv/i', $g)) return 'Lifestyle';
+    if (preg_match('/lifestyle|fox life|tlc|travelxp|food|good times|fashion|ftv/i', $g)) return 'Lifestyle';
     if (preg_match('/science|discovery|national geographic|nat geo|animal planet|history tv|ngc/i', $g)) return 'Science';
     if (preg_match('/relig|devot|bhakti|sanskar/i', $g)) return 'Devotional';
     if (preg_match('/business|cnbc|et now|bloomberg/i', $g)) return 'Business';
@@ -285,24 +306,11 @@ function parse_m3u(string $text, string $sourceType = ''): array
             }
         }
     }
-    static $langMap = null;
-    if ($langMap === null) {
-        $apiFile = __DIR__ . '/3502_data/channels_api.json';
-        $langMap = [];
-        if (is_file($apiFile)) {
-            $api = json_decode(file_get_contents($apiFile), true);
-            if (is_array($api)) {
-                foreach ($api as $ch) {
-                    if (!empty($ch['id']) && !empty($ch['languages'])) {
-                        $langMap[strtolower($ch['id'])] = $ch['languages'];
-                    }
-                }
-            }
-        }
-    }
+
     $out = [];
     $current = null;
     $lines = preg_split('/\r\n|\r|\n/', $text);
+
     foreach ($lines as $line) {
         $line = trim($line);
         if ($line === '') continue;
@@ -323,23 +331,33 @@ function parse_m3u(string $text, string $sourceType = ''): array
                 $tvgId = $m[1];
                 $tvgId = preg_replace('/@.*$/', '', $tvgId);
             }
+
             if ($language === '' && $tvgId !== '' && isset($langMap[strtolower($tvgId)])) {
                 $langs = $langMap[strtolower($tvgId)];
-                $map = ['hin'=>'Hindi','bho'=>'Bhojpuri','eng'=>'English','tam'=>'Tamil','tel'=>'Telugu','mal'=>'Malayalam','kan'=>'Kannada','ben'=>'Bengali','mar'=>'Marathi','guj'=>'Gujarati','pan'=>'Punjabi','urd'=>'Urdu'];
+                $map = ['hin'=>'Hindi','bho'=>'Bhojpuri','eng'=>'English','tam'=>'Tamil','tel'=>'Telugu','mal'=>'Malayalam','kan'=>'Kannada','ben'=>'Bengali','mar'=>'Marathi','guj'=>'Gujarati','pan'=>'Punjabi','urd'=>'Urdu','ori'=>'Odia','asm'=>'Assamese'];
                 $firstLang = $langs[0] ?? '';
                 $language = $map[$firstLang] ?? strtoupper($firstLang);
             }
 
-            // Fallback: tvg-id se country nikaalo (e.g. AajTak.in@SD => IN)
             if ($country === '' && preg_match('/tvg-id="[^"]*\.([a-z]{2})@/i', $line, $m)) {
                 $country = strtoupper($m[1]);
             }
 
-            // Fallback: group-title se language guess karo
             if ($language === '' && $group !== '') {
                 if (stripos($group, 'hindi') !== false) $language = 'Hindi';
                 elseif (stripos($group, 'bhojpuri') !== false) $language = 'Bhojpuri';
                 elseif (stripos($group, 'english') !== false) $language = 'English';
+                elseif (stripos($group, 'tamil') !== false) $language = 'Tamil';
+                elseif (stripos($group, 'telugu') !== false) $language = 'Telugu';
+                elseif (stripos($group, 'malayalam') !== false) $language = 'Malayalam';
+                elseif (stripos($group, 'kannada') !== false) $language = 'Kannada';
+                elseif (stripos($group, 'bengali') !== false) $language = 'Bengali';
+                elseif (stripos($group, 'marathi') !== false) $language = 'Marathi';
+                elseif (stripos($group, 'gujarati') !== false) $language = 'Gujarati';
+                elseif (stripos($group, 'punjabi') !== false) $language = 'Punjabi';
+                elseif (stripos($group, 'urdu') !== false) $language = 'Urdu';
+                elseif (stripos($group, 'odia') !== false) $language = 'Odia';
+                elseif (stripos($group, 'assamese') !== false) $language = 'Assamese';
             }
 
             $current = [
@@ -393,25 +411,33 @@ function looks_indian(array $item): bool
 function garden_accept(array $item, string $type): bool
 {
     // Country whitelist
-    $allowedCountries = ['IN', 'PK', 'BD', 'UK', 'US', 'AU', 'IE', ''];
+    $allowedCountries = ['IN', 'PK', 'BD', 'UK', 'US', 'AU', 'IE', 'NZ', 'ZA', ''];
     $country = strtoupper(trim((string)($item['country'] ?? '')));
     if ($country !== '' && !in_array($country, $allowedCountries, true)) return false;
+
     $nameLower = strtolower((string)($item['name'] ?? ''));
-    $whitelist = ['sky sports cricket','utsav bharat','utsav plus','zee one','shemaroo bollywood','sony kal hindi','the q india','willow','t sports','cricket gold'];
+
+    // Whitelist — always accept
+    $whitelist = ['sky sports cricket','utsav bharat','utsav plus','zee one','shemaroo bollywood',
+                  'sony kal hindi','the q india','willow','t sports','cricket gold',
+                  'sony entertainment','star sports','sony sports','star gold'];
     foreach ($whitelist as $w) {
         if (strpos($nameLower, $w) !== false) return true;
     }
 
     // Sirf India ke channels (whitelist alag se upar check ho chuki)
     if ($country !== '' && $country !== 'IN') return false;
+
     global $ENG_HINTS, $SPORT_HINTS, $INTL_SPORT;
     $name  = strtolower((string)($item['name'] ?? ''));
     $group = strtolower((string)($item['group'] ?? ''));
 
     if ($name === '' || is_blocked($name)) return false;
-    if ($type === 'complete') return looks_indian($item);
+
+    // Hindi, Bhojpuri, Tamil, Telugu, etc. — sab accept
     if ($type === 'hindi' || $type === 'bhojpuri' || $type === 'india') return true;
-    if ($type === 'diaspora') return false; // sirf whitelist wale upar accept ho chuke
+    if ($type === 'complete') return looks_indian($item);
+    if ($type === 'diaspora') return false;
     if ($type === 'english') return looks_indian($item);
 
     if ($type === 'music') {
@@ -555,6 +581,7 @@ function save_state(array $state): void
              ' | src=' . ($state['source_index'] ?? '?') .
              ' | cand=' . count($state['candidates'] ?? []));
 }
+
 function process_source(array &$state, int $index): array
 {
     global $SOURCES;
@@ -586,8 +613,6 @@ function process_source(array &$state, int $index): array
     unset($records);
 
     $state['source_stats'][] = ['label'=>$label,'type'=>$type,'fetched'=>$fetched,'added'=>$added,'total'=>count($state['candidates']),'error'=>false];
-
-    // CRITICAL: index badhao aur save karo
     $state['source_index'] = $index + 1;
     save_state($state);
 
@@ -695,7 +720,7 @@ function check_batch(array &$state, int $batchSize = 4): array
 
 /*
 |--------------------------------------------------------------------------
-| M3U
+| M3U output
 |--------------------------------------------------------------------------
 */
 
@@ -724,7 +749,12 @@ function save_combined_m3u(array $state): void
     foreach ($unique as $ch) {
         $name = m3u_escape((string)($ch['name'] ?? ''));
         $group = m3u_escape((string)($ch['category'] ?? $ch['group'] ?? 'General'));
-        $out .= '#EXTINF:-1 group-title="' . $group . '",' . $name . "\n";
+        $logo = m3u_escape((string)($ch['logo'] ?? ''));
+        $lang = m3u_escape((string)($ch['language'] ?? $ch['lang'] ?? ''));
+        $attrs = 'group-title="' . $group . '"';
+        if ($logo !== '') $attrs .= ' tvg-logo="' . $logo . '"';
+        if ($lang !== '') $attrs .= ' tvg-language="' . $lang . '"';
+        $out .= '#EXTINF:-1 ' . $attrs . ',' . $name . "\n";
         $out .= trim((string)($ch['url'] ?? '')) . "\n";
     }
     file_put_contents($DATA_DIR . '/combined.m3u', $out);
@@ -920,6 +950,7 @@ a.btn{display:inline-block}
 <a class="btn" href="?action=download&type=candidates">Candidates</a>
 <a class="btn" href="?action=download&type=working">Working</a>
 <a class="btn" href="?action=download&type=nonworking">Non-working</a>
+<a class="btn" href="?action=download&type=combined">Combined</a>
 </div>
 <div class="card">
 <div id="phase">Idle</div>
@@ -952,7 +983,7 @@ document.getElementById('bar').style.width=p+'%';
 async function api(action){
 const r=await fetch('?action='+action+'&_='+Date.now(),{cache:'no-store'});
 const t=await r.text();
-if(!t)throw new Error('Empty response (check 3502_data/fatal.log)');
+if(!t)throw new Error('Empty response');
 try{return JSON.parse(t);}catch(e){throw new Error('Invalid JSON: '+t.slice(0,200));}
 }
 async function startBuild(){

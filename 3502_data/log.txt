@@ -3007,3 +3007,88 @@
 [2026-09-27 07:56:47] SAVE OK | src=27 | cand=766
 [2026-09-27 07:56:47] IE => +0 (from 70) | total 766
 [2026-09-27 07:56:47] SAVE OK | src=27 | cand=766
+[2026-09-28 08:32:38] SAVE OK | src=0 | cand=0
+[2026-09-28 08:32:38] Garden Manual => +4
+[2026-09-28 08:32:38] SAVE OK | src=0 | cand=4
+[2026-09-28 08:32:38] FETCH IPTV-ORG Index
+[2026-09-28 08:32:39] SAVE OK | src=1 | cand=766
+[2026-09-28 08:32:39] IPTV-ORG Index => +762 (from 10967) | total 766
+[2026-09-28 08:32:39] FETCH India
+[2026-09-28 08:32:39] SAVE OK | src=2 | cand=766
+[2026-09-28 08:32:39] India => +0 (from 738) | total 766
+[2026-09-28 08:32:39] FETCH Hindi
+[2026-09-28 08:32:39] SAVE OK | src=3 | cand=766
+[2026-09-28 08:32:39] Hindi => +0 (from 321) | total 766
+[2026-09-28 08:32:39] FETCH Bhojpuri
+[2026-09-28 08:32:39] SAVE OK | src=4 | cand=766
+[2026-09-28 08:32:39] Bhojpuri => +0 (from 11) | total 766
+[2026-09-28 08:32:39] FETCH Tamil
+[2026-09-28 08:32:39] SAVE OK | src=5 | cand=766
+[2026-09-28 08:32:39] Tamil => +0 (from 118) | total 766
+[2026-09-28 08:32:39] FETCH Telugu
+[2026-09-28 08:32:39] SAVE OK | src=6 | cand=766
+[2026-09-28 08:32:39] Telugu => +0 (from 82) | total 766
+[2026-09-28 08:32:39] FETCH Malayalam
+[2026-09-28 08:32:40] SAVE OK | src=7 | cand=766
+[2026-09-28 08:32:40] Malayalam => +0 (from 68) | total 766
+[2026-09-28 08:32:40] FETCH Kannada
+[2026-09-28 08:32:40] SAVE OK | src=8 | cand=766
+[2026-09-28 08:32:40] Kannada => +0 (from 33) | total 766
+[2026-09-28 08:32:40] FETCH Bengali
+[2026-09-28 08:32:40] SAVE OK | src=9 | cand=766
+[2026-09-28 08:32:40] Bengali => +0 (from 95) | total 766
+[2026-09-28 08:32:40] FETCH Marathi
+[2026-09-28 08:32:40] SAVE OK | src=10 | cand=766
+[2026-09-28 08:32:40] Marathi => +0 (from 28) | total 766
+[2026-09-28 08:32:40] FETCH Gujarati
+[2026-09-28 08:32:40] SAVE OK | src=11 | cand=766
+[2026-09-28 08:32:40] Gujarati => +0 (from 19) | total 766
+[2026-09-28 08:32:40] FETCH Punjabi
+[2026-09-28 08:32:40] SAVE OK | src=12 | cand=766
+[2026-09-28 08:32:40] Punjabi => +0 (from 48) | total 766
+[2026-09-28 08:32:40] FETCH Urdu
+[2026-09-28 08:32:41] SAVE OK | src=13 | cand=766
+[2026-09-28 08:32:41] Urdu => +0 (from 85) | total 766
+[2026-09-28 08:32:41] FETCH Odia
+[2026-09-28 08:32:41] SAVE OK | src=14 | cand=766
+[2026-09-28 08:32:41] Odia => +0 (from 15) | total 766
+[2026-09-28 08:32:41] FETCH Assamese
+[2026-09-28 08:32:41] SAVE OK | src=15 | cand=766
+[2026-09-28 08:32:41] Assamese => +0 (from 17) | total 766
+[2026-09-28 08:32:41] FETCH English India
+[2026-09-28 08:32:41] SAVE OK | src=16 | cand=766
+[2026-09-28 08:32:41] English India => +0 (from 2942) | total 766
+[2026-09-28 08:32:41] FETCH Bangladesh
+[2026-09-28 08:32:41] SAVE OK | src=17 | cand=766
+[2026-09-28 08:32:41] Bangladesh => +0 (from 41) | total 766
+[2026-09-28 08:32:41] FETCH Sports
+[2026-09-28 08:32:41] SAVE OK | src=18 | cand=766
+[2026-09-28 08:32:41] Sports => +0 (from 439) | total 766
+[2026-09-28 08:32:41] FETCH Music
+[2026-09-28 08:32:41] SAVE OK | src=19 | cand=766
+[2026-09-28 08:32:41] Music => +0 (from 749) | total 766
+[2026-09-28 08:32:41] FETCH Cartoon
+[2026-09-28 08:32:41] SAVE OK | src=20 | cand=766
+[2026-09-28 08:32:41] Cartoon => +0 (from 159) | total 766
+[2026-09-28 08:32:41] FETCH Documentary
+[2026-09-28 08:32:42] SAVE OK | src=21 | cand=766
+[2026-09-28 08:32:42] Documentary => +0 (from 252) | total 766
+[2026-09-28 08:32:42] FETCH UK
+[2026-09-28 08:32:42] SAVE OK | src=22 | cand=766
+[2026-09-28 08:32:42] UK => +0 (from 298) | total 766
+[2026-09-28 08:32:42] FETCH USA
+[2026-09-28 08:32:42] SAVE OK | src=23 | cand=766
+[2026-09-28 08:32:42] USA => +0 (from 1452) | total 766
+[2026-09-28 08:32:42] FETCH AU
+[2026-09-28 08:32:42] SAVE OK | src=24 | cand=766
+[2026-09-28 08:32:42] AU => +0 (from 74) | total 766
+[2026-09-28 08:32:42] FETCH NZ
+[2026-09-28 08:32:42] SAVE OK | src=25 | cand=766
+[2026-09-28 08:32:42] NZ => +0 (from 27) | total 766
+[2026-09-28 08:32:42] FETCH ZA
+[2026-09-28 08:32:42] SAVE OK | src=26 | cand=766
+[2026-09-28 08:32:42] ZA => +0 (from 21) | total 766
+[2026-09-28 08:32:42] FETCH IE
+[2026-09-28 08:32:42] SAVE OK | src=27 | cand=766
+[2026-09-28 08:32:42] IE => +0 (from 70) | total 766
+[2026-09-28 08:32:42] SAVE OK | src=27 | cand=766

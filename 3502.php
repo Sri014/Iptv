@@ -45,6 +45,7 @@ $SOURCES = [
     ['label' => 'India',           'url' => 'https://iptv-org.github.io/iptv/countries/in.m3u',         'type' => 'india'],
 
     // === Indian Languages ===
+    ['label' => 'India (raw)',     'url' => 'https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/in.m3u', 'type' => 'india'],
     ['label' => 'Hindi',           'url' => 'https://iptv-org.github.io/iptv/languages/hin.m3u',        'type' => 'hindi'],
     ['label' => 'Bhojpuri',        'url' => 'https://iptv-org.github.io/iptv/languages/bho.m3u',        'type' => 'hindi'],
     ['label' => 'Tamil',           'url' => 'https://iptv-org.github.io/iptv/languages/tam.m3u',        'type' => 'hindi'],

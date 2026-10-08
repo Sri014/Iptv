@@ -1,3 +1,4 @@
+
 <?php
 declare(strict_types=1);
 
@@ -6,8 +7,9 @@ declare(strict_types=1);
 | 3502.php  (KSWEB-compatible, mbstring-free)
 |--------------------------------------------------------------------------
 | Saare Indian language sources
+| URL → Language auto-correct (iptv-org playlists se compare)
 | URL dedup — same stream skip, different URL add
-| Browser-jaisa probe_stream (TV Garden jaise headers)
+| Browser-jaisa probe_stream
 |--------------------------------------------------------------------------
 */
 
@@ -78,6 +80,29 @@ $SOURCES = [
     ['label' => 'ZA',              'url' => 'https://iptv-org.github.io/iptv/countries/za.m3u',         'type' => 'diaspora'],
     ['label' => 'IE',              'url' => 'https://iptv-org.github.io/iptv/countries/ie.m3u',         'type' => 'diaspora'],
 ];
+
+/* ============================================================
+ *  INDIAN LANGUAGE PLAYLISTS — URL → Language map banane ke liye
+ * ============================================================ */
+$INDIAN_LANG_PLAYLISTS = [
+    'Hindi'      => 'https://iptv-org.github.io/iptv/languages/hin.m3u',
+    'Bhojpuri'   => 'https://iptv-org.github.io/iptv/languages/bho.m3u',
+    'Tamil'      => 'https://iptv-org.github.io/iptv/languages/tam.m3u',
+    'Telugu'     => 'https://iptv-org.github.io/iptv/languages/tel.m3u',
+    'Malayalam'  => 'https://iptv-org.github.io/iptv/languages/mal.m3u',
+    'Kannada'    => 'https://iptv-org.github.io/iptv/languages/kan.m3u',
+    'Bengali'    => 'https://iptv-org.github.io/iptv/languages/ben.m3u',
+    'Marathi'    => 'https://iptv-org.github.io/iptv/languages/mar.m3u',
+    'Gujarati'   => 'https://iptv-org.github.io/iptv/languages/guj.m3u',
+    'Punjabi'    => 'https://iptv-org.github.io/iptv/languages/pan.m3u',
+    'Urdu'       => 'https://iptv-org.github.io/iptv/languages/urd.m3u',
+    'Odia'       => 'https://iptv-org.github.io/iptv/languages/ori.m3u',
+    'Assamese'   => 'https://iptv-org.github.io/iptv/languages/asm.m3u',
+    'English'    => 'https://iptv-org.github.io/iptv/languages/eng.m3u',
+];
+
+/* Global URL → [Language1, Language2, ...] map */
+$URL_LANG_MAP = [];
 
 $MANUAL_CHANNELS = [
     ['name' => 'Sangeet Bhojpuri', 'url' => 'https://mumt01.tangotv.in/O5aw8Zn3SANGEETBHOJPURI/index.m3u8', 'group' => 'Music', 'country' => 'IN', 'language' => 'Bhojpuri', 'logo' => ''],
@@ -388,6 +413,56 @@ function parse_m3u(string $text, string $sourceType = ''): array
     return $out;
 }
 
+/*
+|--------------------------------------------------------------------------
+| URL → Language map build
+|--------------------------------------------------------------------------
+*/
+
+function build_url_lang_map(&$urlLangMap): int
+{
+    global $INDIAN_LANG_PLAYLISTS;
+
+    if (!empty($urlLangMap)) return count($urlLangMap);
+
+    $totalUrls = 0;
+
+    foreach ($INDIAN_LANG_PLAYLISTS as $langName => $m3uUrl) {
+
+        $text = fetch_text($m3uUrl, 60);
+        if ($text === '') {
+            log_line("LANG-MAP: fetch failed for {$langName}");
+            continue;
+        }
+
+        $lines = preg_split('/\r\n|\r|\n/', $text);
+        $added = 0;
+
+        foreach ($lines as $line) {
+            $line = trim($line);
+            if ($line === '' || $line[0] === '#') continue;
+            if (!preg_match('#^https?://#i', $line)) continue;
+
+            $urlKey = strtolower($line);
+
+            if (!isset($urlLangMap[$urlKey])) {
+                $urlLangMap[$urlKey] = [];
+                $totalUrls++;
+            }
+
+            if (!in_array($langName, $urlLangMap[$urlKey], true)) {
+                $urlLangMap[$urlKey][] = $langName;
+                $added++;
+            }
+        }
+
+        log_line("LANG-MAP: {$langName} => +{$added} URLs");
+    }
+
+    log_line("LANG-MAP: total {$totalUrls} unique URLs indexed");
+    return $totalUrls;
+}
+
 function looks_indian(array $item): bool
 {
     global $ENG_HINTS, $SPORT_HINTS;
@@ -465,6 +540,8 @@ function garden_accept(array $item, string $type): bool
 
 function add_candidate(array &$list, array &$seen, array $item, string $sourceLabel): bool
 {
+    global $URL_LANG_MAP;
+
     $url = trim((string)($item['url'] ?? ''));
     if ($url === '') return false;
     $key = strtolower($url);
@@ -477,6 +554,30 @@ function add_candidate(array &$list, array &$seen, array $item, string $sourceLa
     $probe = strtolower(trim(($item['name'] ?? '') . ' ' . ($item['group'] ?? '')));
     $item['hd'] = (preg_match('/\bhd\b/i', $probe) === 1);
 
+    /* ============================================================
+     *  LANGUAGE CORRECTION from URL map
+     * ============================================================ */
+    $urlKey = strtolower($url);
+
+    if (isset($URL_LANG_MAP[$urlKey]) && !empty($URL_LANG_MAP[$urlKey])) {
+
+        $realLangs = $URL_LANG_MAP[$urlKey];
+        $item['language']    = $realLangs[0];
+        $item['lang']        = $realLangs[0];
+        $item['all_langs']   = $realLangs;
+        $item['lang_source'] = 'iptv-org-playlist';
+
+    } else {
+
+        $existing = trim((string)($item['language'] ?? $item['lang'] ?? ''));
+        if ($existing === '') {
+            $item['language'] = 'Unknown';
+            $item['lang']     = 'Unknown';
+        }
+        $item['all_langs']   = $existing !== '' ? [$existing] : ['Unknown'];
+        $item['lang_source'] = 'guess';
+    }
+
     $item['name']  = strip_invalid_utf8($item['name']  ?? '');
     $item['group'] = strip_invalid_utf8($item['group'] ?? '');
     $item['logo']  = strip_invalid_utf8($item['logo']  ?? '');
@@ -486,7 +587,7 @@ function add_candidate(array &$list, array &$seen, array $item, string $sourceLa
 
 /*
 |--------------------------------------------------------------------------
-| Stream probe — TV Garden jaisa (browser headers)
+| Stream probe
 |--------------------------------------------------------------------------
 */
 
@@ -544,7 +645,12 @@ function probe_stream(string $url): array
 
 function new_state(): array
 {
-    global $SOURCES;
+    global $SOURCES, $URL_LANG_MAP;
+
+    log_line('Building URL → Language map from iptv-org playlists...');
+    $mapped = build_url_lang_map($URL_LANG_MAP);
+    log_line('URL map built: ' . $mapped . ' unique URLs');
+
     return [
         'phase'        => 'build',
         'source_index' => 0,
@@ -555,6 +661,7 @@ function new_state(): array
         'seen'         => [],
         'check_index'  => 0,
         'source_stats' => [],
+        'url_map_size' => $mapped,
         'started_at'   => date('c'),
         'updated_at'   => date('c')
     ];
@@ -610,6 +717,15 @@ function process_source(array &$state, int $index): array
 
 function build_batch(array &$state): array
 {
+    global $URL_LANG_MAP;
+
+    /* Pehli baar call hone pe URL map banao */
+    if (empty($URL_LANG_MAP)) {
+        log_line('Initializing URL → Language map...');
+        build_url_lang_map($URL_LANG_MAP);
+        log_line('URL map ready: ' . count($URL_LANG_MAP) . ' URLs indexed');
+    }
+
     if (($state['source_index'] ?? 0) === 0 && empty($state['manual_added'])) {
         global $MANUAL_CHANNELS;
         $ma = 0;
@@ -783,7 +899,7 @@ function reset_all(): void
 {
     global $STATE_FILE, $DATA_DIR;
     @unlink($STATE_FILE);
-    foreach (['candidates.json','working.json','nonworking.json','log.txt','fatal.log'] as $f) {
+    foreach (['candidates.json','working.json','nonworking.json','log.txt','fatal.log','combined.m3u'] as $f) {
         @unlink($DATA_DIR . '/' . $f);
     }
 }

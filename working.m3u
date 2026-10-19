@@ -21,6 +21,8 @@ https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01
 https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Telugu" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_10TV/images/LOGO_HD/image.png",10 TV
 https://mumbai-edge.smartplaytv.in/10TV/index.m3u8
+#EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/22Scope_News.png",22Scope News
+https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Malayalam" tvg-logo="https://sund-images.sunnxt.com/202222/300x300_24News_202222_d63feca0-79ae-47ea-b75a-66c17d456f4c.png",24 News
 https://mumt07.tangotv.in/zHjX9OFlTWENTYFOURNEWS/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Telugu" tvg-logo="https://i.imgur.com/dZA4gel.png",99TV
@@ -31,10 +33,6 @@ https://mumt01.tangotv.in/O5aw8Zn3AADINATHTV/index.m3u8
 https://stream.ottlive.co.in/aajkikhabar/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png",Aaj Tak HD
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-language="Bengali" tvg-logo="https://dtil.tmsimg.com/assets/s142510_ld_h15_ab.png?lock=720x540",Aakaash Aath
-http://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-language="Bengali" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Amaar_Bangla.png",Aamar Bangla
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Music" tvg-language="Tamil" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/aryatvtamil.png",Aaryaa TV
 https://stream.ottlive.co.in/aryatvtamil/index.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-language="Tamil" tvg-logo="https://i.imgur.com/GlfrYs7.png",Aaseervatham TV
@@ -45,6 +43,8 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8
 https://mumt04.tangotv.in/m18aqlK4AASTHAGUJARATI/index.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-language="Kannada" tvg-logo="https://dtil.tmsimg.com/assets/s158134_ld_h15_aa.png?lock=720x540",Aastha Kannada
 https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8
+#EXTINF:-1 group-title="Devotional" tvg-language="Hindi" tvg-logo="https://i.imgur.com/LyWSMJS.png",Aastha Prime 1
+https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-language="Tamil" tvg-logo="https://i.imgur.com/YQK9ewf.png",Aastha Tamil
 https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-language="Telugu" tvg-logo="https://dtil.tmsimg.com/assets/s158136_ld_h15_aa.png?lock=720x540",Aastha Telugu
@@ -69,8 +69,6 @@ https://live.legitpro.co.in/cnnnews/index.m3u8
 https://server.playontv.in/ekhonkolkata/ekhonkolkata/index.m3u8
 #EXTINF:-1 group-title="Movie" tvg-language="Odia" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALANKAR/images/LOGO_HD/image.png",Alankar TV
 https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8
-#EXTINF:-1 group-title="Movie" tvg-language="Hindi" tvg-logo="https://yt3.googleusercontent.com/U4INXhwmEUOABHoemQBpI6C9t4jb9iBmDvZ3ZT3lAb9Au_jVl32NL8XDpy-9cBjRJ2LP69Ovzg=s900-c-k-c0x00ffffff-no-rj",All Time Movies
-https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/WdSjlPl.png",Amrita TV
 https://ddash74r36xqp.cloudfront.net/master.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Anand_TV.png",Anand TV (India)
@@ -85,8 +83,6 @@ https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8
 https://mumt03.tangotv.in/Dsly5z3HANDYHARYANA/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/sh0yFSf.png",Anjan TV
 https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8
-#EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/APN.png",APN
-https://mumt01.tangotv.in/O5aw8Zn3APN/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARGUS/images/LOGO_HD/image.png",Argus News
 https://mumt05.tangotv.in/87NeALx2ARGUSNEWS/index.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-language="Tamil" tvg-logo="https://arputharyesutv.net/wp-content/uploads/2022/07/AR-LOGO-PNG.png",Arputhar Yesu TV
@@ -115,8 +111,6 @@ https://streams.tangotv.in/B4UKADAK/ORIGIN/index.m3u8
 https://streams.tangotv.in/B4UMOVIES/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="Music" tvg-language="Unknown" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540",B4U Music
 https://amg01408-amg01408c5-amgplt0747.playout.now3.amagi.tv/b4um001/playlist.m3u8
-#EXTINF:-1 group-title="Music" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Balle_Balle_TV.png",Balle Balle
-https://streams.tangotv.in/BALLEBALLE/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="Music" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Balle_Balle_TV.png",Balle Balle HD
 https://mcncdndigital.com/balleballetv/index.m3u8
 #EXTINF:-1 group-title="Movie" tvg-language="Unknown" tvg-logo="https://i.imgur.com/5CtiQ45.png",Bflix Movies
@@ -139,8 +133,6 @@ https://cdn.pishow.tv/ott/live/339/master.m3u8
 https://stream.ottlive.co.in/bigtvmalayalam/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Telugu" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Big_TV.png",BIG TV
 https://cdn.pishow.tv/ott/live/1059/master.m3u8
-#EXTINF:-1 group-title="Movie" tvg-language="Hindi" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000600Q_20260805T003941SQUARE.png",Bollygold
-https://jmp2.uk/stvp-IN4000600Q
 #EXTINF:-1 group-title="Music" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Boogle_Bollywood.png",Boogle Bollywood
 https://yuppnimrestreammum.akamaized.net/181224/smil:bogglebollywood.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 group-title="News" tvg-language="Telugu" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/brk-news.png",BRK News
@@ -335,8 +327,6 @@ http://103.151.60.162:2122/play/a01p/index.m3u8?hls
 https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8
 #EXTINF:-1 group-title="Cartoon" tvg-language="Hindi" tvg-logo="https://i.imgur.com/zsTxPV9.png",ETV Bal Bharat
 http://103.185.24.134:3001/ETV-BAL-BHARAT/index.m3u8
-#EXTINF:-1 group-title="Music" tvg-language="Telugu" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ETVBeats1.png",ETV Beats
-https://jmp2.uk/stvp-IN4900002RV
 #EXTINF:-1 group-title="Entertainment" tvg-language="Telugu" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ETV_Comedy.png",ETV Comedy
 https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Telugu" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ETV_Josh.png",ETV Josh
@@ -415,6 +405,8 @@ https://mumt01.tangotv.in/O5aw8Zn3HOPECHANNELINDIA/index.m3u8
 https://mumt01.tangotv.in/O5aw8Zn3HORNBILLTV/index.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-language="English" tvg-logo="https://i.imgur.com/VYorU1L.png",Hosanna TV Global
 https://ktismaservers.in:3349/live/hosannatvlive.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://ibb.co/Ng5nkX6F",HSTV
+https://live.castmaxcloud.com/live/hstv.m3u8
 #EXTINF:-1 group-title="Cartoon" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HUNGAMA/images/LOGO_HD/image.png",Hungama TV
 http://103.185.24.134:3001/HUNGAMA/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_IBC24/images/LOGO_HD/image.png",IBC 24
@@ -465,8 +457,6 @@ https://cdn.pishow.tv/ott/live/989/master.m3u8
 https://cdn.pishow.tv/ott/live/10006/master.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-language="Tamil" tvg-logo="https://joytvchennai.org/wp-content/uploads/2026/04/cropped-512.png",Joy TV
 https://ktismaservers.in:3412/live/joytvlive.m3u8
-#EXTINF:-1 group-title="Movie" tvg-language="Bengali" tvg-logo="https://jtbsclassic.dpdns.org/logo.png",JTBS Classic
-https://jtbsclassic.dpdns.org/live.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Kadak.png",Kadak
 https://n18syndication.akamaized.net/bpk-tv/Kadak_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/BBEfplL.png",Kairali Arabia
@@ -493,8 +483,6 @@ https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8
 https://stream.ottlive.co.in/kbcnews/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/KBPTimes.png",KBP Times
 https://kbpnews.cloud/Kbptimes/Kbptimeslive/video.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/bkp9dIm.png",KCL TV
-https://kcltv.livebox.co.in/kclhls/live.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/SWNjyyp.png",Kerala Vision
 https://mumt03.tangotv.in/Dsly5z3HKERALAVISION/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Khabar_Fast.png",Khabar Fast
@@ -537,8 +525,6 @@ https://mumbai-edge.smartplaytv.in/MahaNews/index.m3u8
 https://5k8q87azdy4v-hls-live.wmncdn.net/MAKKAL/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Tamil" tvg-logo="https://i.imgur.com/OC5TQxp.png",Malai Murasu TV
 https://streams.tangotv.in/MALAIMURASUSEITHIGAL/ORIGIN/index.m3u8
-#EXTINF:-1 group-title="Devotional" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Mangalmaylive.png",Mangalmay TV
-https://yupplivegcpusa.yuppcdn.net/100823/mangalmay_1800/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/neZm4CY.png",Mango (India)
 https://stmv6.voxtvhd.com.br/cinehindi/cinehindi/playlist.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Telugu" tvg-logo="https://dvvlqr1rtlak3.cloudfront.net/Mango/MANGOTVLOGO.jpg",Mango Mobile TV
@@ -705,10 +691,6 @@ https://jmp2.uk/stvp-IN3000846P
 https://cdn.pishow.tv/ott/live/1433/master.m3u8
 #EXTINF:-1 group-title="News" tvg-language="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News_X_World.png",NewsX World
 https://mumt03.tangotv.in/Dsly5z3HNEWSXWORLD/index.m3u8
-#EXTINF:-1 group-title="Movie" tvg-language="Hindi" tvg-logo="https://i.ibb.co/yF9MPTDK/blyflx.png",NH BollyFlix
-https://jmp2.uk/stvp-IN46000140Q
-#EXTINF:-1 group-title="Music" tvg-language="Hindi" tvg-logo="https://i.ibb.co/BKB9mv1K/NH-Bolly-Raga.png",NH BollyRaga
-https://jmp2.uk/stvp-IN460001373
 #EXTINF:-1 group-title="Movie" tvg-language="Tamil" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400061DB_20260623T015348SQUARE.png",NH Tamil Gold
 https://d3arbp6l7f096k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-gv6wgpbb4mgwk/playlist.m3u8?ads.ads_cdn=cf&ads.app_domain=APP_DOMAIN&ads.cdn=cf
 #EXTINF:-1 group-title="Cartoon" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK_JUNIOR/images/LOGO_HD/image.png",Nick Jr. (India)
@@ -769,6 +751,8 @@ https://cdn.pishow.tv/ott/live/1241/master.m3u8
 https://powertvkannada.com/hls/stream.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-language="Malayalam" tvg-logo="https://dtil.tmsimg.com/assets/s143670_ld_h15_aa.png?lock=720x540",Powervision TV
 https://mumbai-edge.smartplaytv.in/PowerVision/index.m3u8
+#EXTINF:-1 group-title="News" tvg-language="Gujarati" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Pradesh24_Gujarati.png",Pradesh24 Gujarati
+https://stream2.livebox.co.in/pradesh24hls/live.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Assamese" tvg-logo="https://dtil.tmsimg.com/assets/s143671_ld_h15_aa.png?lock=720x540",Prag News
 https://streams.tangotv.in/PRAGNEWS/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Odia" tvg-logo="https://dtil.tmsimg.com/assets/s143578_ld_h15_aa.png?lock=720x540",Prameya News7
@@ -937,6 +921,10 @@ https://mumt07.tangotv.in/zHjX9OFlSATHIYAMTV/index.m3u8
 https://d2vfwvjxwtwq1t.cloudfront.net/out/v1/6b24239d5517495b986e7705490c6e65/index.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-language="Hindi" tvg-logo="https://i.imgur.com/40kNu1w.png",Satsang Web TV
 https://d1ji7e9jbzm5g8.cloudfront.net/out/v1/769f22f64d80442889306b9c4abea63c/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-language="English" tvg-logo="https://i.imgur.com/zlJK7ca.png",like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Sports",Setanta Sports 1 Eurasia
+http://stream.mcquack.net/234/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-language="English" tvg-logo="https://i.imgur.com/ouHunnK.png",like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Sports",Setanta Sports 2 Eurasia
+http://stream.mcquack.net/235/index.m3u8
 #EXTINF:-1 group-title="Sports" tvg-language="English" tvg-logo="https://scontent.flwo7-1.fna.fbcdn.net/v/t39.30808-6/364716463_853281776306116_3365262792418742642_n.jpg?stp=dst-webp_p843x403_q70&_nc_cat=109&ccb=1-7&_nc_sid=cc3e7e&_nc_ohc=cdryMbRE2MwQ7kNvwFeyihF&_nc_oc=Adqncj9xKrtg2aNKgZmuX6LGZlSfpAmh_HQEEkBciEg1tXwQqFuMtohNjM8-Z8hU_Ho&_nc_zt=23&_nc_ht=scontent.flwo7-1.fna&_nc_gid=nGCZSHk6GKFYzjwKY-aGWw&_nc_ss=7b289&oh=00_AQFswjCYfEBKcXRO2DpTL1Dz7arAN-82K47gi8qtwljzrw&oe=6A862750",like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Sports",Setanta Sports HD
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-language="Malayalam" tvg-logo="https://dtil.tmsimg.com/assets/s143774_ld_h15_aa.png?lock=720x540",Shalom
@@ -979,8 +967,6 @@ http://103.185.24.134:3001/SONY-BBC/index.m3u8
 http://103.151.60.162:2122/play/a015/index.m3u8?hls
 #EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540",Sony Entertainment Television HD
 http://38.96.178.205/SONYHD/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/9Qq8DKh.png",Sony KAL Hindi
-https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/spt_sonykal_1/lg_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 group-title="Movie" tvg-language="Unknown" tvg-logo="https://i.imgur.com/gqUYk6C.png",Sony Max 2
 http://107.167.16.138/sonymax2/index.m3u8?token=test
 #EXTINF:-1 group-title="Movie" tvg-language="Unknown" tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540",Sony Max HD
@@ -1023,8 +1009,6 @@ https://cdn.pishow.tv/ott/live/276/master.m3u8
 https://mumt01.tangotv.in/O5aw8Zn3STUDIOYUVA/index.m3u8
 #EXTINF:-1 group-title="Devotional" tvg-language="Telugu" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUBHAVAARTHA/images/LOGO_HD/image.png",Subhavaartha TV
 https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-language="Tamil" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/subintvtamil.png",Subin TV
-https://stream.galaxyott.live/live/subintv/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUDARSHAN_NEWS/images/LOGO_HD/image.png",Sudarshan News
 https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Telugu" tvg-logo="https://sund-images.sunnxt.com/194396/300x300_SunGemini_194396_22c18c1e-7eb9-4855-9c4e-12e109911559.png",Sun Gemini
@@ -1185,8 +1169,6 @@ https://live1.ottlive.co.in/vtvgujarati/vtvgujarati/index.m3u8
 https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://i.imgur.com/KIEKOt1.png",WeatherSpy (India)
 https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Sports" tvg-language="English" tvg-logo="https://cricket.willow.tv/_nuxt/img/willow_blue_logo.362ed8e.png",Willow
-http://tvsen5.aynascope.net/willowhd/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="English" tvg-logo="https://i.imgur.com/Wc5Z3iS.png",WION
 http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Punjabi" tvg-logo="https://papaji.freetvindia.com/media/World_Punjabi_TV.png",World Punjabi TV
@@ -1215,12 +1197,16 @@ https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 http://107.167.16.138/zeeaction/index.m3u8?token=test
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA_HD/images/LOGO_HD/LOGO_HD_image.png",Zee Bangla
 http://103.151.60.162:2122/play/a011/index.m3u8?hls
+#EXTINF:-1 group-title="Entertainment" tvg-language="Bengali" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540",Zee Bangla Sonar
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230QBL.png?lock=720x540",Zee Bharat
 https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Bhojpuri" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230Y44.png?lock=720x540",Zee Bihar Jharkhand
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBiharJharkhand.m3u8
 #EXTINF:-1 group-title="Business" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230YYJ.png?lock=720x540",Zee Business
 https://dwby15d04agvq.cloudfront.net/index_5.m3u8
+#EXTINF:-1 group-title="Movie" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png",Zee Cinema
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 #EXTINF:-1 group-title="Movie" tvg-language="Hindi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png",Zee Cinema APAC
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8
 #EXTINF:-1 group-title="Movie" tvg-language="Unknown" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png",Zee Cinema HD
@@ -1293,16 +1279,12 @@ https://mumt03.tangotv.in/Dsly5z3HAAKASHAATH/index.m3u8
 https://cdn.pishow.tv/ott/live/1454/master.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Aastha Bhajan
 https://mumt05.tangotv.in/87NeALx2AASTHABHAJAN/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Aastha Bhajan
-https://aasthaott.akamaized.net/110923/smil:bhajan.smil/playlist.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Aastha Gujarati
-https://aasthaott.akamaized.net/110923/smil:aasthagujrati.smil/playlist.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Aastha Kannada
 https://cdn.pishow.tv/ott/live/234/master.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Aastha Telugu
-https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Aastha Telugu
 https://cdn.pishow.tv/ott/live/262/master.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",ABP Majha
+https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Unknown",ABP News
 https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Unknown",Asianet News
@@ -1457,6 +1439,8 @@ https://vg-tv9yupp.vgcdn.net/vglive-sk-526536/v1/019e01ace8511ea540a871e333268/0
 https://d1msejlow1t3l4.cloudfront.net/fta/news11bharat/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Unknown",News 24
 https://mumt01.tangotv.in/O5aw8Zn3NEWS24/index.m3u8
+#EXTINF:-1 group-title="News" tvg-language="Unknown",News 24
+https://tvsen5.aynaott.com/News24/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Unknown",News Nation
 https://cdn.pishow.tv/ott/live/1493/master.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",NKR TV Kannada
@@ -1471,6 +1455,8 @@ https://cdn.pishow.tv/ott/live/1600/master.m3u8
 https://mumt05.tangotv.in/87NeALx2OSCARMOVIESBHOJPURI/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Pasand TV
 https://mumt01.tangotv.in/O5aw8Zn3PASANDTV/index.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Pitaara
+https://mumt04.tangotv.in/m18aqlK4PITAARA/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Unknown",Polimer News
 https://cdn.pishow.tv/ott/live/1245/master.m3u8
 #EXTINF:-1 group-title="Music" tvg-language="Unknown",PTC Music
@@ -1529,8 +1515,6 @@ https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
 https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Shubhsandesh TV
 https://cdn.pishow.tv/ott/live/457/master.m3u8
-#EXTINF:-1 group-title="Sports" tvg-language="English",Star Sports Select 2 HD
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Subhavaartha TV
 https://cdn.pishow.tv/ott/live/278/master.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Unknown",Sudarshan News
@@ -1617,8 +1601,6 @@ https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8
 https://streams.tangotv.in/9XM/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="Music" tvg-language="Unknown",Epic Music
 https://streams.tangotv.in/EPICMUSIC/ORIGIN/index.m3u8
-#EXTINF:-1 group-title="Music" tvg-language="Unknown",B4U Music
-https://streams.tangotv.in/B4UMUSIC/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",TV9 Bharatvarsh
 https://streams.tangotv.in/TV9BHARATVARSH/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Unknown",Republic Bharat
@@ -1687,6 +1669,8 @@ https://streams.tangotv.in/B4UBHOJPURI/ORIGIN/index.m3u8
 https://streams.tangotv.in/BHOJPURICINEMA/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Peppers TV
 https://mumt07.tangotv.in/zHjX9OFlPEPPERS/index.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Polimer TV
+https://mumt04.tangotv.in/m18aqlK4POLIMERTV/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Puthiya Thalaimurai
 https://streams.tangotv.in/PUTHIYATHALAIMURAI/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Unknown",News Tamil 24x7
@@ -1753,32 +1737,32 @@ https://streams.tangotv.in/OTVLIVE24X7/ORIGIN/index.m3u8
 https://mumt05.tangotv.in/87NeALx2SPONDON/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Rang
 https://streams.tangotv.in/RANG/ORIGIN/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Assam Talks
-https://mumt05.tangotv.in/87NeALx2ASSAMTALKS/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Pratidin Time
 https://streams.tangotv.in/PROTIDINTIME/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Northeast Live
 https://mumt01.tangotv.in/O5aw8Zn3NORTHEASTLIVE/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Tehzeeb TV
 https://mumt05.tangotv.in/87NeALx2TEHZEEBTV/index.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Salaam TV
+https://mumt07.tangotv.in/zHjX9OFlZEESALAM/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Channel WIN
 https://mumt05.tangotv.in/87NeALx2CHANNELWIN/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",9X Tashan
 https://tvsen6.aynaott.com/sMqhLN6n/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",B4U Kadak
-https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Bharat Samachar
 https://tvsen3.aynaott.com/m94BZDYb/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Dangal 2
 https://tvsen3.aynaott.com/8KfZvBYS/index.m3u8
-#EXTINF:-1 group-title="Movie" tvg-language="Unknown",Goldmines Movies
-https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Goldmines Bollywood
 https://tvsen6.aynaott.com/55xNrLdf/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Manoranjan TV
 https://tvsen6.aynaott.com/vhu6qz5Nsd/index.m3u8
+#EXTINF:-1 group-title="News" tvg-language="Unknown",News 1 India
+https://tvsen6.aynaott.com/TaVfw58T/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Shemaroo TV
 https://tvsen3.aynaott.com/27jCLCUX/index.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Taaza TV
+https://tvsen3.aynaott.com/yRMLky2j/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",CVR English
 https://yuppnimrestreammum.akamaized.net/181224/smil:cvrnewseng.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",APN
@@ -1857,6 +1841,8 @@ https://mumt04.tangotv.in/m18aqlK4STUDIOONEPLUS/index.m3u8
 https://mumt03.tangotv.in/Dsly5z3HSHUBHTV/index.m3u8
 #EXTINF:-1 group-title="Movie" tvg-language="Unknown",Shubh Cinema TV
 https://mumt03.tangotv.in/Dsly5z3HSHUBHCINEMA/index.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Shemaroo Marathi Bana
+https://mumt07.tangotv.in/zHjX9OFlSHEMAROOMARATHIBANA/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Shekinah TV
 https://mumt03.tangotv.in/Dsly5z3HSHEKINAHTV/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Shalom
@@ -1889,8 +1875,6 @@ https://mumt03.tangotv.in/Dsly5z3HGTCNEWS/index.m3u8
 https://mumt07.tangotv.in/zHjX9OFlPRIMENEWS/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Mercy TV
 https://mumt03.tangotv.in/Dsly5z3HMERCYTV/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",India Voice
-https://mumt04.tangotv.in/m18aqlK4INDIAVOICE/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Kolkata TV
 https://tvsen6.aynaott.com/kolkatatv/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Unknown",Mantavya News
@@ -1933,8 +1917,6 @@ https://mumt04.tangotv.in/m18aqlK4SUVARNANEWS/index.m3u8
 https://stream.ottlive.co.in/argus/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Unknown",News 11
 https://live1.ottlive.co.in/news11/news11/index.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",World Punjabi TV
-https://mumt06.tangotv.in/qYyB8fXVWPNWORLDPUNJABI/index.m3u8
 #EXTINF:-1 group-title="News" tvg-language="Unknown",ABP News
 https://mumt04.tangotv.in/m18aqlK4ABPNEWS/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Dangal TV
@@ -2043,8 +2025,8 @@ https://yuppnimrestreammum.akamaized.net/181224/smil:mahatv.smil/playlist.m3u8?h
 https://yuppnimresmum.akamaized.net/28072023/smil:hmtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",BIG TV
 https://yuppnimresmum.akamaized.net/120723/smil:bigtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 group-title="Music" tvg-language="Unknown",Sangeet Bangla (576p)
-https://tvsen6.aynaott.com/hT5jHczt/index.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Khushboo Bangla (576p)
+https://tvsen6.aynaott.com/mzwbzfZ4/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Shemaroo TV
 https://mumt06.tangotv.in/qYyB8fXVSHEMAROOTV/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Dangal TV
@@ -2223,6 +2205,8 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/VendharTV.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Colors
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ColorsAPAC.m3u8
+#EXTINF:-1 group-title="Movie" tvg-language="Unknown",All Time Movies
+https://samitaorigin.tangotv.in/ALLTIMEMOVIES/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",GTC Punjabi
 https://streams.tangotv.in/GTC/ORIGIN/index.m3u8
 #EXTINF:-1 group-title="Movie" tvg-language="Unknown",Star Movies HD
@@ -2243,8 +2227,6 @@ http://103.151.60.162:2122/play/a02o/index.m3u8?hls
 http://103.151.60.162:2122/play/a02q/index.m3u8?hls
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Colors Infinity HD
 http://103.151.60.162:2122/play/a02r/index.m3u8?hls
-#EXTINF:-1 group-title="Cartoon" tvg-language="Unknown",Disney Junior
-http://103.151.60.162:2122/play/a016/index.m3u8?hls
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Enterr 10 Bangla
 http://103.151.60.162:2122/play/a0fa/index.m3u8?hls
 #EXTINF:-1 group-title="Science" tvg-language="Unknown",History TV18
@@ -2261,10 +2243,6 @@ http://103.151.60.162:2122/play/a02k/index.m3u8?hls
 http://103.151.60.162:2122/play/a02l/index.m3u8?hls
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Sony Pix HD
 http://103.151.60.162:2122/play/a01d/index.m3u8?hls
-#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Sony Aath
-http://103.151.60.162:2122/play/a023/index.m3u8?hls
-#EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Sony Max HD
-http://103.151.60.162:2122/play/a014/index.m3u8?hls
 #EXTINF:-1 group-title="Sports" tvg-language="Unknown",Star Sports 2
 http://103.151.60.162:2122/play/a00v/index.m3u8?hls
 #EXTINF:-1 group-title="Entertainment" tvg-language="Unknown",Superhitz

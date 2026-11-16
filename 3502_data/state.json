@@ -20922,21 +20922,6 @@
             "http_status": 200
         },
         {
-            "name": "Aamar Bangla",
-            "group": "Entertainment",
-            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Amaar_Bangla.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8",
-            "category": "Entertainment",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
-        },
-        {
             "name": "Aaryaa TV",
             "group": "Music",
             "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/aryatvtamil.png",
@@ -20982,6 +20967,21 @@
             "http_status": 206
         },
         {
+            "name": "Aastha HD",
+            "group": "Religious",
+            "logo": "https://i.imgur.com/IqgrV92.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8",
+            "category": "Devotional",
+            "source_label": "IPTV-ORG Index",
+            "hd": true,
+            "status": "Working",
+            "http_status": 200
+        },
+        {
             "name": "like Gecko) Chrome/147.0.0.0 Safari/537.36\" group-title=\"Religious\",Aastha Bhajan",
             "group": "Religious",
             "logo": "https://dtil.tmsimg.com/assets/s142514_ld_h15_aa.png?lock=720x540",
@@ -21012,14 +21012,29 @@
             "http_status": 206
         },
         {
-            "name": "Aastha Kannada",
+            "name": "Aastha Prime 1",
             "group": "Religious",
-            "logo": "https://dtil.tmsimg.com/assets/s158134_ld_h15_aa.png?lock=720x540",
+            "logo": "https://i.imgur.com/LyWSMJS.png",
             "country": "IN",
             "language": "",
             "lang": "",
             "source": "complete",
-            "url": "https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8",
+            "url": "https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8",
+            "category": "Devotional",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
+        },
+        {
+            "name": "Aastha Tamil",
+            "group": "Religious",
+            "logo": "https://i.imgur.com/YQK9ewf.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8",
             "category": "Devotional",
             "source_label": "IPTV-ORG Index",
             "hd": false,
@@ -21185,6 +21200,21 @@
             "lang": "",
             "source": "complete",
             "url": "https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8",
+            "category": "Movie",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
+            "name": "All Time Movies",
+            "group": "Movies",
+            "logo": "https://yt3.googleusercontent.com/U4INXhwmEUOABHoemQBpI6C9t4jb9iBmDvZ3ZT3lAb9Au_jVl32NL8XDpy-9cBjRJ2LP69Ovzg=s900-c-k-c0x00ffffff-no-rj",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
             "category": "Movie",
             "source_label": "IPTV-ORG Index",
             "hd": false,
@@ -21624,7 +21654,7 @@
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Working",
-            "http_status": 200
+            "http_status": 206
         },
         {
             "name": "Boogle Bollywood",
@@ -22041,6 +22071,21 @@
             "source": "complete",
             "url": "https://mumbai-edge.smartplaytv.in/CVRHealth/index.m3u8",
             "category": "Lifestyle",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
+            "name": "CVR News",
+            "group": "News",
+            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CVR_NEWS/images/LOGO_HD/LOGO_HD_image.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://mumbai-edge.smartplaytv.in/CVRNews/index.m3u8",
+            "category": "News",
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Working",
@@ -23082,6 +23127,21 @@
             "http_status": 200
         },
         {
+            "name": "ETV Plus",
+            "group": "Entertainment",
+            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvplus.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+            "category": "Entertainment",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
+        },
+        {
             "name": "Fakt Marathi",
             "group": "Entertainment",
             "logo": "https://dtil.tmsimg.com/assets/s143038_ld_h15_aa.png?lock=720x540",
@@ -23367,21 +23427,6 @@
             "http_status": 206
         },
         {
-            "name": "Hebron TV",
-            "group": "Religious",
-            "logo": "https://i0.wp.com/hebrontv.in/wp-content/uploads/2023/11/hebron-.png?w=512",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://account20.livebox.co.in/charleshls/live.m3u8",
-            "category": "Devotional",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
             "name": "Hi Dost!",
             "group": "Entertainment",
             "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Hi_Dost.png",
@@ -23435,21 +23480,6 @@
             "lang": "",
             "source": "complete",
             "url": "https://cdn.pishow.tv/ott/live/280/master.m3u8",
-            "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
-            "name": "HNN 24x7",
-            "group": "News",
-            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/HNN24x7.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://ott.livelegitpro.in:9899/hnnnews/hnnnews/index.m3u8",
             "category": "News",
             "source_label": "IPTV-ORG Index",
             "hd": false,
@@ -27477,6 +27507,21 @@
             "http_status": 206
         },
         {
+            "name": "Steelbird Music (720p)",
+            "group": "Music",
+            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Steelbird_Music.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
+            "category": "Music",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
             "name": "Studio One +",
             "group": "Movies",
             "logo": "https://i.imgur.com/yOPB7JB.png",
@@ -27606,21 +27651,6 @@
             "source": "complete",
             "url": "https://streams.tangotv.in/SUVARNANEWS/ORIGIN/index.m3u8",
             "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
-            "name": "SVBC 2",
-            "group": "Religious",
-            "logo": "https://dtil.tmsimg.com/assets/s143890_ld_h9_aa.png?lock=720x540",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8",
-            "category": "Devotional",
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Working",
@@ -28015,21 +28045,6 @@
             "hd": false,
             "status": "Working",
             "http_status": 206
-        },
-        {
-            "name": "Times Now Navbharat HD",
-            "group": "News",
-            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TIMES_NOW_NAVBHARAT_HD/images/LOGO_HD/image.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://yupprestreamliveus.akamaized.net/v1/vglive-sk-717514/main.m3u8",
-            "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": true,
-            "status": "Working",
-            "http_status": 200
         },
         {
             "name": "TNP News",
@@ -28554,7 +28569,7 @@
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Working",
-            "http_status": 206
+            "http_status": 200
         },
         {
             "name": "Village TV",
@@ -28600,6 +28615,21 @@
             "hd": false,
             "status": "Working",
             "http_status": 206
+        },
+        {
+            "name": "Vistaar News",
+            "group": "News",
+            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VISTAAR_NEWS/images/LOGO_HD/image.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://stream.ottlive.co.in/vistaartv/index.m3u8",
+            "category": "News",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
         },
         {
             "name": "VR Live",
@@ -28776,6 +28806,36 @@
             "source": "complete",
             "url": "https://server.zillarbarta.com/zbbhakti/index.m3u8",
             "category": "Devotional",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
+            "name": "ZB Cartoon",
+            "group": "Kids",
+            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
+            "category": "Cartoon",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
+            "name": "ZB Music",
+            "group": "Music",
+            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/zbmusic.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://server.zillarbarta.com/zbmusic/index.m3u8",
+            "category": "Music",
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Working",
@@ -29337,6 +29397,21 @@
             "http_status": 206
         },
         {
+            "name": "Aastha Bhajan",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "https://aasthaott.akamaized.net/110923/smil:bhajan.smil/playlist.m3u8",
+            "category": "Entertainment",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
+        },
+        {
             "name": "Aastha Gujarati",
             "group": "General",
             "logo": "",
@@ -29380,21 +29455,6 @@
             "hd": false,
             "status": "Working",
             "http_status": 206
-        },
-        {
-            "name": "ABP Majha",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8",
-            "category": "Entertainment",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
         },
         {
             "name": "ABP News",
@@ -30552,21 +30612,6 @@
             "http_status": 206
         },
         {
-            "name": "News 24",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "https://tvsen5.aynaott.com/News24/index.m3u8",
-            "category": "News",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
             "name": "News Nation",
             "group": "General",
             "logo": "",
@@ -30785,6 +30830,21 @@
             "lang": "",
             "source": "india",
             "url": "https://cdn.pishow.tv/ott/live/1261/master.m3u8",
+            "category": "Entertainment",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
+            "name": "Raftaar Media",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8",
             "category": "Entertainment",
             "source_label": "India (raw)",
             "hd": false,
@@ -31255,21 +31315,6 @@
             "hd": false,
             "status": "Working",
             "http_status": 206
-        },
-        {
-            "name": "Vedic",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "https://aasthaott.akamaized.net/110923/smil:vedic.smil/playlist.m3u8",
-            "category": "Entertainment",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Working",
-            "http_status": 200
         },
         {
             "name": "Village TV",
@@ -32862,14 +32907,14 @@
             "http_status": 206
         },
         {
-            "name": "Bharat Samachar",
+            "name": "Dangal 2",
             "group": "General",
             "logo": "",
             "country": "IN",
             "language": "",
             "lang": "",
             "source": "india",
-            "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8",
+            "url": "https://tvsen3.aynaott.com/8KfZvBYS/index.m3u8",
             "category": "Entertainment",
             "source_label": "India (raw)",
             "hd": false,
@@ -32901,36 +32946,6 @@
             "source": "india",
             "url": "https://tvsen6.aynaott.com/TaVfw58T/index.m3u8",
             "category": "News",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
-            "name": "Shemaroo TV",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "https://tvsen3.aynaott.com/27jCLCUX/index.m3u8",
-            "category": "Entertainment",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
-            "name": "Taaza TV",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "https://tvsen3.aynaott.com/yRMLky2j/index.m3u8",
-            "category": "Entertainment",
             "source_label": "India (raw)",
             "hd": false,
             "status": "Working",
@@ -33282,6 +33297,21 @@
             "http_status": 206
         },
         {
+            "name": "Zee News",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "https://mumt07.tangotv.in/zHjX9OFlZEENEWS/index.m3u8",
+            "category": "News",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
             "name": "Zee 24 Taas",
             "group": "General",
             "logo": "",
@@ -33490,6 +33520,21 @@
             "hd": false,
             "status": "Working",
             "http_status": 206
+        },
+        {
+            "name": "Star Jalsha (1080p)",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV",
+            "category": "Entertainment",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Working",
+            "http_status": 200
         },
         {
             "name": "K News India",
@@ -33972,21 +34017,6 @@
             "http_status": 206
         },
         {
-            "name": "Sangeet Marathi",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "http://107.167.16.138/sangeetmarathi/index.m3u8?token=test",
-            "category": "Music",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
             "name": "Polimer News",
             "group": "General",
             "logo": "",
@@ -34011,21 +34041,6 @@
             "source": "india",
             "url": "https://em4qj6nedyvg-hls-live.wmncdn.net/utv/ab2de115318ae40bdd434e193a2f2e7f.sdp/playlist.m3u8",
             "category": "Entertainment",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
-            "name": "TV27 News",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "https://mumt04.tangotv.in/m18aqlK4TV27/index.m3u8",
-            "category": "News",
             "source_label": "India (raw)",
             "hd": false,
             "status": "Working",
@@ -34662,6 +34677,21 @@
             "http_status": 206
         },
         {
+            "name": "Sangeet Bangla (576p)",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8",
+            "category": "Music",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
             "name": "Q TV (576p)",
             "group": "General",
             "logo": "",
@@ -35067,21 +35097,6 @@
             "http_status": 206
         },
         {
-            "name": "Balle Balle",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "https://mumt04.tangotv.in/m18aqlK4BALLEBALLE/index.m3u8",
-            "category": "Entertainment",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Working",
-            "http_status": 206
-        },
-        {
             "name": "Rang",
             "group": "General",
             "logo": "",
@@ -35135,6 +35150,21 @@
             "lang": "",
             "source": "india",
             "url": "https://mumt04.tangotv.in/m18aqlK4PUBLICTV/index.m3u8",
+            "category": "Entertainment",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Working",
+            "http_status": 206
+        },
+        {
+            "name": "GS TV",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "https://cdnplay.peanutsquare.com/560828843292539228453915.m3u8",
             "category": "Entertainment",
             "source_label": "India (raw)",
             "hd": false,
@@ -36208,44 +36238,29 @@
             "http_status": 0
         },
         {
-            "name": "Aastha HD",
-            "group": "Religious",
-            "logo": "https://i.imgur.com/IqgrV92.png",
+            "name": "Aamar Bangla",
+            "group": "Entertainment",
+            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Amaar_Bangla.png",
             "country": "IN",
             "language": "",
             "lang": "",
             "source": "complete",
-            "url": "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8",
-            "category": "Devotional",
-            "source_label": "IPTV-ORG Index",
-            "hd": true,
-            "status": "Non-working",
-            "http_status": 206
-        },
-        {
-            "name": "Aastha Prime 1",
-            "group": "Religious",
-            "logo": "https://i.imgur.com/LyWSMJS.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8",
-            "category": "Devotional",
+            "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8",
+            "category": "Entertainment",
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Non-working",
-            "http_status": 206
+            "http_status": 404
         },
         {
-            "name": "Aastha Tamil",
+            "name": "Aastha Kannada",
             "group": "Religious",
-            "logo": "https://i.imgur.com/YQK9ewf.png",
+            "logo": "https://dtil.tmsimg.com/assets/s158134_ld_h15_aa.png?lock=720x540",
             "country": "IN",
             "language": "",
             "lang": "",
             "source": "complete",
-            "url": "https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8",
+            "url": "https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8",
             "category": "Devotional",
             "source_label": "IPTV-ORG Index",
             "hd": false,
@@ -36266,21 +36281,6 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 0
-        },
-        {
-            "name": "All Time Movies",
-            "group": "Movies",
-            "logo": "https://yt3.googleusercontent.com/U4INXhwmEUOABHoemQBpI6C9t4jb9iBmDvZ3ZT3lAb9Au_jVl32NL8XDpy-9cBjRJ2LP69Ovzg=s900-c-k-c0x00ffffff-no-rj",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
-            "category": "Movie",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 404
         },
         {
             "name": "AmarUjala",
@@ -37153,21 +37153,6 @@
             "http_status": 0
         },
         {
-            "name": "CVR News",
-            "group": "News",
-            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CVR_NEWS/images/LOGO_HD/LOGO_HD_image.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://mumbai-edge.smartplaytv.in/CVRNews/index.m3u8",
-            "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 0
-        },
-        {
             "name": "Deewana HD",
             "group": "Music",
             "logo": "https://i.imgur.com/xIYITQ9.png",
@@ -37528,21 +37513,6 @@
             "http_status": 404
         },
         {
-            "name": "ETV Plus",
-            "group": "Entertainment",
-            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvplus.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
-            "category": "Entertainment",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 200
-        },
-        {
             "name": "ETV Plus HD",
             "group": "Entertainment",
             "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png",
@@ -37813,6 +37783,21 @@
             "http_status": 404
         },
         {
+            "name": "Hebron TV",
+            "group": "Religious",
+            "logo": "https://i0.wp.com/hebrontv.in/wp-content/uploads/2023/11/hebron-.png?w=512",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://account20.livebox.co.in/charleshls/live.m3u8",
+            "category": "Devotional",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 404
+        },
+        {
             "name": "Hindu Dharmam",
             "group": "Religious",
             "logo": "https://dtil.tmsimg.com/assets/s143131_ld_h15_aa.png?lock=720x540",
@@ -37856,6 +37841,21 @@
             "hd": true,
             "status": "Non-working",
             "http_status": 403
+        },
+        {
+            "name": "HNN 24x7",
+            "group": "News",
+            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/HNN24x7.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://ott.livelegitpro.in:9899/hnnnews/hnnnews/index.m3u8",
+            "category": "News",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 0
         },
         {
             "name": "Hosanna TV",
@@ -38725,7 +38725,7 @@
             "source_label": "IPTV-ORG Index",
             "hd": false,
             "status": "Non-working",
-            "http_status": 0
+            "http_status": 401
         },
         {
             "name": "Real News Kerala",
@@ -39913,21 +39913,6 @@
             "http_status": 403
         },
         {
-            "name": "Steelbird Music (720p)",
-            "group": "Music",
-            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Steelbird_Music.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
-            "category": "Music",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 404
-        },
-        {
             "name": "STV Haryana News",
             "group": "News",
             "logo": "https://i.imgur.com/TJRZo9e.png",
@@ -40003,6 +39988,21 @@
             "http_status": 0
         },
         {
+            "name": "SVBC 2",
+            "group": "Religious",
+            "logo": "https://dtil.tmsimg.com/assets/s143890_ld_h9_aa.png?lock=720x540",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8",
+            "category": "Devotional",
+            "source_label": "IPTV-ORG Index",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 404
+        },
+        {
             "name": "T Sports",
             "group": "Sports",
             "logo": "https://i.imgur.com/2JzlorD.png",
@@ -40061,6 +40061,21 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 403
+        },
+        {
+            "name": "Times Now Navbharat HD",
+            "group": "News",
+            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TIMES_NOW_NAVBHARAT_HD/images/LOGO_HD/image.png",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "complete",
+            "url": "https://yupprestreamliveus.akamaized.net/v1/vglive-sk-717514/main.m3u8",
+            "category": "News",
+            "source_label": "IPTV-ORG Index",
+            "hd": true,
+            "status": "Non-working",
+            "http_status": 206
         },
         {
             "name": "Total TV Haryana",
@@ -40258,21 +40273,6 @@
             "http_status": 404
         },
         {
-            "name": "Vistaar News",
-            "group": "News",
-            "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VISTAAR_NEWS/images/LOGO_HD/image.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://stream.ottlive.co.in/vistaartv/index.m3u8",
-            "category": "News",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 404
-        },
-        {
             "name": "VNM TV",
             "group": "News",
             "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/VNM_News.png",
@@ -40376,36 +40376,6 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 0
-        },
-        {
-            "name": "ZB Cartoon",
-            "group": "Kids",
-            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
-            "category": "Cartoon",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 404
-        },
-        {
-            "name": "ZB Music",
-            "group": "Music",
-            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/zbmusic.png",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "complete",
-            "url": "https://server.zillarbarta.com/zbmusic/index.m3u8",
-            "category": "Music",
-            "source_label": "IPTV-ORG Index",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 404
         },
         {
             "name": "Zee 24 Ghanta",
@@ -40768,21 +40738,6 @@
             "http_status": 403
         },
         {
-            "name": "Aastha Bhajan",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "https://aasthaott.akamaized.net/110923/smil:bhajan.smil/playlist.m3u8",
-            "category": "Entertainment",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 206
-        },
-        {
             "name": "Aastha Telugu",
             "group": "General",
             "logo": "",
@@ -40791,6 +40746,21 @@
             "lang": "",
             "source": "india",
             "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
+            "category": "Entertainment",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 206
+        },
+        {
+            "name": "ABP Majha",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8",
             "category": "Entertainment",
             "source_label": "India (raw)",
             "hd": false,
@@ -40888,15 +40858,15 @@
             "http_status": 0
         },
         {
-            "name": "Raftaar Media",
+            "name": "News 24",
             "group": "General",
             "logo": "",
             "country": "IN",
             "language": "",
             "lang": "",
             "source": "india",
-            "url": "https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8",
-            "category": "Entertainment",
+            "url": "https://tvsen5.aynaott.com/News24/index.m3u8",
+            "category": "News",
             "source_label": "India (raw)",
             "hd": false,
             "status": "Non-working",
@@ -40976,6 +40946,21 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 403
+        },
+        {
+            "name": "Vedic",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "https://aasthaott.akamaized.net/110923/smil:vedic.smil/playlist.m3u8",
+            "category": "Entertainment",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 206
         },
         {
             "name": "YRF Music",
@@ -41068,6 +41053,21 @@
             "http_status": 0
         },
         {
+            "name": "Bharat Samachar",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8",
+            "category": "Entertainment",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 404
+        },
+        {
             "name": "Dangal TV",
             "group": "General",
             "logo": "",
@@ -41080,22 +41080,7 @@
             "source_label": "India (raw)",
             "hd": false,
             "status": "Non-working",
-            "http_status": 0
-        },
-        {
-            "name": "Dangal 2",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "https://tvsen3.aynaott.com/8KfZvBYS/index.m3u8",
-            "category": "Entertainment",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 0
+            "http_status": 404
         },
         {
             "name": "Goldmines",
@@ -41173,15 +41158,30 @@
             "http_status": 0
         },
         {
-            "name": "Zee News",
+            "name": "Shemaroo TV",
             "group": "General",
             "logo": "",
             "country": "IN",
             "language": "",
             "lang": "",
             "source": "india",
-            "url": "https://mumt07.tangotv.in/zHjX9OFlZEENEWS/index.m3u8",
-            "category": "News",
+            "url": "https://tvsen3.aynaott.com/27jCLCUX/index.m3u8",
+            "category": "Entertainment",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 404
+        },
+        {
+            "name": "Taaza TV",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "https://tvsen3.aynaott.com/yRMLky2j/index.m3u8",
+            "category": "Entertainment",
             "source_label": "India (raw)",
             "hd": false,
             "status": "Non-working",
@@ -41200,7 +41200,7 @@
             "source_label": "India (raw)",
             "hd": false,
             "status": "Non-working",
-            "http_status": 404
+            "http_status": 403
         },
         {
             "name": "Thanthi TV",
@@ -41563,21 +41563,6 @@
             "http_status": 456
         },
         {
-            "name": "Star Jalsha (1080p)",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV",
-            "category": "Entertainment",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 429
-        },
-        {
             "name": "National Geographic (576p)",
             "group": "General",
             "logo": "",
@@ -41726,6 +41711,36 @@
             "hd": false,
             "status": "Non-working",
             "http_status": 403
+        },
+        {
+            "name": "Sangeet Marathi",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "http://107.167.16.138/sangeetmarathi/index.m3u8?token=test",
+            "category": "Music",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 404
+        },
+        {
+            "name": "TV27 News",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "https://mumt04.tangotv.in/m18aqlK4TV27/index.m3u8",
+            "category": "News",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 404
         },
         {
             "name": "Asianet HD (360p)",
@@ -42118,21 +42133,6 @@
             "http_status": 0
         },
         {
-            "name": "Sangeet Bangla (576p)",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8",
-            "category": "Music",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 404
-        },
-        {
             "name": "Music India (576p)",
             "group": "General",
             "logo": "",
@@ -42163,6 +42163,21 @@
             "http_status": 403
         },
         {
+            "name": "Balle Balle",
+            "group": "General",
+            "logo": "",
+            "country": "IN",
+            "language": "",
+            "lang": "",
+            "source": "india",
+            "url": "https://mumt04.tangotv.in/m18aqlK4BALLEBALLE/index.m3u8",
+            "category": "Entertainment",
+            "source_label": "India (raw)",
+            "hd": false,
+            "status": "Non-working",
+            "http_status": 404
+        },
+        {
             "name": "Bhagyam TV (576p)",
             "group": "General",
             "logo": "",
@@ -42171,21 +42186,6 @@
             "lang": "",
             "source": "india",
             "url": "https://bhagyam.iptv.pics/bhagyam/index.m3u8",
-            "category": "Entertainment",
-            "source_label": "India (raw)",
-            "hd": false,
-            "status": "Non-working",
-            "http_status": 404
-        },
-        {
-            "name": "GS TV",
-            "group": "General",
-            "logo": "",
-            "country": "IN",
-            "language": "",
-            "lang": "",
-            "source": "india",
-            "url": "https://cdnplay.peanutsquare.com/560828843292539228453915.m3u8",
             "category": "Entertainment",
             "source_label": "India (raw)",
             "hd": false,
